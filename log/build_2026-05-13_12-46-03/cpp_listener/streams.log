@@ -1,0 +1,25 @@
+[0.088s] Invoking command in '/home/prog1/ros2_george/build/cpp_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/prog1/ros2_george/build/cpp_listener -- -j2 -l2
+[0.444s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[24.192s] [100%] [32m[1mLinking CXX executable listener[0m
+[25.746s] [100%] Built target listener
+[25.817s] Invoked command in '/home/prog1/ros2_george/build/cpp_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/prog1/ros2_george/build/cpp_listener -- -j2 -l2
+[25.879s] Invoking command in '/home/prog1/ros2_george/build/cpp_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/prog1/ros2_george/build/cpp_listener
+[25.926s] -- Install configuration: ""
+[25.931s] -- Installing: /home/prog1/ros2_george/install/cpp_listener/lib/cpp_listener/listener
+[25.962s] -- Set non-toolchain portion of runtime path of "/home/prog1/ros2_george/install/cpp_listener/lib/cpp_listener/listener" to ""
+[25.962s] -- Installing: /home/prog1/ros2_george/install/cpp_listener/share/ament_index/resource_index/package_run_dependencies/cpp_listener
+[25.963s] -- Installing: /home/prog1/ros2_george/install/cpp_listener/share/ament_index/resource_index/parent_prefix_path/cpp_listener
+[25.967s] -- Installing: /home/prog1/ros2_george/install/cpp_listener/share/cpp_listener/environment/ament_prefix_path.sh
+[25.971s] -- Installing: /home/prog1/ros2_george/install/cpp_listener/share/cpp_listener/environment/ament_prefix_path.dsv
+[25.971s] -- Installing: /home/prog1/ros2_george/install/cpp_listener/share/cpp_listener/environment/path.sh
+[25.974s] -- Installing: /home/prog1/ros2_george/install/cpp_listener/share/cpp_listener/environment/path.dsv
+[25.975s] -- Installing: /home/prog1/ros2_george/install/cpp_listener/share/cpp_listener/local_setup.bash
+[25.975s] -- Installing: /home/prog1/ros2_george/install/cpp_listener/share/cpp_listener/local_setup.sh
+[25.977s] -- Installing: /home/prog1/ros2_george/install/cpp_listener/share/cpp_listener/local_setup.zsh
+[25.978s] -- Installing: /home/prog1/ros2_george/install/cpp_listener/share/cpp_listener/local_setup.dsv
+[25.981s] -- Installing: /home/prog1/ros2_george/install/cpp_listener/share/cpp_listener/package.dsv
+[25.982s] -- Installing: /home/prog1/ros2_george/install/cpp_listener/share/ament_index/resource_index/packages/cpp_listener
+[25.984s] -- Installing: /home/prog1/ros2_george/install/cpp_listener/share/cpp_listener/cmake/cpp_listenerConfig.cmake
+[25.986s] -- Installing: /home/prog1/ros2_george/install/cpp_listener/share/cpp_listener/cmake/cpp_listenerConfig-version.cmake
+[25.987s] -- Installing: /home/prog1/ros2_george/install/cpp_listener/share/cpp_listener/package.xml
+[25.994s] Invoked command in '/home/prog1/ros2_george/build/cpp_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/prog1/ros2_george/build/cpp_listener

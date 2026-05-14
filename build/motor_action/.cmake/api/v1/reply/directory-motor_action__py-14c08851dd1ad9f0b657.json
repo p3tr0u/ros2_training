@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "motor_action__py",
+		"source" : "/home/prog1/ros2_training/build/motor_action/motor_action__py"
+	}
+}

@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[100%] [32m[1mLinking CXX executable listener[0m
+[100%] Built target listener
+-- Install configuration: ""
+-- Installing: /home/prog1/ros2_george/install/cpp_listener/lib/cpp_listener/listener
+-- Set non-toolchain portion of runtime path of "/home/prog1/ros2_george/install/cpp_listener/lib/cpp_listener/listener" to ""
+-- Installing: /home/prog1/ros2_george/install/cpp_listener/share/ament_index/resource_index/package_run_dependencies/cpp_listener
+-- Installing: /home/prog1/ros2_george/install/cpp_listener/share/ament_index/resource_index/parent_prefix_path/cpp_listener
+-- Installing: /home/prog1/ros2_george/install/cpp_listener/share/cpp_listener/environment/ament_prefix_path.sh
+-- Installing: /home/prog1/ros2_george/install/cpp_listener/share/cpp_listener/environment/ament_prefix_path.dsv
+-- Installing: /home/prog1/ros2_george/install/cpp_listener/share/cpp_listener/environment/path.sh
+-- Installing: /home/prog1/ros2_george/install/cpp_listener/share/cpp_listener/environment/path.dsv
+-- Installing: /home/prog1/ros2_george/install/cpp_listener/share/cpp_listener/local_setup.bash
+-- Installing: /home/prog1/ros2_george/install/cpp_listener/share/cpp_listener/local_setup.sh
+-- Installing: /home/prog1/ros2_george/install/cpp_listener/share/cpp_listener/local_setup.zsh
+-- Installing: /home/prog1/ros2_george/install/cpp_listener/share/cpp_listener/local_setup.dsv
+-- Installing: /home/prog1/ros2_george/install/cpp_listener/share/cpp_listener/package.dsv
+-- Installing: /home/prog1/ros2_george/install/cpp_listener/share/ament_index/resource_index/packages/cpp_listener
+-- Installing: /home/prog1/ros2_george/install/cpp_listener/share/cpp_listener/cmake/cpp_listenerConfig.cmake
+-- Installing: /home/prog1/ros2_george/install/cpp_listener/share/cpp_listener/cmake/cpp_listenerConfig-version.cmake
+-- Installing: /home/prog1/ros2_george/install/cpp_listener/share/cpp_listener/package.xml

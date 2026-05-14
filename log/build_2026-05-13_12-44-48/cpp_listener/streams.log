@@ -1,0 +1,37 @@
+[0.065s] Invoking command in '/home/prog1/ros2_george/build/cpp_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/prog1/ros2_george/src/cpp_listener -DCMAKE_INSTALL_PREFIX=/home/prog1/ros2_george/install/cpp_listener
+[0.827s] -- The C compiler identification is GNU 13.3.0
+[1.371s] -- The CXX compiler identification is GNU 13.3.0
+[1.482s] -- Detecting C compiler ABI info
+[2.003s] -- Detecting C compiler ABI info - done
+[2.022s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.024s] -- Detecting C compile features
+[2.027s] -- Detecting C compile features - done
+[2.081s] -- Detecting CXX compiler ABI info
+[2.656s] -- Detecting CXX compiler ABI info - done
+[2.678s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.679s] -- Detecting CXX compile features
+[2.681s] -- Detecting CXX compile features - done
+[2.703s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.318s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.774s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[3.986s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[4.058s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[4.153s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.242s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.564s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[4.580s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[5.048s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[5.133s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[5.298s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.592s] -- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)
+[5.649s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[6.167s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.168s] -- Configured cppcheck include dirs: 
+[6.172s] -- Configured cppcheck exclude dirs and/or files: 
+[6.178s] -- Added test 'lint_cmake' to check CMake code style
+[6.195s] -- Added test 'uncrustify' to check C / C++ code style
+[6.195s] -- Configured uncrustify additional arguments: 
+[6.204s] -- Added test 'xmllint' to check XML markup files
+[6.220s] -- Configuring done (6.0s)
+[6.296s] -- Generating done (0.0s)
+[6.309s] -- Build files have been written to: /home/prog1/ros2_george/build/cpp_listener

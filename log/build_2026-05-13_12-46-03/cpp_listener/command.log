@@ -1,0 +1,4 @@
+Invoking command in '/home/prog1/ros2_george/build/cpp_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/prog1/ros2_george/build/cpp_listener -- -j2 -l2
+Invoked command in '/home/prog1/ros2_george/build/cpp_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/prog1/ros2_george/build/cpp_listener -- -j2 -l2
+Invoking command in '/home/prog1/ros2_george/build/cpp_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/prog1/ros2_george/build/cpp_listener
+Invoked command in '/home/prog1/ros2_george/build/cpp_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/prog1/ros2_george/build/cpp_listener

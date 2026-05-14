@@ -1,0 +1,63 @@
+[0.303s] Invoking command in '/home/prog1/ros2_training/build/input_handler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prog1/ros2_training/install/py_talker:/home/prog1/ros2_training/install/controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/prog1/ros2_training/src/input_handler -DCMAKE_INSTALL_PREFIX=/home/prog1/ros2_training/install/input_handler
+[0.374s] -- The C compiler identification is GNU 13.3.0
+[0.445s] -- The CXX compiler identification is GNU 13.3.0
+[0.467s] -- Detecting C compiler ABI info
+[0.593s] -- Detecting C compiler ABI info - done
+[0.608s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.609s] -- Detecting C compile features
+[0.610s] -- Detecting C compile features - done
+[0.623s] -- Detecting CXX compiler ABI info
+[0.751s] -- Detecting CXX compiler ABI info - done
+[0.763s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.764s] -- Detecting CXX compile features
+[0.764s] -- Detecting CXX compile features - done
+[0.767s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.938s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.072s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.122s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.139s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.160s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.184s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.289s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.291s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.401s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.428s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.459s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.559s] -- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.582s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.706s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.706s] -- Configured cppcheck include dirs: 
+[1.706s] -- Configured cppcheck exclude dirs and/or files: 
+[1.707s] -- Added test 'lint_cmake' to check CMake code style
+[1.708s] -- Added test 'uncrustify' to check C / C++ code style
+[1.708s] -- Configured uncrustify additional arguments: 
+[1.712s] -- Added test 'xmllint' to check XML markup files
+[1.712s] -- Configuring done (1.4s)
+[1.727s] -- Generating done (0.0s)
+[1.737s] -- Build files have been written to: /home/prog1/ros2_training/build/input_handler
+[1.754s] Invoked command in '/home/prog1/ros2_training/build/input_handler' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prog1/ros2_training/install/py_talker:/home/prog1/ros2_training/install/controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/prog1/ros2_training/src/input_handler -DCMAKE_INSTALL_PREFIX=/home/prog1/ros2_training/install/input_handler
+[1.756s] Invoking command in '/home/prog1/ros2_training/build/input_handler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prog1/ros2_training/install/py_talker:/home/prog1/ros2_training/install/controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/prog1/ros2_training/build/input_handler -- -j2 -l2
+[1.830s] [ 50%] [32mBuilding CXX object CMakeFiles/input_handler.dir/src/input_handler.cpp.o[0m
+[10.565s] [100%] [32m[1mLinking CXX executable input_handler[0m
+[10.877s] [100%] Built target input_handler
+[10.892s] Invoked command in '/home/prog1/ros2_training/build/input_handler' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prog1/ros2_training/install/py_talker:/home/prog1/ros2_training/install/controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/prog1/ros2_training/build/input_handler -- -j2 -l2
+[10.905s] Invoking command in '/home/prog1/ros2_training/build/input_handler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prog1/ros2_training/install/py_talker:/home/prog1/ros2_training/install/controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/prog1/ros2_training/build/input_handler
+[10.915s] -- Install configuration: ""
+[10.915s] -- Installing: /home/prog1/ros2_training/install/input_handler/lib/input_handler/input_handler
+[10.919s] -- Set non-toolchain portion of runtime path of "/home/prog1/ros2_training/install/input_handler/lib/input_handler/input_handler" to ""
+[10.919s] -- Installing: /home/prog1/ros2_training/install/input_handler/share/ament_index/resource_index/package_run_dependencies/input_handler
+[10.919s] -- Installing: /home/prog1/ros2_training/install/input_handler/share/ament_index/resource_index/parent_prefix_path/input_handler
+[10.920s] -- Installing: /home/prog1/ros2_training/install/input_handler/share/input_handler/environment/ament_prefix_path.sh
+[10.920s] -- Installing: /home/prog1/ros2_training/install/input_handler/share/input_handler/environment/ament_prefix_path.dsv
+[10.920s] -- Installing: /home/prog1/ros2_training/install/input_handler/share/input_handler/environment/path.sh
+[10.921s] -- Installing: /home/prog1/ros2_training/install/input_handler/share/input_handler/environment/path.dsv
+[10.922s] -- Installing: /home/prog1/ros2_training/install/input_handler/share/input_handler/local_setup.bash
+[10.922s] -- Installing: /home/prog1/ros2_training/install/input_handler/share/input_handler/local_setup.sh
+[10.922s] -- Installing: /home/prog1/ros2_training/install/input_handler/share/input_handler/local_setup.zsh
+[10.922s] -- Installing: /home/prog1/ros2_training/install/input_handler/share/input_handler/local_setup.dsv
+[10.922s] -- Installing: /home/prog1/ros2_training/install/input_handler/share/input_handler/package.dsv
+[10.922s] -- Installing: /home/prog1/ros2_training/install/input_handler/share/ament_index/resource_index/packages/input_handler
+[10.922s] -- Installing: /home/prog1/ros2_training/install/input_handler/share/input_handler/cmake/input_handlerConfig.cmake
+[10.922s] -- Installing: /home/prog1/ros2_training/install/input_handler/share/input_handler/cmake/input_handlerConfig-version.cmake
+[10.922s] -- Installing: /home/prog1/ros2_training/install/input_handler/share/input_handler/package.xml
+[10.925s] Invoked command in '/home/prog1/ros2_training/build/input_handler' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prog1/ros2_training/install/py_talker:/home/prog1/ros2_training/install/controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/prog1/ros2_training/build/input_handler

@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from motor_action/action/Rotate.action
+// generated code does not contain a copyright notice
+
+
+module motor_action {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct Rotate_Goal {
+      sequence<int32> angles;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct Rotate_Result {
+      boolean success;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct Rotate_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

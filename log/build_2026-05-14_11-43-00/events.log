@@ -1,0 +1,206 @@
+[0.000000] (-) TimerEvent: {}
+[0.000895] (controller) JobQueued: {'identifier': 'controller', 'dependencies': OrderedDict()}
+[0.000966] (input_handler) JobQueued: {'identifier': 'input_handler', 'dependencies': OrderedDict()}
+[0.000987] (controller) JobStarted: {'identifier': 'controller'}
+[0.010200] (input_handler) JobStarted: {'identifier': 'input_handler'}
+[0.100090] (-) TimerEvent: {}
+[0.201144] (-) TimerEvent: {}
+[0.302217] (-) TimerEvent: {}
+[0.306955] (input_handler) JobProgress: {'identifier': 'input_handler', 'progress': 'cmake'}
+[0.307651] (input_handler) Command: {'cmd': ['/usr/bin/cmake', '/home/prog1/ros2_training/src/input_handler', '-DCMAKE_INSTALL_PREFIX=/home/prog1/ros2_training/install/input_handler'], 'cwd': '/home/prog1/ros2_training/build/input_handler', 'env': OrderedDict({'PROFILEHOME': '', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'KDE_FULL_SESSION': 'true', 'LANGUAGE': '', 'USER': 'prog1', 'PAM_KWALLET5_LOGIN': '/run/user/1000/kwallet5.socket', 'LC_TIME': 'el_GR.UTF-8', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '2385', 'XDG_SESSION_TYPE': 'x11', 'XCURSOR_SIZE': '24', 'KONSOLE_VERSION': '230805', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/prog1', 'KDE_APPLICATIONS_AS_SCOPE': '1', 'OLDPWD': '/home/prog1/ros2_training', 'DESKTOP_SESSION': 'plasma', 'ROS_PYTHON_VERSION': '3', 'SHELL_SESSION_ID': 'a1fe0357236f46479d8ce1f99797027b', 'GTK_RC_FILES': '/etc/gtk/gtkrc:/home/prog1/.gtkrc:/home/prog1/.config/gtkrc', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'SDL_IM_MODULE': 'fcitx', 'KDE_SESSION_VERSION': '5', 'LC_MONETARY': 'el_GR.UTF-8', 'KONSOLE_DBUS_SESSION': '/Sessions/1', 'MANAGERPID': '2272', 'SYSTEMD_EXEC_PID': '2561', 'SSH_ASKPASS': '/usr/bin/ksshaskpass', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'KONSOLE_DBUS_WINDOW': '/Windows/1', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/prog1/ros2_training/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'prog1', 'WINDOWID': '6291469', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', 'JOURNAL_STREAM': '9:28173', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/plasma-plasmashell.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'COLORFGBG': '15;0', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'GTK2_RC_FILES': '/etc/gtk-2.0/gtkrc:/home/prog1/.gtkrc-2.0:/home/prog1/.config/gtkrc-2.0', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/prog1VM:@/tmp/.ICE-unix/2507,unix/prog1VM:/tmp/.ICE-unix/2507', 'INVOCATION_ID': 'cd367f2ca2f9457fb3905aa7f9ae98ad', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'LC_ADDRESS': 'el_GR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XCURSOR_THEME': 'breeze_cursors', 'ICEAUTHORITY': '/run/user/1000/iceauth_yiRrwH', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'LC_TELEPHONE': 'el_GR.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'KDE', 'XAUTHORITY': '/tmp/xauth_itGSWX', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/tmp/ssh-vGj1JZ10YJUH/agent.2295', 'AMENT_PREFIX_PATH': '/home/prog1/ros2_training/install/py_talker:/home/prog1/ros2_training/install/cpp_listener:/home/prog1/ros2_training/install/controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'el_GR.UTF-8', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'KONSOLE_DBUS_SERVICE': ':1.91', 'LC_MEASUREMENT': 'el_GR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'el_GR.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'fcitx', 'XDG_VTNR': '2', 'PWD': '/home/prog1/ros2_training/build/input_handler', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/home/prog1/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings', 'CLUTTER_IM_MODULE': 'xim', 'XDG_DATA_DIRS': '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/prog1/ros2_training/install/py_talker/lib/python3.12/site-packages:/home/prog1/ros2_training/install/controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'el_GR.UTF-8', 'LC_PAPER': 'el_GR.UTF-8', 'KDE_SESSION_UID': '1000', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/prog1/ros2_training/install/cpp_listener:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/prog1/ros2_training/install/py_talker:/home/prog1/ros2_training/install/controller:/opt/ros/jazzy'}), 'shell': False}
+[0.383789] (input_handler) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.402509] (-) TimerEvent: {}
+[0.455382] (input_handler) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.476996] (input_handler) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.502844] (-) TimerEvent: {}
+[0.602772] (input_handler) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.602942] (-) TimerEvent: {}
+[0.618530] (input_handler) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.618754] (input_handler) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.620328] (input_handler) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.633405] (input_handler) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.703368] (-) TimerEvent: {}
+[0.761003] (input_handler) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.773428] (input_handler) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.773705] (input_handler) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.774403] (input_handler) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.776957] (input_handler) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.804364] (-) TimerEvent: {}
+[0.904887] (-) TimerEvent: {}
+[0.948549] (input_handler) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.006256] (-) TimerEvent: {}
+[1.037796] (controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/controller', 'build', '--build-base', '/home/prog1/ros2_training/build/controller/build', 'install', '--record', '/home/prog1/ros2_training/build/controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/prog1/ros2_training/src/controller', 'env': {'PROFILEHOME': '', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'KDE_FULL_SESSION': 'true', 'LANGUAGE': '', 'USER': 'prog1', 'PAM_KWALLET5_LOGIN': '/run/user/1000/kwallet5.socket', 'LC_TIME': 'el_GR.UTF-8', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '2385', 'XDG_SESSION_TYPE': 'x11', 'XCURSOR_SIZE': '24', 'KONSOLE_VERSION': '230805', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/prog1', 'KDE_APPLICATIONS_AS_SCOPE': '1', 'OLDPWD': '/home/prog1/ros2_training', 'DESKTOP_SESSION': 'plasma', 'ROS_PYTHON_VERSION': '3', 'SHELL_SESSION_ID': 'a1fe0357236f46479d8ce1f99797027b', 'GTK_RC_FILES': '/etc/gtk/gtkrc:/home/prog1/.gtkrc:/home/prog1/.config/gtkrc', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'SDL_IM_MODULE': 'fcitx', 'KDE_SESSION_VERSION': '5', 'LC_MONETARY': 'el_GR.UTF-8', 'KONSOLE_DBUS_SESSION': '/Sessions/1', 'MANAGERPID': '2272', 'SYSTEMD_EXEC_PID': '2561', 'SSH_ASKPASS': '/usr/bin/ksshaskpass', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'KONSOLE_DBUS_WINDOW': '/Windows/1', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/prog1/ros2_training/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'prog1', 'WINDOWID': '6291469', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', 'JOURNAL_STREAM': '9:28173', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/plasma-plasmashell.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'COLORFGBG': '15;0', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'GTK2_RC_FILES': '/etc/gtk-2.0/gtkrc:/home/prog1/.gtkrc-2.0:/home/prog1/.config/gtkrc-2.0', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/prog1VM:@/tmp/.ICE-unix/2507,unix/prog1VM:/tmp/.ICE-unix/2507', 'INVOCATION_ID': 'cd367f2ca2f9457fb3905aa7f9ae98ad', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'LC_ADDRESS': 'el_GR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XCURSOR_THEME': 'breeze_cursors', 'ICEAUTHORITY': '/run/user/1000/iceauth_yiRrwH', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'LC_TELEPHONE': 'el_GR.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'KDE', 'XAUTHORITY': '/tmp/xauth_itGSWX', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/tmp/ssh-vGj1JZ10YJUH/agent.2295', 'AMENT_PREFIX_PATH': '/home/prog1/ros2_training/install/py_talker:/home/prog1/ros2_training/install/cpp_listener:/home/prog1/ros2_training/install/controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'el_GR.UTF-8', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'KONSOLE_DBUS_SERVICE': ':1.91', 'LC_MEASUREMENT': 'el_GR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'el_GR.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'fcitx', 'XDG_VTNR': '2', 'PWD': '/home/prog1/ros2_training/build/controller', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/home/prog1/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings', 'CLUTTER_IM_MODULE': 'xim', 'XDG_DATA_DIRS': '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/prog1/ros2_training/build/controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/prog1/ros2_training/install/controller/lib/python3.12/site-packages:/home/prog1/ros2_training/install/py_talker/lib/python3.12/site-packages:/home/prog1/ros2_training/install/controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'el_GR.UTF-8', 'LC_PAPER': 'el_GR.UTF-8', 'KDE_SESSION_UID': '1000', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/prog1/ros2_training/install/cpp_listener:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.082245] (input_handler) StdoutLine: {'line': b'-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.106337] (-) TimerEvent: {}
+[1.131783] (input_handler) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.149493] (input_handler) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.169750] (input_handler) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.194238] (input_handler) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.207790] (-) TimerEvent: {}
+[1.298807] (input_handler) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.301644] (input_handler) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.308250] (-) TimerEvent: {}
+[1.376635] (controller) StdoutLine: {'line': b'running egg_info\n'}
+[1.401556] (controller) StdoutLine: {'line': b'writing ../../build/controller/controller.egg-info/PKG-INFO\n'}
+[1.402934] (controller) StdoutLine: {'line': b'writing dependency_links to ../../build/controller/controller.egg-info/dependency_links.txt\n'}
+[1.403774] (controller) StdoutLine: {'line': b'writing entry points to ../../build/controller/controller.egg-info/entry_points.txt\n'}
+[1.404021] (controller) StdoutLine: {'line': b'writing requirements to ../../build/controller/controller.egg-info/requires.txt\n'}
+[1.404561] (controller) StdoutLine: {'line': b'writing top-level names to ../../build/controller/controller.egg-info/top_level.txt\n'}
+[1.409450] (-) TimerEvent: {}
+[1.410737] (input_handler) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.438185] (input_handler) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.459200] (controller) StdoutLine: {'line': b"reading manifest file '../../build/controller/controller.egg-info/SOURCES.txt'\n"}
+[1.459856] (controller) StdoutLine: {'line': b"writing manifest file '../../build/controller/controller.egg-info/SOURCES.txt'\n"}
+[1.460582] (controller) StdoutLine: {'line': b'running build\n'}
+[1.460804] (controller) StdoutLine: {'line': b'running build_py\n'}
+[1.462084] (controller) StdoutLine: {'line': b'copying controller/controller.py -> /home/prog1/ros2_training/build/controller/build/lib/controller\n'}
+[1.462539] (controller) StdoutLine: {'line': b'running install\n'}
+[1.469511] (input_handler) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.471265] (controller) StdoutLine: {'line': b'running install_lib\n'}
+[1.498897] (controller) StdoutLine: {'line': b'copying /home/prog1/ros2_training/build/controller/build/lib/controller/controller.py -> /home/prog1/ros2_training/install/controller/lib/python3.12/site-packages/controller\n'}
+[1.500220] (controller) StdoutLine: {'line': b'byte-compiling /home/prog1/ros2_training/install/controller/lib/python3.12/site-packages/controller/controller.py to controller.cpython-312.pyc\n'}
+[1.501393] (controller) StdoutLine: {'line': b'running install_data\n'}
+[1.501708] (controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.509755] (-) TimerEvent: {}
+[1.528403] (controller) StdoutLine: {'line': b"removing '/home/prog1/ros2_training/install/controller/lib/python3.12/site-packages/controller-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[1.528960] (controller) StdoutLine: {'line': b'Copying ../../build/controller/controller.egg-info to /home/prog1/ros2_training/install/controller/lib/python3.12/site-packages/controller-0.0.0-py3.12.egg-info\n'}
+[1.530570] (controller) StdoutLine: {'line': b'running install_scripts\n'}
+[1.569537] (input_handler) StdoutLine: {'line': b'-- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.591981] (input_handler) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.610301] (-) TimerEvent: {}
+[1.693479] (controller) StdoutLine: {'line': b'Installing controller script to /home/prog1/ros2_training/install/controller/lib/controller\n'}
+[1.694875] (controller) StdoutLine: {'line': b"writing list of installed files to '/home/prog1/ros2_training/build/controller/install.log'\n"}
+[1.710485] (-) TimerEvent: {}
+[1.716394] (input_handler) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.716609] (input_handler) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.716688] (input_handler) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.716933] (input_handler) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.718186] (input_handler) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.718295] (input_handler) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.722357] (input_handler) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.722545] (input_handler) StdoutLine: {'line': b'-- Configuring done (1.4s)\n'}
+[1.736736] (input_handler) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.746985] (input_handler) StdoutLine: {'line': b'-- Build files have been written to: /home/prog1/ros2_training/build/input_handler\n'}
+[1.749702] (controller) CommandEnded: {'returncode': 0}
+[1.762788] (controller) JobEnded: {'identifier': 'controller', 'rc': 0}
+[1.764324] (input_handler) CommandEnded: {'returncode': 0}
+[1.765204] (input_handler) JobProgress: {'identifier': 'input_handler', 'progress': 'build'}
+[1.766161] (input_handler) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/prog1/ros2_training/build/input_handler', '--', '-j2', '-l2'], 'cwd': '/home/prog1/ros2_training/build/input_handler', 'env': OrderedDict({'PROFILEHOME': '', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'KDE_FULL_SESSION': 'true', 'LANGUAGE': '', 'USER': 'prog1', 'PAM_KWALLET5_LOGIN': '/run/user/1000/kwallet5.socket', 'LC_TIME': 'el_GR.UTF-8', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '2385', 'XDG_SESSION_TYPE': 'x11', 'XCURSOR_SIZE': '24', 'KONSOLE_VERSION': '230805', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/prog1', 'KDE_APPLICATIONS_AS_SCOPE': '1', 'OLDPWD': '/home/prog1/ros2_training', 'DESKTOP_SESSION': 'plasma', 'ROS_PYTHON_VERSION': '3', 'SHELL_SESSION_ID': 'a1fe0357236f46479d8ce1f99797027b', 'GTK_RC_FILES': '/etc/gtk/gtkrc:/home/prog1/.gtkrc:/home/prog1/.config/gtkrc', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'SDL_IM_MODULE': 'fcitx', 'KDE_SESSION_VERSION': '5', 'LC_MONETARY': 'el_GR.UTF-8', 'KONSOLE_DBUS_SESSION': '/Sessions/1', 'MANAGERPID': '2272', 'SYSTEMD_EXEC_PID': '2561', 'SSH_ASKPASS': '/usr/bin/ksshaskpass', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'KONSOLE_DBUS_WINDOW': '/Windows/1', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/prog1/ros2_training/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'prog1', 'WINDOWID': '6291469', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', 'JOURNAL_STREAM': '9:28173', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/plasma-plasmashell.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'COLORFGBG': '15;0', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'GTK2_RC_FILES': '/etc/gtk-2.0/gtkrc:/home/prog1/.gtkrc-2.0:/home/prog1/.config/gtkrc-2.0', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/prog1VM:@/tmp/.ICE-unix/2507,unix/prog1VM:/tmp/.ICE-unix/2507', 'INVOCATION_ID': 'cd367f2ca2f9457fb3905aa7f9ae98ad', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'LC_ADDRESS': 'el_GR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XCURSOR_THEME': 'breeze_cursors', 'ICEAUTHORITY': '/run/user/1000/iceauth_yiRrwH', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'LC_TELEPHONE': 'el_GR.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'KDE', 'XAUTHORITY': '/tmp/xauth_itGSWX', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/tmp/ssh-vGj1JZ10YJUH/agent.2295', 'AMENT_PREFIX_PATH': '/home/prog1/ros2_training/install/py_talker:/home/prog1/ros2_training/install/cpp_listener:/home/prog1/ros2_training/install/controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'el_GR.UTF-8', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'KONSOLE_DBUS_SERVICE': ':1.91', 'LC_MEASUREMENT': 'el_GR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'el_GR.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'fcitx', 'XDG_VTNR': '2', 'PWD': '/home/prog1/ros2_training/build/input_handler', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/home/prog1/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings', 'CLUTTER_IM_MODULE': 'xim', 'XDG_DATA_DIRS': '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/prog1/ros2_training/install/py_talker/lib/python3.12/site-packages:/home/prog1/ros2_training/install/controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'el_GR.UTF-8', 'LC_PAPER': 'el_GR.UTF-8', 'KDE_SESSION_UID': '1000', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/prog1/ros2_training/install/cpp_listener:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/prog1/ros2_training/install/py_talker:/home/prog1/ros2_training/install/controller:/opt/ros/jazzy'}), 'shell': False}
+[1.811342] (-) TimerEvent: {}
+[1.840315] (input_handler) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/input_handler.dir/src/input_handler.cpp.o\x1b[0m\n'}
+[1.912008] (-) TimerEvent: {}
+[2.013020] (-) TimerEvent: {}
+[2.113671] (-) TimerEvent: {}
+[2.214429] (-) TimerEvent: {}
+[2.315090] (-) TimerEvent: {}
+[2.415688] (-) TimerEvent: {}
+[2.516381] (-) TimerEvent: {}
+[2.617340] (-) TimerEvent: {}
+[2.717934] (-) TimerEvent: {}
+[2.819068] (-) TimerEvent: {}
+[2.919996] (-) TimerEvent: {}
+[3.020637] (-) TimerEvent: {}
+[3.121454] (-) TimerEvent: {}
+[3.222478] (-) TimerEvent: {}
+[3.323517] (-) TimerEvent: {}
+[3.425043] (-) TimerEvent: {}
+[3.525472] (-) TimerEvent: {}
+[3.626485] (-) TimerEvent: {}
+[3.726998] (-) TimerEvent: {}
+[3.827606] (-) TimerEvent: {}
+[3.928094] (-) TimerEvent: {}
+[4.028927] (-) TimerEvent: {}
+[4.129756] (-) TimerEvent: {}
+[4.230679] (-) TimerEvent: {}
+[4.331625] (-) TimerEvent: {}
+[4.433015] (-) TimerEvent: {}
+[4.534537] (-) TimerEvent: {}
+[4.635181] (-) TimerEvent: {}
+[4.736170] (-) TimerEvent: {}
+[4.837192] (-) TimerEvent: {}
+[4.938176] (-) TimerEvent: {}
+[5.039128] (-) TimerEvent: {}
+[5.139784] (-) TimerEvent: {}
+[5.241074] (-) TimerEvent: {}
+[5.341684] (-) TimerEvent: {}
+[5.442732] (-) TimerEvent: {}
+[5.543596] (-) TimerEvent: {}
+[5.644609] (-) TimerEvent: {}
+[5.745110] (-) TimerEvent: {}
+[5.845855] (-) TimerEvent: {}
+[5.946792] (-) TimerEvent: {}
+[6.047692] (-) TimerEvent: {}
+[6.148632] (-) TimerEvent: {}
+[6.250186] (-) TimerEvent: {}
+[6.351725] (-) TimerEvent: {}
+[6.453207] (-) TimerEvent: {}
+[6.554115] (-) TimerEvent: {}
+[6.654682] (-) TimerEvent: {}
+[6.755609] (-) TimerEvent: {}
+[6.856387] (-) TimerEvent: {}
+[6.957369] (-) TimerEvent: {}
+[7.058362] (-) TimerEvent: {}
+[7.159118] (-) TimerEvent: {}
+[7.260024] (-) TimerEvent: {}
+[7.360781] (-) TimerEvent: {}
+[7.461666] (-) TimerEvent: {}
+[7.562228] (-) TimerEvent: {}
+[7.662998] (-) TimerEvent: {}
+[7.763663] (-) TimerEvent: {}
+[7.864802] (-) TimerEvent: {}
+[7.965509] (-) TimerEvent: {}
+[8.066447] (-) TimerEvent: {}
+[8.167316] (-) TimerEvent: {}
+[8.268039] (-) TimerEvent: {}
+[8.369308] (-) TimerEvent: {}
+[8.469917] (-) TimerEvent: {}
+[8.570664] (-) TimerEvent: {}
+[8.671378] (-) TimerEvent: {}
+[8.772021] (-) TimerEvent: {}
+[8.872809] (-) TimerEvent: {}
+[8.973890] (-) TimerEvent: {}
+[9.074757] (-) TimerEvent: {}
+[9.175277] (-) TimerEvent: {}
+[9.276245] (-) TimerEvent: {}
+[9.377126] (-) TimerEvent: {}
+[9.477944] (-) TimerEvent: {}
+[9.578540] (-) TimerEvent: {}
+[9.679235] (-) TimerEvent: {}
+[9.780298] (-) TimerEvent: {}
+[9.881372] (-) TimerEvent: {}
+[9.981943] (-) TimerEvent: {}
+[10.082876] (-) TimerEvent: {}
+[10.183554] (-) TimerEvent: {}
+[10.284242] (-) TimerEvent: {}
+[10.385039] (-) TimerEvent: {}
+[10.486088] (-) TimerEvent: {}
+[10.574777] (input_handler) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable input_handler\x1b[0m\n'}
+[10.586290] (-) TimerEvent: {}
+[10.687160] (-) TimerEvent: {}
+[10.788494] (-) TimerEvent: {}
+[10.886942] (input_handler) StdoutLine: {'line': b'[100%] Built target input_handler\n'}
+[10.888703] (-) TimerEvent: {}
+[10.901624] (input_handler) CommandEnded: {'returncode': 0}
+[10.902064] (input_handler) JobProgress: {'identifier': 'input_handler', 'progress': 'install'}
+[10.915383] (input_handler) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/prog1/ros2_training/build/input_handler'], 'cwd': '/home/prog1/ros2_training/build/input_handler', 'env': OrderedDict({'PROFILEHOME': '', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'KDE_FULL_SESSION': 'true', 'LANGUAGE': '', 'USER': 'prog1', 'PAM_KWALLET5_LOGIN': '/run/user/1000/kwallet5.socket', 'LC_TIME': 'el_GR.UTF-8', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '2385', 'XDG_SESSION_TYPE': 'x11', 'XCURSOR_SIZE': '24', 'KONSOLE_VERSION': '230805', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/prog1', 'KDE_APPLICATIONS_AS_SCOPE': '1', 'OLDPWD': '/home/prog1/ros2_training', 'DESKTOP_SESSION': 'plasma', 'ROS_PYTHON_VERSION': '3', 'SHELL_SESSION_ID': 'a1fe0357236f46479d8ce1f99797027b', 'GTK_RC_FILES': '/etc/gtk/gtkrc:/home/prog1/.gtkrc:/home/prog1/.config/gtkrc', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'SDL_IM_MODULE': 'fcitx', 'KDE_SESSION_VERSION': '5', 'LC_MONETARY': 'el_GR.UTF-8', 'KONSOLE_DBUS_SESSION': '/Sessions/1', 'MANAGERPID': '2272', 'SYSTEMD_EXEC_PID': '2561', 'SSH_ASKPASS': '/usr/bin/ksshaskpass', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'KONSOLE_DBUS_WINDOW': '/Windows/1', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/prog1/ros2_training/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'prog1', 'WINDOWID': '6291469', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', 'JOURNAL_STREAM': '9:28173', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/plasma-plasmashell.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'COLORFGBG': '15;0', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'GTK2_RC_FILES': '/etc/gtk-2.0/gtkrc:/home/prog1/.gtkrc-2.0:/home/prog1/.config/gtkrc-2.0', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/prog1VM:@/tmp/.ICE-unix/2507,unix/prog1VM:/tmp/.ICE-unix/2507', 'INVOCATION_ID': 'cd367f2ca2f9457fb3905aa7f9ae98ad', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'LC_ADDRESS': 'el_GR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XCURSOR_THEME': 'breeze_cursors', 'ICEAUTHORITY': '/run/user/1000/iceauth_yiRrwH', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'LC_TELEPHONE': 'el_GR.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'KDE', 'XAUTHORITY': '/tmp/xauth_itGSWX', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/tmp/ssh-vGj1JZ10YJUH/agent.2295', 'AMENT_PREFIX_PATH': '/home/prog1/ros2_training/install/py_talker:/home/prog1/ros2_training/install/cpp_listener:/home/prog1/ros2_training/install/controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'el_GR.UTF-8', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'KONSOLE_DBUS_SERVICE': ':1.91', 'LC_MEASUREMENT': 'el_GR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'el_GR.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'fcitx', 'XDG_VTNR': '2', 'PWD': '/home/prog1/ros2_training/build/input_handler', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/home/prog1/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings', 'CLUTTER_IM_MODULE': 'xim', 'XDG_DATA_DIRS': '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/prog1/ros2_training/install/py_talker/lib/python3.12/site-packages:/home/prog1/ros2_training/install/controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'el_GR.UTF-8', 'LC_PAPER': 'el_GR.UTF-8', 'KDE_SESSION_UID': '1000', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/prog1/ros2_training/install/cpp_listener:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/prog1/ros2_training/install/py_talker:/home/prog1/ros2_training/install/controller:/opt/ros/jazzy'}), 'shell': False}
+[10.925204] (input_handler) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.925600] (input_handler) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/input_handler/lib/input_handler/input_handler\n'}
+[10.928815] (input_handler) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/prog1/ros2_training/install/input_handler/lib/input_handler/input_handler" to ""\n'}
+[10.929106] (input_handler) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/input_handler/share/ament_index/resource_index/package_run_dependencies/input_handler\n'}
+[10.929475] (input_handler) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/input_handler/share/ament_index/resource_index/parent_prefix_path/input_handler\n'}
+[10.929808] (input_handler) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/input_handler/share/input_handler/environment/ament_prefix_path.sh\n'}
+[10.930030] (input_handler) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/input_handler/share/input_handler/environment/ament_prefix_path.dsv\n'}
+[10.930409] (input_handler) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/input_handler/share/input_handler/environment/path.sh\n'}
+[10.931571] (input_handler) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/input_handler/share/input_handler/environment/path.dsv\n'}
+[10.931750] (input_handler) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/input_handler/share/input_handler/local_setup.bash\n'}
+[10.931827] (input_handler) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/input_handler/share/input_handler/local_setup.sh\n'}
+[10.932106] (input_handler) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/input_handler/share/input_handler/local_setup.zsh\n'}
+[10.932184] (input_handler) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/input_handler/share/input_handler/local_setup.dsv\n'}
+[10.932256] (input_handler) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/input_handler/share/input_handler/package.dsv\n'}
+[10.932412] (input_handler) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/input_handler/share/ament_index/resource_index/packages/input_handler\n'}
+[10.932494] (input_handler) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/input_handler/share/input_handler/cmake/input_handlerConfig.cmake\n'}
+[10.932563] (input_handler) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/input_handler/share/input_handler/cmake/input_handlerConfig-version.cmake\n'}
+[10.932647] (input_handler) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/input_handler/share/input_handler/package.xml\n'}
+[10.935199] (input_handler) CommandEnded: {'returncode': 0}
+[10.949629] (input_handler) JobEnded: {'identifier': 'input_handler', 'rc': 0}
+[10.950407] (-) EventReactorShutdown: {}

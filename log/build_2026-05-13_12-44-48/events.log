@@ -1,0 +1,109 @@
+[0.000000] (-) TimerEvent: {}
+[0.000373] (cpp_listener) JobQueued: {'identifier': 'cpp_listener', 'dependencies': OrderedDict()}
+[0.000584] (py_talker) JobQueued: {'identifier': 'py_talker', 'dependencies': OrderedDict()}
+[0.000991] (cpp_listener) JobStarted: {'identifier': 'cpp_listener'}
+[0.026118] (py_talker) JobStarted: {'identifier': 'py_talker'}
+[0.058988] (cpp_listener) JobProgress: {'identifier': 'cpp_listener', 'progress': 'cmake'}
+[0.062077] (cpp_listener) Command: {'cmd': ['/usr/bin/cmake', '/home/prog1/ros2_george/src/cpp_listener', '-DCMAKE_INSTALL_PREFIX=/home/prog1/ros2_george/install/cpp_listener'], 'cwd': '/home/prog1/ros2_george/build/cpp_listener', 'env': OrderedDict({'PROFILEHOME': '', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'KDE_FULL_SESSION': 'true', 'LANGUAGE': '', 'USER': 'prog1', 'PAM_KWALLET5_LOGIN': '/run/user/1000/kwallet5.socket', 'LC_TIME': 'el_GR.UTF-8', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1663', 'XDG_SESSION_TYPE': 'x11', 'XCURSOR_SIZE': '24', 'KONSOLE_VERSION': '230805', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/prog1', 'KDE_APPLICATIONS_AS_SCOPE': '1', 'OLDPWD': '/home/prog1/ros2_george/src/cpp_listener', 'DESKTOP_SESSION': 'plasma', 'ROS_PYTHON_VERSION': '3', 'SHELL_SESSION_ID': '6279c116d4df4ef2a911a987d086e125', 'GTK_RC_FILES': '/etc/gtk/gtkrc:/home/prog1/.gtkrc:/home/prog1/.config/gtkrc', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'SDL_IM_MODULE': 'fcitx', 'KDE_SESSION_VERSION': '5', 'LC_MONETARY': 'el_GR.UTF-8', 'KONSOLE_DBUS_SESSION': '/Sessions/1', 'MANAGERPID': '1552', 'SYSTEMD_EXEC_PID': '1838', 'SSH_ASKPASS': '/usr/bin/ksshaskpass', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/prog1/ros2_george/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'prog1', 'KATE_PID': '23522', 'WINDOWID': '0', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', 'JOURNAL_STREAM': '9:24119', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/plasma-plasmashell.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'COLORFGBG': '15;0', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'GTK2_RC_FILES': '/etc/gtk-2.0/gtkrc:/home/prog1/.gtkrc-2.0:/home/prog1/.config/gtkrc-2.0', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/prog1VM:@/tmp/.ICE-unix/1779,unix/prog1VM:/tmp/.ICE-unix/1779', 'INVOCATION_ID': 'c0a2dc1b07ac4597a8a3217fc29d7f44', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'LC_ADDRESS': 'el_GR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XCURSOR_THEME': 'breeze_cursors', 'ICEAUTHORITY': '/run/user/1000/iceauth_INumMo', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'LC_TELEPHONE': 'el_GR.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'KDE', 'XAUTHORITY': '/tmp/xauth_pZTWYN', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/tmp/ssh-JOrGtIL9NQex/agent.1574', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'el_GR.UTF-8', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'KONSOLE_DBUS_SERVICE': ':1.107', 'LC_MEASUREMENT': 'el_GR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'el_GR.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'fcitx', 'XDG_VTNR': '2', 'PWD': '/home/prog1/ros2_george/build/cpp_listener', 'XDG_CONFIG_DIRS': '/home/prog1/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings', 'CLUTTER_IM_MODULE': 'xim', 'XDG_DATA_DIRS': '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'el_GR.UTF-8', 'LC_PAPER': 'el_GR.UTF-8', 'KDE_SESSION_UID': '1000', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.101438] (-) TimerEvent: {}
+[0.202823] (-) TimerEvent: {}
+[0.307488] (-) TimerEvent: {}
+[0.408905] (-) TimerEvent: {}
+[0.512673] (-) TimerEvent: {}
+[0.614686] (-) TimerEvent: {}
+[0.718539] (-) TimerEvent: {}
+[0.820637] (-) TimerEvent: {}
+[0.827499] (cpp_listener) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.921592] (-) TimerEvent: {}
+[1.022884] (-) TimerEvent: {}
+[1.090303] (py_talker) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 51, in build\n    setup_py_data = get_setup_data(self.context.pkg, env)\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 20, in get_setup_data\n    return dict(pkg.metadata[key](env))\n                ^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_ros/package_augmentation/ros_ament_python.py", line 57, in getter\n    return get_setup_information(\n           ^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 249, in get_setup_information\n    _setup_information_cache[hashable_env] = _get_setup_information(\n                                             ^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 296, in _get_setup_information\n    result = subprocess.run(\n             ^^^^^^^^^^^^^^^\n  File "/usr/lib/python3.12/subprocess.py", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command \'[\'/usr/bin/python3\', \'-c\', \'import sys;from contextlib import suppress;exec("with suppress(ImportError):    from setuptools.extern.packaging.specifiers    import SpecifierSet");exec("with suppress(ImportError):    from packaging.specifiers import SpecifierSet");from distutils.core import run_setup;dist = run_setup(    \\\'setup.py\\\', script_args=(\\\'--dry-run\\\',), stop_after=\\\'config\\\');skip_keys = (\\\'cmdclass\\\', \\\'distclass\\\', \\\'ext_modules\\\', \\\'metadata\\\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\\\'_\\\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\\\'metadata\\\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\\\'license_files\\\', \\\'provides_extras\\\')};sys.stdout.buffer.write(repr(data).encode(\\\'utf-8\\\'))\']\' returned non-zero exit status 1.\n'}
+[1.096266] (py_talker) JobEnded: {'identifier': 'py_talker', 'rc': 1}
+[1.124072] (-) TimerEvent: {}
+[1.226563] (-) TimerEvent: {}
+[1.328183] (-) TimerEvent: {}
+[1.369022] (cpp_listener) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.428708] (-) TimerEvent: {}
+[1.482823] (cpp_listener) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.529934] (-) TimerEvent: {}
+[1.630996] (-) TimerEvent: {}
+[1.733699] (-) TimerEvent: {}
+[1.835246] (-) TimerEvent: {}
+[1.936807] (-) TimerEvent: {}
+[2.004303] (cpp_listener) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.022762] (cpp_listener) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.024666] (cpp_listener) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.027694] (cpp_listener) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.037541] (-) TimerEvent: {}
+[2.081985] (cpp_listener) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.138858] (-) TimerEvent: {}
+[2.241741] (-) TimerEvent: {}
+[2.343153] (-) TimerEvent: {}
+[2.445085] (-) TimerEvent: {}
+[2.547081] (-) TimerEvent: {}
+[2.650082] (-) TimerEvent: {}
+[2.656691] (cpp_listener) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.678955] (cpp_listener) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.680275] (cpp_listener) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.681810] (cpp_listener) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.703258] (cpp_listener) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[2.750623] (-) TimerEvent: {}
+[2.853785] (-) TimerEvent: {}
+[2.957954] (-) TimerEvent: {}
+[3.059555] (-) TimerEvent: {}
+[3.161555] (-) TimerEvent: {}
+[3.265760] (-) TimerEvent: {}
+[3.318847] (cpp_listener) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[3.366514] (-) TimerEvent: {}
+[3.467818] (-) TimerEvent: {}
+[3.571265] (-) TimerEvent: {}
+[3.674695] (-) TimerEvent: {}
+[3.775207] (cpp_listener) StdoutLine: {'line': b'-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[3.775679] (-) TimerEvent: {}
+[3.876794] (-) TimerEvent: {}
+[3.978067] (-) TimerEvent: {}
+[3.987286] (cpp_listener) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[4.058965] (cpp_listener) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[4.079093] (-) TimerEvent: {}
+[4.153444] (cpp_listener) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.179891] (-) TimerEvent: {}
+[4.242461] (cpp_listener) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.280455] (-) TimerEvent: {}
+[4.382084] (-) TimerEvent: {}
+[4.483269] (-) TimerEvent: {}
+[4.564821] (cpp_listener) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[4.581038] (cpp_listener) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.583832] (-) TimerEvent: {}
+[4.687492] (-) TimerEvent: {}
+[4.788808] (-) TimerEvent: {}
+[4.891958] (-) TimerEvent: {}
+[4.993576] (-) TimerEvent: {}
+[5.047214] (cpp_listener) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[5.094916] (-) TimerEvent: {}
+[5.134134] (cpp_listener) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[5.195584] (-) TimerEvent: {}
+[5.298795] (cpp_listener) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.299706] (-) TimerEvent: {}
+[5.404700] (-) TimerEvent: {}
+[5.505850] (-) TimerEvent: {}
+[5.592643] (cpp_listener) StdoutLine: {'line': b'-- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[5.606775] (-) TimerEvent: {}
+[5.649953] (cpp_listener) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[5.707722] (-) TimerEvent: {}
+[5.810098] (-) TimerEvent: {}
+[5.915949] (-) TimerEvent: {}
+[6.017576] (-) TimerEvent: {}
+[6.119233] (-) TimerEvent: {}
+[6.167909] (cpp_listener) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.168922] (cpp_listener) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[6.169510] (cpp_listener) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.178543] (cpp_listener) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.194785] (cpp_listener) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.196226] (cpp_listener) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.204032] (cpp_listener) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.220190] (cpp_listener) StdoutLine: {'line': b'-- Configuring done (6.0s)\n'}
+[6.221853] (-) TimerEvent: {}
+[6.297244] (cpp_listener) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[6.309886] (cpp_listener) StdoutLine: {'line': b'-- Build files have been written to: /home/prog1/ros2_george/build/cpp_listener\n'}
+[6.322665] (-) TimerEvent: {}
+[6.351965] (cpp_listener) JobEnded: {'identifier': 'cpp_listener', 'rc': 'SIGINT'}
+[6.364324] (-) EventReactorShutdown: {}

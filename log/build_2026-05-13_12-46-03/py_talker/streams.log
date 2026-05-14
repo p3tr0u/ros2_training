@@ -1,0 +1,37 @@
+[3.863s] Invoking command in '/home/prog1/ros2_george/src/py_talker': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/prog1/ros2_george/build/py_talker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/prog1/ros2_george/install/py_talker/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_talker build --build-base /home/prog1/ros2_george/build/py_talker/build install --record /home/prog1/ros2_george/build/py_talker/install.log --single-version-externally-managed install_data
+[5.222s] running egg_info
+[5.224s] creating ../../build/py_talker/py_talker.egg-info
+[5.310s] writing ../../build/py_talker/py_talker.egg-info/PKG-INFO
+[5.311s] writing dependency_links to ../../build/py_talker/py_talker.egg-info/dependency_links.txt
+[5.314s] writing entry points to ../../build/py_talker/py_talker.egg-info/entry_points.txt
+[5.315s] writing requirements to ../../build/py_talker/py_talker.egg-info/requires.txt
+[5.315s] writing top-level names to ../../build/py_talker/py_talker.egg-info/top_level.txt
+[5.318s] writing manifest file '../../build/py_talker/py_talker.egg-info/SOURCES.txt'
+[5.477s] reading manifest file '../../build/py_talker/py_talker.egg-info/SOURCES.txt'
+[5.480s] writing manifest file '../../build/py_talker/py_talker.egg-info/SOURCES.txt'
+[5.481s] running build
+[5.484s] running build_py
+[5.486s] creating /home/prog1/ros2_george/build/py_talker/build
+[5.486s] creating /home/prog1/ros2_george/build/py_talker/build/lib
+[5.488s] creating /home/prog1/ros2_george/build/py_talker/build/lib/py_talker
+[5.488s] copying py_talker/talker.py -> /home/prog1/ros2_george/build/py_talker/build/lib/py_talker
+[5.494s] copying py_talker/__init__.py -> /home/prog1/ros2_george/build/py_talker/build/lib/py_talker
+[5.497s] running install
+[5.505s] running install_lib
+[5.586s] creating /home/prog1/ros2_george/install/py_talker/lib/python3.12/site-packages/py_talker
+[5.588s] copying /home/prog1/ros2_george/build/py_talker/build/lib/py_talker/talker.py -> /home/prog1/ros2_george/install/py_talker/lib/python3.12/site-packages/py_talker
+[5.595s] copying /home/prog1/ros2_george/build/py_talker/build/lib/py_talker/__init__.py -> /home/prog1/ros2_george/install/py_talker/lib/python3.12/site-packages/py_talker
+[5.601s] byte-compiling /home/prog1/ros2_george/install/py_talker/lib/python3.12/site-packages/py_talker/talker.py to talker.cpython-312.pyc
+[5.602s] byte-compiling /home/prog1/ros2_george/install/py_talker/lib/python3.12/site-packages/py_talker/__init__.py to __init__.cpython-312.pyc
+[5.603s] running install_data
+[5.606s] creating /home/prog1/ros2_george/install/py_talker/share/ament_index
+[5.607s] creating /home/prog1/ros2_george/install/py_talker/share/ament_index/resource_index
+[5.608s] creating /home/prog1/ros2_george/install/py_talker/share/ament_index/resource_index/packages
+[5.608s] copying resource/py_talker -> /home/prog1/ros2_george/install/py_talker/share/ament_index/resource_index/packages
+[5.608s] copying package.xml -> /home/prog1/ros2_george/install/py_talker/share/py_talker
+[5.613s] running install_egg_info
+[5.692s] Copying ../../build/py_talker/py_talker.egg-info to /home/prog1/ros2_george/install/py_talker/lib/python3.12/site-packages/py_talker-0.0.0-py3.12.egg-info
+[5.700s] running install_scripts
+[6.645s] Installing talker script to /home/prog1/ros2_george/install/py_talker/lib/py_talker
+[6.646s] writing list of installed files to '/home/prog1/ros2_george/build/py_talker/install.log'
+[6.734s] Invoked command in '/home/prog1/ros2_george/src/py_talker' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/prog1/ros2_george/build/py_talker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/prog1/ros2_george/install/py_talker/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_talker build --build-base /home/prog1/ros2_george/build/py_talker/build install --record /home/prog1/ros2_george/build/py_talker/install.log --single-version-externally-managed install_data

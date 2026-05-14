@@ -1,0 +1,16 @@
+/home/prog1/ros2_training/install/input_handler/lib/input_handler/input_handler
+/home/prog1/ros2_training/install/input_handler/share/ament_index/resource_index/package_run_dependencies/input_handler
+/home/prog1/ros2_training/install/input_handler/share/ament_index/resource_index/parent_prefix_path/input_handler
+/home/prog1/ros2_training/install/input_handler/share/input_handler/environment/ament_prefix_path.sh
+/home/prog1/ros2_training/install/input_handler/share/input_handler/environment/ament_prefix_path.dsv
+/home/prog1/ros2_training/install/input_handler/share/input_handler/environment/path.sh
+/home/prog1/ros2_training/install/input_handler/share/input_handler/environment/path.dsv
+/home/prog1/ros2_training/install/input_handler/share/input_handler/local_setup.bash
+/home/prog1/ros2_training/install/input_handler/share/input_handler/local_setup.sh
+/home/prog1/ros2_training/install/input_handler/share/input_handler/local_setup.zsh
+/home/prog1/ros2_training/install/input_handler/share/input_handler/local_setup.dsv
+/home/prog1/ros2_training/install/input_handler/share/input_handler/package.dsv
+/home/prog1/ros2_training/install/input_handler/share/ament_index/resource_index/packages/input_handler
+/home/prog1/ros2_training/install/input_handler/share/input_handler/cmake/input_handlerConfig.cmake
+/home/prog1/ros2_training/install/input_handler/share/input_handler/cmake/input_handlerConfig-version.cmake
+/home/prog1/ros2_training/install/input_handler/share/input_handler/package.xml
