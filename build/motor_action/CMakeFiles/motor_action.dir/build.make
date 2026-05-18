@@ -66,7 +66,7 @@ include CMakeFiles/motor_action.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/motor_action.dir/progress.make
 
-CMakeFiles/motor_action: /home/prog1/ros2_training/src/motor_action/action/Rotate.action
+CMakeFiles/motor_action: /home/prog1/ros2_training/src/motor_action/action/Move.action
 CMakeFiles/motor_action: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
 CMakeFiles/motor_action: /opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl
 CMakeFiles/motor_action: /opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl

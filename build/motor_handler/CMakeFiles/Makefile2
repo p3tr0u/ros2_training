@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/prog1/ros2_training/build/motor_handler
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all:
+all: CMakeFiles/motor_handler.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -73,6 +73,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/motor_handler_uninstall.dir/clean
+clean: CMakeFiles/motor_handler.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -126,6 +127,32 @@ motor_handler_uninstall: CMakeFiles/motor_handler_uninstall.dir/rule
 CMakeFiles/motor_handler_uninstall.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/motor_handler_uninstall.dir/build.make CMakeFiles/motor_handler_uninstall.dir/clean
 .PHONY : CMakeFiles/motor_handler_uninstall.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/motor_handler.dir
+
+# All Build rule for target.
+CMakeFiles/motor_handler.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motor_handler.dir/build.make CMakeFiles/motor_handler.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motor_handler.dir/build.make CMakeFiles/motor_handler.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/prog1/ros2_training/build/motor_handler/CMakeFiles --progress-num=1,2 "Built target motor_handler"
+.PHONY : CMakeFiles/motor_handler.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/motor_handler.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/prog1/ros2_training/build/motor_handler/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/motor_handler.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/prog1/ros2_training/build/motor_handler/CMakeFiles 0
+.PHONY : CMakeFiles/motor_handler.dir/rule
+
+# Convenience name for target.
+motor_handler: CMakeFiles/motor_handler.dir/rule
+.PHONY : motor_handler
+
+# clean rule for target.
+CMakeFiles/motor_handler.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motor_handler.dir/build.make CMakeFiles/motor_handler.dir/clean
+.PHONY : CMakeFiles/motor_handler.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -1,0 +1,4 @@
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:[m[K In member function ‘[01m[Kvoid MotorHandler::[01;32m[Kexecute[m[K(std::shared_ptr<rclcpp_action::ServerGoalHandle<motor_action::action::Move> >)[m[K’:
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:50:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ki[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   50 |             int [01;35m[Ki[m[K = 0;
+      |                 [01;35m[K^[m[K

@@ -69,46 +69,46 @@ include CMakeFiles/motor_action__rosidl_typesupport_c.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/motor_action__rosidl_typesupport_c.dir/flags.make
 
-rosidl_typesupport_c/motor_action/action/rotate__type_support.cpp: /opt/ros/jazzy/lib/rosidl_typesupport_c/rosidl_typesupport_c
-rosidl_typesupport_c/motor_action/action/rotate__type_support.cpp: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_typesupport_c/__init__.py
-rosidl_typesupport_c/motor_action/action/rotate__type_support.cpp: /opt/ros/jazzy/share/rosidl_typesupport_c/resource/action__type_support.c.em
-rosidl_typesupport_c/motor_action/action/rotate__type_support.cpp: /opt/ros/jazzy/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em
-rosidl_typesupport_c/motor_action/action/rotate__type_support.cpp: /opt/ros/jazzy/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em
-rosidl_typesupport_c/motor_action/action/rotate__type_support.cpp: /opt/ros/jazzy/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em
-rosidl_typesupport_c/motor_action/action/rotate__type_support.cpp: rosidl_adapter/motor_action/action/Rotate.idl
-rosidl_typesupport_c/motor_action/action/rotate__type_support.cpp: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
-rosidl_typesupport_c/motor_action/action/rotate__type_support.cpp: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
-rosidl_typesupport_c/motor_action/action/rotate__type_support.cpp: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
-rosidl_typesupport_c/motor_action/action/rotate__type_support.cpp: /opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl
-rosidl_typesupport_c/motor_action/action/rotate__type_support.cpp: /opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl
-rosidl_typesupport_c/motor_action/action/rotate__type_support.cpp: /opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl
-rosidl_typesupport_c/motor_action/action/rotate__type_support.cpp: /opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl
-rosidl_typesupport_c/motor_action/action/rotate__type_support.cpp: /opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl
+rosidl_typesupport_c/motor_action/action/move__type_support.cpp: /opt/ros/jazzy/lib/rosidl_typesupport_c/rosidl_typesupport_c
+rosidl_typesupport_c/motor_action/action/move__type_support.cpp: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_typesupport_c/__init__.py
+rosidl_typesupport_c/motor_action/action/move__type_support.cpp: /opt/ros/jazzy/share/rosidl_typesupport_c/resource/action__type_support.c.em
+rosidl_typesupport_c/motor_action/action/move__type_support.cpp: /opt/ros/jazzy/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em
+rosidl_typesupport_c/motor_action/action/move__type_support.cpp: /opt/ros/jazzy/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em
+rosidl_typesupport_c/motor_action/action/move__type_support.cpp: /opt/ros/jazzy/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em
+rosidl_typesupport_c/motor_action/action/move__type_support.cpp: rosidl_adapter/motor_action/action/Move.idl
+rosidl_typesupport_c/motor_action/action/move__type_support.cpp: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
+rosidl_typesupport_c/motor_action/action/move__type_support.cpp: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
+rosidl_typesupport_c/motor_action/action/move__type_support.cpp: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
+rosidl_typesupport_c/motor_action/action/move__type_support.cpp: /opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl
+rosidl_typesupport_c/motor_action/action/move__type_support.cpp: /opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl
+rosidl_typesupport_c/motor_action/action/move__type_support.cpp: /opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl
+rosidl_typesupport_c/motor_action/action/move__type_support.cpp: /opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl
+rosidl_typesupport_c/motor_action/action/move__type_support.cpp: /opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/prog1/ros2_training/build/motor_action/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C type support dispatch for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_typesupport_c/rosidl_typesupport_c --generator-arguments-file /home/prog1/ros2_training/build/motor_action/rosidl_typesupport_c__arguments.json --typesupports rosidl_typesupport_fastrtps_c rosidl_typesupport_introspection_c
 
-CMakeFiles/motor_action__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_action/action/rotate__type_support.cpp.o: CMakeFiles/motor_action__rosidl_typesupport_c.dir/flags.make
-CMakeFiles/motor_action__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_action/action/rotate__type_support.cpp.o: rosidl_typesupport_c/motor_action/action/rotate__type_support.cpp
-CMakeFiles/motor_action__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_action/action/rotate__type_support.cpp.o: CMakeFiles/motor_action__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/prog1/ros2_training/build/motor_action/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/motor_action__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_action/action/rotate__type_support.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/motor_action__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_action/action/rotate__type_support.cpp.o -MF CMakeFiles/motor_action__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_action/action/rotate__type_support.cpp.o.d -o CMakeFiles/motor_action__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_action/action/rotate__type_support.cpp.o -c /home/prog1/ros2_training/build/motor_action/rosidl_typesupport_c/motor_action/action/rotate__type_support.cpp
+CMakeFiles/motor_action__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_action/action/move__type_support.cpp.o: CMakeFiles/motor_action__rosidl_typesupport_c.dir/flags.make
+CMakeFiles/motor_action__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_action/action/move__type_support.cpp.o: rosidl_typesupport_c/motor_action/action/move__type_support.cpp
+CMakeFiles/motor_action__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_action/action/move__type_support.cpp.o: CMakeFiles/motor_action__rosidl_typesupport_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/prog1/ros2_training/build/motor_action/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/motor_action__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_action/action/move__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/motor_action__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_action/action/move__type_support.cpp.o -MF CMakeFiles/motor_action__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_action/action/move__type_support.cpp.o.d -o CMakeFiles/motor_action__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_action/action/move__type_support.cpp.o -c /home/prog1/ros2_training/build/motor_action/rosidl_typesupport_c/motor_action/action/move__type_support.cpp
 
-CMakeFiles/motor_action__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_action/action/rotate__type_support.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/motor_action__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_action/action/rotate__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/prog1/ros2_training/build/motor_action/rosidl_typesupport_c/motor_action/action/rotate__type_support.cpp > CMakeFiles/motor_action__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_action/action/rotate__type_support.cpp.i
+CMakeFiles/motor_action__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_action/action/move__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/motor_action__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_action/action/move__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/prog1/ros2_training/build/motor_action/rosidl_typesupport_c/motor_action/action/move__type_support.cpp > CMakeFiles/motor_action__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_action/action/move__type_support.cpp.i
 
-CMakeFiles/motor_action__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_action/action/rotate__type_support.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/motor_action__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_action/action/rotate__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/prog1/ros2_training/build/motor_action/rosidl_typesupport_c/motor_action/action/rotate__type_support.cpp -o CMakeFiles/motor_action__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_action/action/rotate__type_support.cpp.s
+CMakeFiles/motor_action__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_action/action/move__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/motor_action__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_action/action/move__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/prog1/ros2_training/build/motor_action/rosidl_typesupport_c/motor_action/action/move__type_support.cpp -o CMakeFiles/motor_action__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_action/action/move__type_support.cpp.s
 
 # Object files for target motor_action__rosidl_typesupport_c
 motor_action__rosidl_typesupport_c_OBJECTS = \
-"CMakeFiles/motor_action__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_action/action/rotate__type_support.cpp.o"
+"CMakeFiles/motor_action__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_action/action/move__type_support.cpp.o"
 
 # External object files for target motor_action__rosidl_typesupport_c
 motor_action__rosidl_typesupport_c_EXTERNAL_OBJECTS =
 
-libmotor_action__rosidl_typesupport_c.so: CMakeFiles/motor_action__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_action/action/rotate__type_support.cpp.o
+libmotor_action__rosidl_typesupport_c.so: CMakeFiles/motor_action__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_action/action/move__type_support.cpp.o
 libmotor_action__rosidl_typesupport_c.so: CMakeFiles/motor_action__rosidl_typesupport_c.dir/build.make
 libmotor_action__rosidl_typesupport_c.so: libmotor_action__rosidl_generator_c.so
 libmotor_action__rosidl_typesupport_c.so: /opt/ros/jazzy/lib/libaction_msgs__rosidl_typesupport_c.so
@@ -134,7 +134,7 @@ CMakeFiles/motor_action__rosidl_typesupport_c.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/motor_action__rosidl_typesupport_c.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/motor_action__rosidl_typesupport_c.dir/clean
 
-CMakeFiles/motor_action__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/motor_action/action/rotate__type_support.cpp
+CMakeFiles/motor_action__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/motor_action/action/move__type_support.cpp
 	cd /home/prog1/ros2_training/build/motor_action && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/prog1/ros2_training/src/motor_action /home/prog1/ros2_training/src/motor_action /home/prog1/ros2_training/build/motor_action /home/prog1/ros2_training/build/motor_action /home/prog1/ros2_training/build/motor_action/CMakeFiles/motor_action__rosidl_typesupport_c.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/motor_action__rosidl_typesupport_c.dir/depend
 

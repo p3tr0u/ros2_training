@@ -47,7 +47,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/motor_action/action" TYPE FILE FILES "/home/prog1/ros2_training/build/motor_action/rosidl_generator_type_description/motor_action/action/Rotate.json")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/motor_action/action" TYPE FILE FILES "/home/prog1/ros2_training/build/motor_action/rosidl_generator_type_description/motor_action/action/Move.json")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -371,11 +371,11 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/motor_action/action" TYPE FILE FILES "/home/prog1/ros2_training/build/motor_action/rosidl_adapter/motor_action/action/Rotate.idl")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/motor_action/action" TYPE FILE FILES "/home/prog1/ros2_training/build/motor_action/rosidl_adapter/motor_action/action/Move.idl")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/motor_action/action" TYPE FILE FILES "/home/prog1/ros2_training/src/motor_action/action/Rotate.action")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/motor_action/action" TYPE FILE FILES "/home/prog1/ros2_training/src/motor_action/action/Move.action")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

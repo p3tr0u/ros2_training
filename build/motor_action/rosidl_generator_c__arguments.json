@@ -3,10 +3,10 @@
   "output_dir": "/home/prog1/ros2_training/build/motor_action/rosidl_generator_c/motor_action",
   "template_dir": "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
-    "/home/prog1/ros2_training/build/motor_action/rosidl_adapter/motor_action:action/Rotate.idl"
+    "/home/prog1/ros2_training/build/motor_action/rosidl_adapter/motor_action:action/Move.idl"
   ],
   "ros_interface_files": [
-    "/home/prog1/ros2_training/src/motor_action/action/Rotate.action"
+    "/home/prog1/ros2_training/src/motor_action/action/Move.action"
   ],
   "ros_interface_dependencies": [
     "service_msgs:/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
@@ -38,7 +38,7 @@
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.c.em",
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
-    "/home/prog1/ros2_training/build/motor_action/rosidl_adapter/motor_action/action/Rotate.idl",
+    "/home/prog1/ros2_training/build/motor_action/rosidl_adapter/motor_action/action/Move.idl",
     "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl",
@@ -49,6 +49,6 @@
     "/opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl"
   ],
   "type_description_tuples": [
-    "action/Rotate.idl:/home/prog1/ros2_training/build/motor_action/rosidl_generator_type_description/motor_action/action/Rotate.json"
+    "action/Move.idl:/home/prog1/ros2_training/build/motor_action/rosidl_generator_type_description/motor_action/action/Move.json"
   ]
 }

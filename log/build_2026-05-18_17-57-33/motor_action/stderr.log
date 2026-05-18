@@ -1,0 +1,9 @@
+[31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+  rosidl_generate_interfaces() the passed file 'action/Rotate.action' doesn't
+  exist relative to the CMAKE_CURRENT_SOURCE_DIR
+  '/home/prog1/ros2_training/src/motor_action'
+Call Stack (most recent call first):
+  CMakeLists.txt:7 (rosidl_generate_interfaces)
+
+[0m
+gmake: *** [Makefile:829: cmake_check_build_system] Error 1

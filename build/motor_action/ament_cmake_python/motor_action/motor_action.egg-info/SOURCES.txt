@@ -5,4 +5,5 @@ motor_action.egg-info/SOURCES.txt
 motor_action.egg-info/dependency_links.txt
 motor_action.egg-info/top_level.txt
 motor_action/action/__init__.py
+motor_action/action/_move.py
 motor_action/action/_rotate.py

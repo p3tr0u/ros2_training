@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/motor_action__rosidl_generator_type_description"
-  "rosidl_generator_type_description/motor_action/action/Rotate.json"
+  "rosidl_generator_type_description/motor_action/action/Move.json"
 )
 
 # Per-language clean rules from dependency scanning.

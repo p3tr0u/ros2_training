@@ -1,0 +1,31 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/motor_handler.dir/src/motor_handler.cpp.o[0m
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:[m[K In member function ‘[01m[Kvoid MotorHandler::[01;32m[Kexecute[m[K(std::shared_ptr<rclcpp_action::ServerGoalHandle<motor_action::action::Move> >)[m[K’:
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:54:17:[m[K [01;31m[Kerror: [m[K‘[01m[Karr[m[K’ was not declared in this scope
+   54 |                 [01;31m[Karr[m[K[i] = angle;
+      |                 [01;31m[K^~~[m[K
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:56:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   56 |             [01;31m[K}[m[K
+      |             [01;31m[K^[m[K
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:58:16:[m[K [01;31m[Kerror: [m[K‘[01m[Karr[m[K’ was not declared in this scope
+   58 |             if([01;31m[Karr[m[K == {15, 20, 10}){
+      |                [01;31m[K^~~[m[K
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:58:23:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K{[m[K’ token
+   58 |             if(arr == [01;31m[K{[m[K15, 20, 10}){
+      |                       [01;31m[K^[m[K
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:58:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K{[m[K’ token
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:58:15:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   58 |             if[01;36m[K([m[Karr == {15, 20, 10}){
+      |               [01;36m[K^[m[K
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:61:16:[m[K [01;31m[Kerror: [m[K‘[01m[Karr[m[K’ was not declared in this scope
+   61 |             if([01;31m[Karr[m[K == {-10, -20, -15}){
+      |                [01;31m[K^~~[m[K
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:61:23:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K{[m[K’ token
+   61 |             if(arr == [01;31m[K{[m[K-10, -20, -15}){
+      |                       [01;31m[K^[m[K
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:61:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K{[m[K’ token
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:61:15:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   61 |             if[01;36m[K([m[Karr == {-10, -20, -15}){
+      |               [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/motor_handler.dir/build.make:76: CMakeFiles/motor_handler.dir/src/motor_handler.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motor_handler.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

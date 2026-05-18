@@ -1,0 +1,25 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/motor_handler.dir/src/motor_handler.cpp.o[0m
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:[m[K In member function ‘[01m[Kvoid MotorHandler::[01;32m[Kexecute[m[K(std::shared_ptr<rclcpp_action::ServerGoalHandle<motor_action::action::Move> >)[m[K’:
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:50:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ki[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   50 |             int [01;35m[Ki[m[K = 0;
+      |                 [01;35m[K^[m[K
+[100%] [32m[1mLinking CXX executable motor_handler[0m
+[100%] Built target motor_handler
+-- Install configuration: ""
+-- Installing: /home/prog1/ros2_training/install/motor_handler/lib/motor_handler/motor_handler
+-- Set non-toolchain portion of runtime path of "/home/prog1/ros2_training/install/motor_handler/lib/motor_handler/motor_handler" to ""
+-- Up-to-date: /home/prog1/ros2_training/install/motor_handler/share/ament_index/resource_index/package_run_dependencies/motor_handler
+-- Up-to-date: /home/prog1/ros2_training/install/motor_handler/share/ament_index/resource_index/parent_prefix_path/motor_handler
+-- Up-to-date: /home/prog1/ros2_training/install/motor_handler/share/motor_handler/environment/ament_prefix_path.sh
+-- Up-to-date: /home/prog1/ros2_training/install/motor_handler/share/motor_handler/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/prog1/ros2_training/install/motor_handler/share/motor_handler/environment/path.sh
+-- Up-to-date: /home/prog1/ros2_training/install/motor_handler/share/motor_handler/environment/path.dsv
+-- Up-to-date: /home/prog1/ros2_training/install/motor_handler/share/motor_handler/local_setup.bash
+-- Up-to-date: /home/prog1/ros2_training/install/motor_handler/share/motor_handler/local_setup.sh
+-- Up-to-date: /home/prog1/ros2_training/install/motor_handler/share/motor_handler/local_setup.zsh
+-- Up-to-date: /home/prog1/ros2_training/install/motor_handler/share/motor_handler/local_setup.dsv
+-- Installing: /home/prog1/ros2_training/install/motor_handler/share/motor_handler/package.dsv
+-- Up-to-date: /home/prog1/ros2_training/install/motor_handler/share/ament_index/resource_index/packages/motor_handler
+-- Up-to-date: /home/prog1/ros2_training/install/motor_handler/share/motor_handler/cmake/motor_handlerConfig.cmake
+-- Up-to-date: /home/prog1/ros2_training/install/motor_handler/share/motor_handler/cmake/motor_handlerConfig-version.cmake
+-- Up-to-date: /home/prog1/ros2_training/install/motor_handler/share/motor_handler/package.xml

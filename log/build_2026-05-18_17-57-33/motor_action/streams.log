@@ -1,0 +1,17 @@
+[0.024s] Invoking command in '/home/prog1/ros2_training/build/motor_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prog1/ros2_training/install/py_talker:/home/prog1/ros2_training/install/controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/prog1/ros2_training/build/motor_action -- -j2 -l2
+[0.059s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.186s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.189s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.237s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.279s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.282s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[0.282s]   rosidl_generate_interfaces() the passed file 'action/Rotate.action' doesn't
+[0.282s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.282s]   '/home/prog1/ros2_training/src/motor_action'
+[0.282s] Call Stack (most recent call first):
+[0.282s]   CMakeLists.txt:7 (rosidl_generate_interfaces)
+[0.283s] 
+[0.283s] [0m
+[0.283s] -- Configuring incomplete, errors occurred!
+[0.289s] gmake: *** [Makefile:829: cmake_check_build_system] Error 1
+[0.298s] Invoked command in '/home/prog1/ros2_training/build/motor_action' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prog1/ros2_training/install/py_talker:/home/prog1/ros2_training/install/controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/prog1/ros2_training/build/motor_action -- -j2 -l2

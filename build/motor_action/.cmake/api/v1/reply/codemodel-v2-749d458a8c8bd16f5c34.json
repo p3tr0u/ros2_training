@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-97f9a7b7708294abd002.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "motor_action__py",
+					"jsonFile" : "directory-motor_action__py-14c08851dd1ad9f0b657.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/prog1/ros2_training/build/motor_action/motor_action__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "motor_action__rs",
+					"jsonFile" : "directory-motor_action__rs-61476fbefc31bf44084e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/prog1/ros2_training/build/motor_action/motor_action__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "motor_action",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_motor_action_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_motor_action_egg-07efd158aad2a0508237.json",
+					"name" : "ament_cmake_python_build_motor_action_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_motor_action::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_motor_action-997f3193cb78fed782f7.json",
+					"name" : "ament_cmake_python_copy_motor_action",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_action::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_action-a651de8ac1d4c0b4d5d4.json",
+					"name" : "motor_action",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_action__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_action__cpp-986df27f12f423df9f4d.json",
+					"name" : "motor_action__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "motor_action__py::@b87e1e4e6fc5af761573",
+					"jsonFile" : "target-motor_action__py-0d89810f1973eac16f8c.json",
+					"name" : "motor_action__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_action__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_action__rosidl_generator_c-61a69c2352f08f27f76d.json",
+					"name" : "motor_action__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_action__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_action__rosidl_generator_py-d986b5fc90250924abaa.json",
+					"name" : "motor_action__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_action__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_action__rosidl_generator_type_description-a3e11ac0f68b0e2ce41e.json",
+					"name" : "motor_action__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_action__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_action__rosidl_typesupport_c-4c9067305e4ae286cde0.json",
+					"name" : "motor_action__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_action__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_action__rosidl_typesupport_cpp-0d1edfcacdf2da74ad23.json",
+					"name" : "motor_action__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_action__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_action__rosidl_typesupport_fastrtps_c-a07d3804076ed912a3e8.json",
+					"name" : "motor_action__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_action__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_action__rosidl_typesupport_fastrtps_cpp-9e95d43a5ed688f0cd0b.json",
+					"name" : "motor_action__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_action__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_action__rosidl_typesupport_introspection_c-b7254e3260bb5a4b2b80.json",
+					"name" : "motor_action__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_action__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_action__rosidl_typesupport_introspection_cpp-11538bde0adcbf30caf0.json",
+					"name" : "motor_action__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "motor_action__rs::@5ec8cfb951d27d435c13",
+					"jsonFile" : "target-motor_action__rs-5fce058f22c75aa88dc1.json",
+					"name" : "motor_action__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_action_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_action_s__rosidl_typesupport_c-a2fe22547f942987e1bd.json",
+					"name" : "motor_action_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_action_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_action_s__rosidl_typesupport_fastrtps_c-d540ac703c95d6ca3ed3.json",
+					"name" : "motor_action_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_action_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_action_s__rosidl_typesupport_introspection_c-a123b30cbd159ebccda4.json",
+					"name" : "motor_action_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_action_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_action_uninstall-799589bedd98f0b00826.json",
+					"name" : "motor_action_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b71a210292260d7b56e1.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/prog1/ros2_training/build/motor_action",
+		"source" : "/home/prog1/ros2_training/src/motor_action"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

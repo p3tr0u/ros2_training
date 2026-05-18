@@ -1,0 +1,182 @@
+[0.020s] Invoking command in '/home/prog1/ros2_training/build/motor_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prog1/ros2_training/install/py_talker:/home/prog1/ros2_training/install/controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/prog1/ros2_training/build/motor_action -- -j2 -l2
+[0.128s] [  2%] Built target motor_action__rosidl_generator_type_description
+[0.149s] [  5%] Built target motor_action__rs
+[0.174s] [  5%] Built target ament_cmake_python_copy_motor_action
+[0.211s] [ 20%] Built target motor_action__rosidl_generator_c
+[0.218s] [ 22%] Built target motor_action__cpp
+[0.267s] [ 31%] Built target motor_action__rosidl_typesupport_cpp
+[0.346s] [ 40%] Built target motor_action__rosidl_typesupport_fastrtps_c
+[0.419s] [ 48%] Built target motor_action__rosidl_typesupport_introspection_c
+[0.492s] [ 57%] Built target motor_action__rosidl_typesupport_c
+[0.561s] [ 65%] Built target motor_action__rosidl_typesupport_fastrtps_cpp
+[0.613s] running egg_info
+[0.633s] [ 74%] Built target motor_action__rosidl_typesupport_introspection_cpp
+[0.676s] writing motor_action.egg-info/PKG-INFO
+[0.676s] writing dependency_links to motor_action.egg-info/dependency_links.txt
+[0.678s] writing top-level names to motor_action.egg-info/top_level.txt
+[0.701s] [ 74%] Built target motor_action
+[0.773s] [ 77%] Built target motor_action__py
+[0.830s] reading manifest file 'motor_action.egg-info/SOURCES.txt'
+[0.832s] writing manifest file 'motor_action.egg-info/SOURCES.txt'
+[0.845s] [ 82%] Built target motor_action__rosidl_generator_py
+[0.888s] [ 82%] Built target ament_cmake_python_build_motor_action_egg
+[0.907s] [ 88%] Built target motor_action_s__rosidl_typesupport_fastrtps_c
+[0.960s] [ 94%] Built target motor_action_s__rosidl_typesupport_introspection_c
+[0.965s] [100%] Built target motor_action_s__rosidl_typesupport_c
+[0.982s] Invoked command in '/home/prog1/ros2_training/build/motor_action' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prog1/ros2_training/install/py_talker:/home/prog1/ros2_training/install/controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/prog1/ros2_training/build/motor_action -- -j2 -l2
+[0.999s] Invoking command in '/home/prog1/ros2_training/build/motor_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prog1/ros2_training/install/py_talker:/home/prog1/ros2_training/install/controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/prog1/ros2_training/build/motor_action
+[1.011s] -- Install configuration: ""
+[1.012s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/ament_index/resource_index/rosidl_interfaces/motor_action
+[1.012s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/action/Move.json
+[1.012s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action
+[1.013s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/msg
+[1.013s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/msg/rosidl_generator_c__visibility_control.h
+[1.013s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action
+[1.013s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/rotate.h
+[1.013s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/move.h
+[1.014s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail
+[1.017s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/move__functions.c
+[1.017s] -- Installing: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/move__type_support.c
+[1.017s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/rotate__type_support.h
+[1.018s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/rotate__struct.h
+[1.018s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/move__type_support.h
+[1.018s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/move__struct.h
+[1.018s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/rotate__description.c
+[1.018s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/rotate__functions.h
+[1.018s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/rotate__functions.c
+[1.021s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/rotate__type_support.c
+[1.021s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/move__functions.h
+[1.022s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/move__description.c
+[1.022s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/environment/library_path.sh
+[1.022s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/environment/library_path.dsv
+[1.022s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/lib/libmotor_action__rosidl_generator_c.so
+[1.022s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action
+[1.022s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/msg
+[1.025s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.025s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action
+[1.025s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail
+[1.025s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/rotate__rosidl_typesupport_fastrtps_c.h
+[1.025s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/move__rosidl_typesupport_fastrtps_c.h
+[1.025s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/lib/libmotor_action__rosidl_typesupport_fastrtps_c.so
+[1.025s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action
+[1.025s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/msg
+[1.025s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.025s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action
+[1.026s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail
+[1.026s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/move__rosidl_typesupport_introspection_c.h
+[1.026s] -- Installing: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/move__type_support.c
+[1.026s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/rotate__rosidl_typesupport_introspection_c.h
+[1.026s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/rotate__type_support.c
+[1.026s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/lib/libmotor_action__rosidl_typesupport_introspection_c.so
+[1.026s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/lib/libmotor_action__rosidl_typesupport_c.so
+[1.026s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action
+[1.026s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/msg
+[1.026s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.026s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action
+[1.026s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/rotate.hpp
+[1.026s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/move.hpp
+[1.027s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail
+[1.027s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/move__traits.hpp
+[1.027s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/move__builder.hpp
+[1.027s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/move__type_support.hpp
+[1.027s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/rotate__builder.hpp
+[1.029s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/rotate__struct.hpp
+[1.029s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/move__struct.hpp
+[1.029s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/rotate__type_support.hpp
+[1.029s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/rotate__traits.hpp
+[1.029s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action
+[1.029s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/msg
+[1.029s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.029s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action
+[1.029s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail
+[1.030s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/rotate__rosidl_typesupport_fastrtps_cpp.hpp
+[1.030s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/move__rosidl_typesupport_fastrtps_cpp.hpp
+[1.030s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/dds_fastrtps
+[1.030s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/lib/libmotor_action__rosidl_typesupport_fastrtps_cpp.so
+[1.030s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action
+[1.030s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action
+[1.030s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail
+[1.030s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/move__rosidl_typesupport_introspection_cpp.hpp
+[1.030s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/rotate__type_support.cpp
+[1.030s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/move__type_support.cpp
+[1.030s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/rotate__rosidl_typesupport_introspection_cpp.hpp
+[1.030s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/lib/libmotor_action__rosidl_typesupport_introspection_cpp.so
+[1.030s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/lib/libmotor_action__rosidl_typesupport_cpp.so
+[1.031s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/environment/pythonpath.sh
+[1.033s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/environment/pythonpath.dsv
+[1.033s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action-0.0.0-py3.12.egg-info
+[1.033s] -- Installing: /home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.033s] -- Installing: /home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action-0.0.0-py3.12.egg-info/PKG-INFO
+[1.033s] -- Installing: /home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.033s] -- Installing: /home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action-0.0.0-py3.12.egg-info/top_level.txt
+[1.033s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action
+[1.033s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action/_motor_action_s.ep.rosidl_typesupport_introspection_c.c
+[1.033s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action/motor_action_s__rosidl_typesupport_c.so
+[1.033s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action/_motor_action_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.034s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action/__init__.py
+[1.034s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action/_motor_action_s.ep.rosidl_typesupport_c.c
+[1.034s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action/motor_action_s__rosidl_typesupport_introspection_c.so
+[1.034s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action/motor_action_s__rosidl_typesupport_fastrtps_c.so
+[1.034s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action/action
+[1.034s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action/action/_move_s.c
+[1.036s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action/action/_rotate_s.c
+[1.036s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action/action/__init__.py
+[1.036s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action/action/_move.py
+[1.036s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action/action/_rotate.py
+[1.066s] Listing '/home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action'...
+[1.066s] Listing '/home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action/action'...
+[1.072s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action/motor_action_s__rosidl_typesupport_fastrtps_c.so
+[1.072s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action/motor_action_s__rosidl_typesupport_introspection_c.so
+[1.072s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action/motor_action_s__rosidl_typesupport_c.so
+[1.073s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/lib/libmotor_action__rosidl_generator_py.so
+[1.074s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/ament_index/resource_index/rust_packages/motor_action
+[1.075s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/rust
+[1.075s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/rust/src
+[1.076s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/rust/src/lib.rs
+[1.076s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/rust/src/action.rs
+[1.076s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/rust/src/action
+[1.076s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/rust/src/action/rmw.rs
+[1.078s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/rust/Cargo.toml
+[1.078s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/rust/build.rs
+[1.078s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/action/Move.idl
+[1.079s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/action/Move.action
+[1.079s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/ament_index/resource_index/package_run_dependencies/motor_action
+[1.079s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/ament_index/resource_index/parent_prefix_path/motor_action
+[1.079s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/environment/ament_prefix_path.sh
+[1.081s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/environment/ament_prefix_path.dsv
+[1.082s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/environment/path.sh
+[1.082s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/environment/path.dsv
+[1.082s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/local_setup.bash
+[1.082s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/local_setup.sh
+[1.084s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/local_setup.zsh
+[1.084s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/local_setup.dsv
+[1.085s] -- Installing: /home/prog1/ros2_training/install/motor_action/share/motor_action/package.dsv
+[1.085s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/ament_index/resource_index/packages/motor_action
+[1.085s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/export_motor_action__rosidl_generator_cExport.cmake
+[1.085s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/export_motor_action__rosidl_generator_cExport-noconfig.cmake
+[1.085s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/export_motor_action__rosidl_typesupport_fastrtps_cExport.cmake
+[1.085s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/export_motor_action__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.085s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/motor_action__rosidl_typesupport_introspection_cExport.cmake
+[1.085s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/motor_action__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.085s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/motor_action__rosidl_typesupport_cExport.cmake
+[1.085s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/motor_action__rosidl_typesupport_cExport-noconfig.cmake
+[1.085s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/export_motor_action__rosidl_generator_cppExport.cmake
+[1.085s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/export_motor_action__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.086s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/export_motor_action__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.086s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/motor_action__rosidl_typesupport_introspection_cppExport.cmake
+[1.086s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/motor_action__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.086s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/motor_action__rosidl_typesupport_cppExport.cmake
+[1.086s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/motor_action__rosidl_typesupport_cppExport-noconfig.cmake
+[1.086s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/export_motor_action__rosidl_generator_pyExport.cmake
+[1.086s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/export_motor_action__rosidl_generator_pyExport-noconfig.cmake
+[1.086s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/rosidl_cmake-extras.cmake
+[1.086s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.086s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.086s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/ament_cmake_export_libraries-extras.cmake
+[1.087s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/ament_cmake_export_targets-extras.cmake
+[1.089s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.089s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.089s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/motor_actionConfig.cmake
+[1.089s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/motor_actionConfig-version.cmake
+[1.089s] -- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/package.xml
+[1.090s] Invoked command in '/home/prog1/ros2_training/build/motor_action' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prog1/ros2_training/install/py_talker:/home/prog1/ros2_training/install/controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/prog1/ros2_training/build/motor_action

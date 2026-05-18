@@ -5,18 +5,18 @@ use serde::{Deserialize, Serialize};
 
 #[link(name = "motor_action__rosidl_typesupport_c")]
 extern "C" {
-    fn rosidl_typesupport_c__get_message_type_support_handle__motor_action__action__Rotate_Goal() -> *const std::ffi::c_void;
+    fn rosidl_typesupport_c__get_message_type_support_handle__motor_action__action__Move_Goal() -> *const std::ffi::c_void;
 }
 
 #[link(name = "motor_action__rosidl_generator_c")]
 extern "C" {
-    fn motor_action__action__Rotate_Goal__init(msg: *mut Rotate_Goal) -> bool;
-    fn motor_action__action__Rotate_Goal__Sequence__init(seq: *mut rosidl_runtime_rs::Sequence<Rotate_Goal>, size: usize) -> bool;
-    fn motor_action__action__Rotate_Goal__Sequence__fini(seq: *mut rosidl_runtime_rs::Sequence<Rotate_Goal>);
-    fn motor_action__action__Rotate_Goal__Sequence__copy(in_seq: &rosidl_runtime_rs::Sequence<Rotate_Goal>, out_seq: *mut rosidl_runtime_rs::Sequence<Rotate_Goal>) -> bool;
+    fn motor_action__action__Move_Goal__init(msg: *mut Move_Goal) -> bool;
+    fn motor_action__action__Move_Goal__Sequence__init(seq: *mut rosidl_runtime_rs::Sequence<Move_Goal>, size: usize) -> bool;
+    fn motor_action__action__Move_Goal__Sequence__fini(seq: *mut rosidl_runtime_rs::Sequence<Move_Goal>);
+    fn motor_action__action__Move_Goal__Sequence__copy(in_seq: &rosidl_runtime_rs::Sequence<Move_Goal>, out_seq: *mut rosidl_runtime_rs::Sequence<Move_Goal>) -> bool;
 }
 
-// Corresponds to motor_action__action__Rotate_Goal
+// Corresponds to motor_action__action__Move_Goal
 #[cfg_attr(feature = "serde", derive(Deserialize, Serialize))]
 
 
@@ -26,7 +26,7 @@ extern "C" {
 #[allow(non_camel_case_types)]
 #[repr(C)]
 #[derive(Clone, Debug, PartialEq, PartialOrd)]
-pub struct Rotate_Goal {
+pub struct Move_Goal {
 
     // This member is not documented.
     #[allow(missing_docs)]
@@ -36,62 +36,62 @@ pub struct Rotate_Goal {
 
 
 
-impl Default for Rotate_Goal {
+impl Default for Move_Goal {
   fn default() -> Self {
     unsafe {
       let mut msg = std::mem::zeroed();
-      if !motor_action__action__Rotate_Goal__init(&mut msg as *mut _) {
-        panic!("Call to motor_action__action__Rotate_Goal__init() failed");
+      if !motor_action__action__Move_Goal__init(&mut msg as *mut _) {
+        panic!("Call to motor_action__action__Move_Goal__init() failed");
       }
       msg
     }
   }
 }
 
-impl rosidl_runtime_rs::SequenceAlloc for Rotate_Goal {
+impl rosidl_runtime_rs::SequenceAlloc for Move_Goal {
   fn sequence_init(seq: &mut rosidl_runtime_rs::Sequence<Self>, size: usize) -> bool {
     // SAFETY: This is safe since the pointer is guaranteed to be valid/initialized.
-    unsafe { motor_action__action__Rotate_Goal__Sequence__init(seq as *mut _, size) }
+    unsafe { motor_action__action__Move_Goal__Sequence__init(seq as *mut _, size) }
   }
   fn sequence_fini(seq: &mut rosidl_runtime_rs::Sequence<Self>) {
     // SAFETY: This is safe since the pointer is guaranteed to be valid/initialized.
-    unsafe { motor_action__action__Rotate_Goal__Sequence__fini(seq as *mut _) }
+    unsafe { motor_action__action__Move_Goal__Sequence__fini(seq as *mut _) }
   }
   fn sequence_copy(in_seq: &rosidl_runtime_rs::Sequence<Self>, out_seq: &mut rosidl_runtime_rs::Sequence<Self>) -> bool {
     // SAFETY: This is safe since the pointer is guaranteed to be valid/initialized.
-    unsafe { motor_action__action__Rotate_Goal__Sequence__copy(in_seq, out_seq as *mut _) }
+    unsafe { motor_action__action__Move_Goal__Sequence__copy(in_seq, out_seq as *mut _) }
   }
 }
 
-impl rosidl_runtime_rs::Message for Rotate_Goal {
+impl rosidl_runtime_rs::Message for Move_Goal {
   type RmwMsg = Self;
   fn into_rmw_message(msg_cow: std::borrow::Cow<'_, Self>) -> std::borrow::Cow<'_, Self::RmwMsg> { msg_cow }
   fn from_rmw_message(msg: Self::RmwMsg) -> Self { msg }
 }
 
-impl rosidl_runtime_rs::RmwMessage for Rotate_Goal where Self: Sized {
-  const TYPE_NAME: &'static str = "motor_action/action/Rotate_Goal";
+impl rosidl_runtime_rs::RmwMessage for Move_Goal where Self: Sized {
+  const TYPE_NAME: &'static str = "motor_action/action/Move_Goal";
   fn get_type_support() -> *const std::ffi::c_void {
     // SAFETY: No preconditions for this function.
-    unsafe { rosidl_typesupport_c__get_message_type_support_handle__motor_action__action__Rotate_Goal() }
+    unsafe { rosidl_typesupport_c__get_message_type_support_handle__motor_action__action__Move_Goal() }
   }
 }
 
 
 #[link(name = "motor_action__rosidl_typesupport_c")]
 extern "C" {
-    fn rosidl_typesupport_c__get_message_type_support_handle__motor_action__action__Rotate_Result() -> *const std::ffi::c_void;
+    fn rosidl_typesupport_c__get_message_type_support_handle__motor_action__action__Move_Result() -> *const std::ffi::c_void;
 }
 
 #[link(name = "motor_action__rosidl_generator_c")]
 extern "C" {
-    fn motor_action__action__Rotate_Result__init(msg: *mut Rotate_Result) -> bool;
-    fn motor_action__action__Rotate_Result__Sequence__init(seq: *mut rosidl_runtime_rs::Sequence<Rotate_Result>, size: usize) -> bool;
-    fn motor_action__action__Rotate_Result__Sequence__fini(seq: *mut rosidl_runtime_rs::Sequence<Rotate_Result>);
-    fn motor_action__action__Rotate_Result__Sequence__copy(in_seq: &rosidl_runtime_rs::Sequence<Rotate_Result>, out_seq: *mut rosidl_runtime_rs::Sequence<Rotate_Result>) -> bool;
+    fn motor_action__action__Move_Result__init(msg: *mut Move_Result) -> bool;
+    fn motor_action__action__Move_Result__Sequence__init(seq: *mut rosidl_runtime_rs::Sequence<Move_Result>, size: usize) -> bool;
+    fn motor_action__action__Move_Result__Sequence__fini(seq: *mut rosidl_runtime_rs::Sequence<Move_Result>);
+    fn motor_action__action__Move_Result__Sequence__copy(in_seq: &rosidl_runtime_rs::Sequence<Move_Result>, out_seq: *mut rosidl_runtime_rs::Sequence<Move_Result>) -> bool;
 }
 
-// Corresponds to motor_action__action__Rotate_Result
+// Corresponds to motor_action__action__Move_Result
 #[cfg_attr(feature = "serde", derive(Deserialize, Serialize))]
 
 
@@ -101,7 +101,7 @@ extern "C" {
 #[allow(non_camel_case_types)]
 #[repr(C)]
 #[derive(Clone, Debug, PartialEq, PartialOrd)]
-pub struct Rotate_Result {
+pub struct Move_Result {
 
     // This member is not documented.
     #[allow(missing_docs)]
@@ -111,62 +111,62 @@ pub struct Rotate_Result {
 
 
 
-impl Default for Rotate_Result {
+impl Default for Move_Result {
   fn default() -> Self {
     unsafe {
       let mut msg = std::mem::zeroed();
-      if !motor_action__action__Rotate_Result__init(&mut msg as *mut _) {
-        panic!("Call to motor_action__action__Rotate_Result__init() failed");
+      if !motor_action__action__Move_Result__init(&mut msg as *mut _) {
+        panic!("Call to motor_action__action__Move_Result__init() failed");
       }
       msg
     }
   }
 }
 
-impl rosidl_runtime_rs::SequenceAlloc for Rotate_Result {
+impl rosidl_runtime_rs::SequenceAlloc for Move_Result {
   fn sequence_init(seq: &mut rosidl_runtime_rs::Sequence<Self>, size: usize) -> bool {
     // SAFETY: This is safe since the pointer is guaranteed to be valid/initialized.
-    unsafe { motor_action__action__Rotate_Result__Sequence__init(seq as *mut _, size) }
+    unsafe { motor_action__action__Move_Result__Sequence__init(seq as *mut _, size) }
   }
   fn sequence_fini(seq: &mut rosidl_runtime_rs::Sequence<Self>) {
     // SAFETY: This is safe since the pointer is guaranteed to be valid/initialized.
-    unsafe { motor_action__action__Rotate_Result__Sequence__fini(seq as *mut _) }
+    unsafe { motor_action__action__Move_Result__Sequence__fini(seq as *mut _) }
   }
   fn sequence_copy(in_seq: &rosidl_runtime_rs::Sequence<Self>, out_seq: &mut rosidl_runtime_rs::Sequence<Self>) -> bool {
     // SAFETY: This is safe since the pointer is guaranteed to be valid/initialized.
-    unsafe { motor_action__action__Rotate_Result__Sequence__copy(in_seq, out_seq as *mut _) }
+    unsafe { motor_action__action__Move_Result__Sequence__copy(in_seq, out_seq as *mut _) }
   }
 }
 
-impl rosidl_runtime_rs::Message for Rotate_Result {
+impl rosidl_runtime_rs::Message for Move_Result {
   type RmwMsg = Self;
   fn into_rmw_message(msg_cow: std::borrow::Cow<'_, Self>) -> std::borrow::Cow<'_, Self::RmwMsg> { msg_cow }
   fn from_rmw_message(msg: Self::RmwMsg) -> Self { msg }
 }
 
-impl rosidl_runtime_rs::RmwMessage for Rotate_Result where Self: Sized {
-  const TYPE_NAME: &'static str = "motor_action/action/Rotate_Result";
+impl rosidl_runtime_rs::RmwMessage for Move_Result where Self: Sized {
+  const TYPE_NAME: &'static str = "motor_action/action/Move_Result";
   fn get_type_support() -> *const std::ffi::c_void {
     // SAFETY: No preconditions for this function.
-    unsafe { rosidl_typesupport_c__get_message_type_support_handle__motor_action__action__Rotate_Result() }
+    unsafe { rosidl_typesupport_c__get_message_type_support_handle__motor_action__action__Move_Result() }
   }
 }
 
 
 #[link(name = "motor_action__rosidl_typesupport_c")]
 extern "C" {
-    fn rosidl_typesupport_c__get_message_type_support_handle__motor_action__action__Rotate_Feedback() -> *const std::ffi::c_void;
+    fn rosidl_typesupport_c__get_message_type_support_handle__motor_action__action__Move_Feedback() -> *const std::ffi::c_void;
 }
 
 #[link(name = "motor_action__rosidl_generator_c")]
 extern "C" {
-    fn motor_action__action__Rotate_Feedback__init(msg: *mut Rotate_Feedback) -> bool;
-    fn motor_action__action__Rotate_Feedback__Sequence__init(seq: *mut rosidl_runtime_rs::Sequence<Rotate_Feedback>, size: usize) -> bool;
-    fn motor_action__action__Rotate_Feedback__Sequence__fini(seq: *mut rosidl_runtime_rs::Sequence<Rotate_Feedback>);
-    fn motor_action__action__Rotate_Feedback__Sequence__copy(in_seq: &rosidl_runtime_rs::Sequence<Rotate_Feedback>, out_seq: *mut rosidl_runtime_rs::Sequence<Rotate_Feedback>) -> bool;
+    fn motor_action__action__Move_Feedback__init(msg: *mut Move_Feedback) -> bool;
+    fn motor_action__action__Move_Feedback__Sequence__init(seq: *mut rosidl_runtime_rs::Sequence<Move_Feedback>, size: usize) -> bool;
+    fn motor_action__action__Move_Feedback__Sequence__fini(seq: *mut rosidl_runtime_rs::Sequence<Move_Feedback>);
+    fn motor_action__action__Move_Feedback__Sequence__copy(in_seq: &rosidl_runtime_rs::Sequence<Move_Feedback>, out_seq: *mut rosidl_runtime_rs::Sequence<Move_Feedback>) -> bool;
 }
 
-// Corresponds to motor_action__action__Rotate_Feedback
+// Corresponds to motor_action__action__Move_Feedback
 #[cfg_attr(feature = "serde", derive(Deserialize, Serialize))]
 
 
@@ -176,7 +176,7 @@ extern "C" {
 #[allow(non_camel_case_types)]
 #[repr(C)]
 #[derive(Clone, Debug, PartialEq, PartialOrd)]
-pub struct Rotate_Feedback {
+pub struct Move_Feedback {
 
     // This member is not documented.
     #[allow(missing_docs)]
@@ -186,62 +186,62 @@ pub struct Rotate_Feedback {
 
 
 
-impl Default for Rotate_Feedback {
+impl Default for Move_Feedback {
   fn default() -> Self {
     unsafe {
       let mut msg = std::mem::zeroed();
-      if !motor_action__action__Rotate_Feedback__init(&mut msg as *mut _) {
-        panic!("Call to motor_action__action__Rotate_Feedback__init() failed");
+      if !motor_action__action__Move_Feedback__init(&mut msg as *mut _) {
+        panic!("Call to motor_action__action__Move_Feedback__init() failed");
       }
       msg
     }
   }
 }
 
-impl rosidl_runtime_rs::SequenceAlloc for Rotate_Feedback {
+impl rosidl_runtime_rs::SequenceAlloc for Move_Feedback {
   fn sequence_init(seq: &mut rosidl_runtime_rs::Sequence<Self>, size: usize) -> bool {
     // SAFETY: This is safe since the pointer is guaranteed to be valid/initialized.
-    unsafe { motor_action__action__Rotate_Feedback__Sequence__init(seq as *mut _, size) }
+    unsafe { motor_action__action__Move_Feedback__Sequence__init(seq as *mut _, size) }
   }
   fn sequence_fini(seq: &mut rosidl_runtime_rs::Sequence<Self>) {
     // SAFETY: This is safe since the pointer is guaranteed to be valid/initialized.
-    unsafe { motor_action__action__Rotate_Feedback__Sequence__fini(seq as *mut _) }
+    unsafe { motor_action__action__Move_Feedback__Sequence__fini(seq as *mut _) }
   }
   fn sequence_copy(in_seq: &rosidl_runtime_rs::Sequence<Self>, out_seq: &mut rosidl_runtime_rs::Sequence<Self>) -> bool {
     // SAFETY: This is safe since the pointer is guaranteed to be valid/initialized.
-    unsafe { motor_action__action__Rotate_Feedback__Sequence__copy(in_seq, out_seq as *mut _) }
+    unsafe { motor_action__action__Move_Feedback__Sequence__copy(in_seq, out_seq as *mut _) }
   }
 }
 
-impl rosidl_runtime_rs::Message for Rotate_Feedback {
+impl rosidl_runtime_rs::Message for Move_Feedback {
   type RmwMsg = Self;
   fn into_rmw_message(msg_cow: std::borrow::Cow<'_, Self>) -> std::borrow::Cow<'_, Self::RmwMsg> { msg_cow }
   fn from_rmw_message(msg: Self::RmwMsg) -> Self { msg }
 }
 
-impl rosidl_runtime_rs::RmwMessage for Rotate_Feedback where Self: Sized {
-  const TYPE_NAME: &'static str = "motor_action/action/Rotate_Feedback";
+impl rosidl_runtime_rs::RmwMessage for Move_Feedback where Self: Sized {
+  const TYPE_NAME: &'static str = "motor_action/action/Move_Feedback";
   fn get_type_support() -> *const std::ffi::c_void {
     // SAFETY: No preconditions for this function.
-    unsafe { rosidl_typesupport_c__get_message_type_support_handle__motor_action__action__Rotate_Feedback() }
+    unsafe { rosidl_typesupport_c__get_message_type_support_handle__motor_action__action__Move_Feedback() }
   }
 }
 
 
 #[link(name = "motor_action__rosidl_typesupport_c")]
 extern "C" {
-    fn rosidl_typesupport_c__get_message_type_support_handle__motor_action__action__Rotate_FeedbackMessage() -> *const std::ffi::c_void;
+    fn rosidl_typesupport_c__get_message_type_support_handle__motor_action__action__Move_FeedbackMessage() -> *const std::ffi::c_void;
 }
 
 #[link(name = "motor_action__rosidl_generator_c")]
 extern "C" {
-    fn motor_action__action__Rotate_FeedbackMessage__init(msg: *mut Rotate_FeedbackMessage) -> bool;
-    fn motor_action__action__Rotate_FeedbackMessage__Sequence__init(seq: *mut rosidl_runtime_rs::Sequence<Rotate_FeedbackMessage>, size: usize) -> bool;
-    fn motor_action__action__Rotate_FeedbackMessage__Sequence__fini(seq: *mut rosidl_runtime_rs::Sequence<Rotate_FeedbackMessage>);
-    fn motor_action__action__Rotate_FeedbackMessage__Sequence__copy(in_seq: &rosidl_runtime_rs::Sequence<Rotate_FeedbackMessage>, out_seq: *mut rosidl_runtime_rs::Sequence<Rotate_FeedbackMessage>) -> bool;
+    fn motor_action__action__Move_FeedbackMessage__init(msg: *mut Move_FeedbackMessage) -> bool;
+    fn motor_action__action__Move_FeedbackMessage__Sequence__init(seq: *mut rosidl_runtime_rs::Sequence<Move_FeedbackMessage>, size: usize) -> bool;
+    fn motor_action__action__Move_FeedbackMessage__Sequence__fini(seq: *mut rosidl_runtime_rs::Sequence<Move_FeedbackMessage>);
+    fn motor_action__action__Move_FeedbackMessage__Sequence__copy(in_seq: &rosidl_runtime_rs::Sequence<Move_FeedbackMessage>, out_seq: *mut rosidl_runtime_rs::Sequence<Move_FeedbackMessage>) -> bool;
 }
 
-// Corresponds to motor_action__action__Rotate_FeedbackMessage
+// Corresponds to motor_action__action__Move_FeedbackMessage
 #[cfg_attr(feature = "serde", derive(Deserialize, Serialize))]
 
 
@@ -251,7 +251,7 @@ extern "C" {
 #[allow(non_camel_case_types)]
 #[repr(C)]
 #[derive(Clone, Debug, PartialEq, PartialOrd)]
-pub struct Rotate_FeedbackMessage {
+pub struct Move_FeedbackMessage {
 
     // This member is not documented.
     #[allow(missing_docs)]
@@ -260,50 +260,50 @@ pub struct Rotate_FeedbackMessage {
 
     // This member is not documented.
     #[allow(missing_docs)]
-    pub feedback: super::super::action::rmw::Rotate_Feedback,
+    pub feedback: super::super::action::rmw::Move_Feedback,
 
 }
 
 
 
-impl Default for Rotate_FeedbackMessage {
+impl Default for Move_FeedbackMessage {
   fn default() -> Self {
     unsafe {
       let mut msg = std::mem::zeroed();
-      if !motor_action__action__Rotate_FeedbackMessage__init(&mut msg as *mut _) {
-        panic!("Call to motor_action__action__Rotate_FeedbackMessage__init() failed");
+      if !motor_action__action__Move_FeedbackMessage__init(&mut msg as *mut _) {
+        panic!("Call to motor_action__action__Move_FeedbackMessage__init() failed");
       }
       msg
     }
   }
 }
 
-impl rosidl_runtime_rs::SequenceAlloc for Rotate_FeedbackMessage {
+impl rosidl_runtime_rs::SequenceAlloc for Move_FeedbackMessage {
   fn sequence_init(seq: &mut rosidl_runtime_rs::Sequence<Self>, size: usize) -> bool {
     // SAFETY: This is safe since the pointer is guaranteed to be valid/initialized.
-    unsafe { motor_action__action__Rotate_FeedbackMessage__Sequence__init(seq as *mut _, size) }
+    unsafe { motor_action__action__Move_FeedbackMessage__Sequence__init(seq as *mut _, size) }
   }
   fn sequence_fini(seq: &mut rosidl_runtime_rs::Sequence<Self>) {
     // SAFETY: This is safe since the pointer is guaranteed to be valid/initialized.
-    unsafe { motor_action__action__Rotate_FeedbackMessage__Sequence__fini(seq as *mut _) }
+    unsafe { motor_action__action__Move_FeedbackMessage__Sequence__fini(seq as *mut _) }
   }
   fn sequence_copy(in_seq: &rosidl_runtime_rs::Sequence<Self>, out_seq: &mut rosidl_runtime_rs::Sequence<Self>) -> bool {
     // SAFETY: This is safe since the pointer is guaranteed to be valid/initialized.
-    unsafe { motor_action__action__Rotate_FeedbackMessage__Sequence__copy(in_seq, out_seq as *mut _) }
+    unsafe { motor_action__action__Move_FeedbackMessage__Sequence__copy(in_seq, out_seq as *mut _) }
   }
 }
 
-impl rosidl_runtime_rs::Message for Rotate_FeedbackMessage {
+impl rosidl_runtime_rs::Message for Move_FeedbackMessage {
   type RmwMsg = Self;
   fn into_rmw_message(msg_cow: std::borrow::Cow<'_, Self>) -> std::borrow::Cow<'_, Self::RmwMsg> { msg_cow }
   fn from_rmw_message(msg: Self::RmwMsg) -> Self { msg }
 }
 
-impl rosidl_runtime_rs::RmwMessage for Rotate_FeedbackMessage where Self: Sized {
-  const TYPE_NAME: &'static str = "motor_action/action/Rotate_FeedbackMessage";
+impl rosidl_runtime_rs::RmwMessage for Move_FeedbackMessage where Self: Sized {
+  const TYPE_NAME: &'static str = "motor_action/action/Move_FeedbackMessage";
   fn get_type_support() -> *const std::ffi::c_void {
     // SAFETY: No preconditions for this function.
-    unsafe { rosidl_typesupport_c__get_message_type_support_handle__motor_action__action__Rotate_FeedbackMessage() }
+    unsafe { rosidl_typesupport_c__get_message_type_support_handle__motor_action__action__Move_FeedbackMessage() }
   }
 }
 
@@ -312,18 +312,18 @@ impl rosidl_runtime_rs::RmwMessage for Rotate_FeedbackMessage where Self: Sized 
 
 #[link(name = "motor_action__rosidl_typesupport_c")]
 extern "C" {
-    fn rosidl_typesupport_c__get_message_type_support_handle__motor_action__action__Rotate_SendGoal_Request() -> *const std::ffi::c_void;
+    fn rosidl_typesupport_c__get_message_type_support_handle__motor_action__action__Move_SendGoal_Request() -> *const std::ffi::c_void;
 }
 
 #[link(name = "motor_action__rosidl_generator_c")]
 extern "C" {
-    fn motor_action__action__Rotate_SendGoal_Request__init(msg: *mut Rotate_SendGoal_Request) -> bool;
-    fn motor_action__action__Rotate_SendGoal_Request__Sequence__init(seq: *mut rosidl_runtime_rs::Sequence<Rotate_SendGoal_Request>, size: usize) -> bool;
-    fn motor_action__action__Rotate_SendGoal_Request__Sequence__fini(seq: *mut rosidl_runtime_rs::Sequence<Rotate_SendGoal_Request>);
-    fn motor_action__action__Rotate_SendGoal_Request__Sequence__copy(in_seq: &rosidl_runtime_rs::Sequence<Rotate_SendGoal_Request>, out_seq: *mut rosidl_runtime_rs::Sequence<Rotate_SendGoal_Request>) -> bool;
+    fn motor_action__action__Move_SendGoal_Request__init(msg: *mut Move_SendGoal_Request) -> bool;
+    fn motor_action__action__Move_SendGoal_Request__Sequence__init(seq: *mut rosidl_runtime_rs::Sequence<Move_SendGoal_Request>, size: usize) -> bool;
+    fn motor_action__action__Move_SendGoal_Request__Sequence__fini(seq: *mut rosidl_runtime_rs::Sequence<Move_SendGoal_Request>);
+    fn motor_action__action__Move_SendGoal_Request__Sequence__copy(in_seq: &rosidl_runtime_rs::Sequence<Move_SendGoal_Request>, out_seq: *mut rosidl_runtime_rs::Sequence<Move_SendGoal_Request>) -> bool;
 }
 
-// Corresponds to motor_action__action__Rotate_SendGoal_Request
+// Corresponds to motor_action__action__Move_SendGoal_Request
 #[cfg_attr(feature = "serde", derive(Deserialize, Serialize))]
 
 
@@ -333,7 +333,7 @@ extern "C" {
 #[allow(non_camel_case_types)]
 #[repr(C)]
 #[derive(Clone, Debug, PartialEq, PartialOrd)]
-pub struct Rotate_SendGoal_Request {
+pub struct Move_SendGoal_Request {
 
     // This member is not documented.
     #[allow(missing_docs)]
@@ -342,68 +342,68 @@ pub struct Rotate_SendGoal_Request {
 
     // This member is not documented.
     #[allow(missing_docs)]
-    pub goal: super::super::action::rmw::Rotate_Goal,
+    pub goal: super::super::action::rmw::Move_Goal,
 
 }
 
 
 
-impl Default for Rotate_SendGoal_Request {
+impl Default for Move_SendGoal_Request {
   fn default() -> Self {
     unsafe {
       let mut msg = std::mem::zeroed();
-      if !motor_action__action__Rotate_SendGoal_Request__init(&mut msg as *mut _) {
-        panic!("Call to motor_action__action__Rotate_SendGoal_Request__init() failed");
+      if !motor_action__action__Move_SendGoal_Request__init(&mut msg as *mut _) {
+        panic!("Call to motor_action__action__Move_SendGoal_Request__init() failed");
       }
       msg
     }
   }
 }
 
-impl rosidl_runtime_rs::SequenceAlloc for Rotate_SendGoal_Request {
+impl rosidl_runtime_rs::SequenceAlloc for Move_SendGoal_Request {
   fn sequence_init(seq: &mut rosidl_runtime_rs::Sequence<Self>, size: usize) -> bool {
     // SAFETY: This is safe since the pointer is guaranteed to be valid/initialized.
-    unsafe { motor_action__action__Rotate_SendGoal_Request__Sequence__init(seq as *mut _, size) }
+    unsafe { motor_action__action__Move_SendGoal_Request__Sequence__init(seq as *mut _, size) }
   }
   fn sequence_fini(seq: &mut rosidl_runtime_rs::Sequence<Self>) {
     // SAFETY: This is safe since the pointer is guaranteed to be valid/initialized.
-    unsafe { motor_action__action__Rotate_SendGoal_Request__Sequence__fini(seq as *mut _) }
+    unsafe { motor_action__action__Move_SendGoal_Request__Sequence__fini(seq as *mut _) }
   }
   fn sequence_copy(in_seq: &rosidl_runtime_rs::Sequence<Self>, out_seq: &mut rosidl_runtime_rs::Sequence<Self>) -> bool {
     // SAFETY: This is safe since the pointer is guaranteed to be valid/initialized.
-    unsafe { motor_action__action__Rotate_SendGoal_Request__Sequence__copy(in_seq, out_seq as *mut _) }
+    unsafe { motor_action__action__Move_SendGoal_Request__Sequence__copy(in_seq, out_seq as *mut _) }
   }
 }
 
-impl rosidl_runtime_rs::Message for Rotate_SendGoal_Request {
+impl rosidl_runtime_rs::Message for Move_SendGoal_Request {
   type RmwMsg = Self;
   fn into_rmw_message(msg_cow: std::borrow::Cow<'_, Self>) -> std::borrow::Cow<'_, Self::RmwMsg> { msg_cow }
   fn from_rmw_message(msg: Self::RmwMsg) -> Self { msg }
 }
 
-impl rosidl_runtime_rs::RmwMessage for Rotate_SendGoal_Request where Self: Sized {
-  const TYPE_NAME: &'static str = "motor_action/action/Rotate_SendGoal_Request";
+impl rosidl_runtime_rs::RmwMessage for Move_SendGoal_Request where Self: Sized {
+  const TYPE_NAME: &'static str = "motor_action/action/Move_SendGoal_Request";
   fn get_type_support() -> *const std::ffi::c_void {
     // SAFETY: No preconditions for this function.
-    unsafe { rosidl_typesupport_c__get_message_type_support_handle__motor_action__action__Rotate_SendGoal_Request() }
+    unsafe { rosidl_typesupport_c__get_message_type_support_handle__motor_action__action__Move_SendGoal_Request() }
   }
 }
 
 
 #[link(name = "motor_action__rosidl_typesupport_c")]
 extern "C" {
-    fn rosidl_typesupport_c__get_message_type_support_handle__motor_action__action__Rotate_SendGoal_Response() -> *const std::ffi::c_void;
+    fn rosidl_typesupport_c__get_message_type_support_handle__motor_action__action__Move_SendGoal_Response() -> *const std::ffi::c_void;
 }
 
 #[link(name = "motor_action__rosidl_generator_c")]
 extern "C" {
-    fn motor_action__action__Rotate_SendGoal_Response__init(msg: *mut Rotate_SendGoal_Response) -> bool;
-    fn motor_action__action__Rotate_SendGoal_Response__Sequence__init(seq: *mut rosidl_runtime_rs::Sequence<Rotate_SendGoal_Response>, size: usize) -> bool;
-    fn motor_action__action__Rotate_SendGoal_Response__Sequence__fini(seq: *mut rosidl_runtime_rs::Sequence<Rotate_SendGoal_Response>);
-    fn motor_action__action__Rotate_SendGoal_Response__Sequence__copy(in_seq: &rosidl_runtime_rs::Sequence<Rotate_SendGoal_Response>, out_seq: *mut rosidl_runtime_rs::Sequence<Rotate_SendGoal_Response>) -> bool;
+    fn motor_action__action__Move_SendGoal_Response__init(msg: *mut Move_SendGoal_Response) -> bool;
+    fn motor_action__action__Move_SendGoal_Response__Sequence__init(seq: *mut rosidl_runtime_rs::Sequence<Move_SendGoal_Response>, size: usize) -> bool;
+    fn motor_action__action__Move_SendGoal_Response__Sequence__fini(seq: *mut rosidl_runtime_rs::Sequence<Move_SendGoal_Response>);
+    fn motor_action__action__Move_SendGoal_Response__Sequence__copy(in_seq: &rosidl_runtime_rs::Sequence<Move_SendGoal_Response>, out_seq: *mut rosidl_runtime_rs::Sequence<Move_SendGoal_Response>) -> bool;
 }
 
-// Corresponds to motor_action__action__Rotate_SendGoal_Response
+// Corresponds to motor_action__action__Move_SendGoal_Response
 #[cfg_attr(feature = "serde", derive(Deserialize, Serialize))]
 
 
@@ -413,7 +413,7 @@ extern "C" {
 #[allow(non_camel_case_types)]
 #[repr(C)]
 #[derive(Clone, Debug, PartialEq, PartialOrd)]
-pub struct Rotate_SendGoal_Response {
+pub struct Move_SendGoal_Response {
 
     // This member is not documented.
     #[allow(missing_docs)]
@@ -428,62 +428,62 @@ pub struct Rotate_SendGoal_Response {
 
 
 
-impl Default for Rotate_SendGoal_Response {
+impl Default for Move_SendGoal_Response {
   fn default() -> Self {
     unsafe {
       let mut msg = std::mem::zeroed();
-      if !motor_action__action__Rotate_SendGoal_Response__init(&mut msg as *mut _) {
-        panic!("Call to motor_action__action__Rotate_SendGoal_Response__init() failed");
+      if !motor_action__action__Move_SendGoal_Response__init(&mut msg as *mut _) {
+        panic!("Call to motor_action__action__Move_SendGoal_Response__init() failed");
       }
       msg
     }
   }
 }
 
-impl rosidl_runtime_rs::SequenceAlloc for Rotate_SendGoal_Response {
+impl rosidl_runtime_rs::SequenceAlloc for Move_SendGoal_Response {
   fn sequence_init(seq: &mut rosidl_runtime_rs::Sequence<Self>, size: usize) -> bool {
     // SAFETY: This is safe since the pointer is guaranteed to be valid/initialized.
-    unsafe { motor_action__action__Rotate_SendGoal_Response__Sequence__init(seq as *mut _, size) }
+    unsafe { motor_action__action__Move_SendGoal_Response__Sequence__init(seq as *mut _, size) }
   }
   fn sequence_fini(seq: &mut rosidl_runtime_rs::Sequence<Self>) {
     // SAFETY: This is safe since the pointer is guaranteed to be valid/initialized.
-    unsafe { motor_action__action__Rotate_SendGoal_Response__Sequence__fini(seq as *mut _) }
+    unsafe { motor_action__action__Move_SendGoal_Response__Sequence__fini(seq as *mut _) }
   }
   fn sequence_copy(in_seq: &rosidl_runtime_rs::Sequence<Self>, out_seq: &mut rosidl_runtime_rs::Sequence<Self>) -> bool {
     // SAFETY: This is safe since the pointer is guaranteed to be valid/initialized.
-    unsafe { motor_action__action__Rotate_SendGoal_Response__Sequence__copy(in_seq, out_seq as *mut _) }
+    unsafe { motor_action__action__Move_SendGoal_Response__Sequence__copy(in_seq, out_seq as *mut _) }
   }
 }
 
-impl rosidl_runtime_rs::Message for Rotate_SendGoal_Response {
+impl rosidl_runtime_rs::Message for Move_SendGoal_Response {
   type RmwMsg = Self;
   fn into_rmw_message(msg_cow: std::borrow::Cow<'_, Self>) -> std::borrow::Cow<'_, Self::RmwMsg> { msg_cow }
   fn from_rmw_message(msg: Self::RmwMsg) -> Self { msg }
 }
 
-impl rosidl_runtime_rs::RmwMessage for Rotate_SendGoal_Response where Self: Sized {
-  const TYPE_NAME: &'static str = "motor_action/action/Rotate_SendGoal_Response";
+impl rosidl_runtime_rs::RmwMessage for Move_SendGoal_Response where Self: Sized {
+  const TYPE_NAME: &'static str = "motor_action/action/Move_SendGoal_Response";
   fn get_type_support() -> *const std::ffi::c_void {
     // SAFETY: No preconditions for this function.
-    unsafe { rosidl_typesupport_c__get_message_type_support_handle__motor_action__action__Rotate_SendGoal_Response() }
+    unsafe { rosidl_typesupport_c__get_message_type_support_handle__motor_action__action__Move_SendGoal_Response() }
   }
 }
 
 
 #[link(name = "motor_action__rosidl_typesupport_c")]
 extern "C" {
-    fn rosidl_typesupport_c__get_message_type_support_handle__motor_action__action__Rotate_GetResult_Request() -> *const std::ffi::c_void;
+    fn rosidl_typesupport_c__get_message_type_support_handle__motor_action__action__Move_GetResult_Request() -> *const std::ffi::c_void;
 }
 
 #[link(name = "motor_action__rosidl_generator_c")]
 extern "C" {
-    fn motor_action__action__Rotate_GetResult_Request__init(msg: *mut Rotate_GetResult_Request) -> bool;
-    fn motor_action__action__Rotate_GetResult_Request__Sequence__init(seq: *mut rosidl_runtime_rs::Sequence<Rotate_GetResult_Request>, size: usize) -> bool;
-    fn motor_action__action__Rotate_GetResult_Request__Sequence__fini(seq: *mut rosidl_runtime_rs::Sequence<Rotate_GetResult_Request>);
-    fn motor_action__action__Rotate_GetResult_Request__Sequence__copy(in_seq: &rosidl_runtime_rs::Sequence<Rotate_GetResult_Request>, out_seq: *mut rosidl_runtime_rs::Sequence<Rotate_GetResult_Request>) -> bool;
+    fn motor_action__action__Move_GetResult_Request__init(msg: *mut Move_GetResult_Request) -> bool;
+    fn motor_action__action__Move_GetResult_Request__Sequence__init(seq: *mut rosidl_runtime_rs::Sequence<Move_GetResult_Request>, size: usize) -> bool;
+    fn motor_action__action__Move_GetResult_Request__Sequence__fini(seq: *mut rosidl_runtime_rs::Sequence<Move_GetResult_Request>);
+    fn motor_action__action__Move_GetResult_Request__Sequence__copy(in_seq: &rosidl_runtime_rs::Sequence<Move_GetResult_Request>, out_seq: *mut rosidl_runtime_rs::Sequence<Move_GetResult_Request>) -> bool;
 }
 
-// Corresponds to motor_action__action__Rotate_GetResult_Request
+// Corresponds to motor_action__action__Move_GetResult_Request
 #[cfg_attr(feature = "serde", derive(Deserialize, Serialize))]
 
 
@@ -493,7 +493,7 @@ extern "C" {
 #[allow(non_camel_case_types)]
 #[repr(C)]
 #[derive(Clone, Debug, PartialEq, PartialOrd)]
-pub struct Rotate_GetResult_Request {
+pub struct Move_GetResult_Request {
 
     // This member is not documented.
     #[allow(missing_docs)]
@@ -503,62 +503,62 @@ pub struct Rotate_GetResult_Request {
 
 
 
-impl Default for Rotate_GetResult_Request {
+impl Default for Move_GetResult_Request {
   fn default() -> Self {
     unsafe {
       let mut msg = std::mem::zeroed();
-      if !motor_action__action__Rotate_GetResult_Request__init(&mut msg as *mut _) {
-        panic!("Call to motor_action__action__Rotate_GetResult_Request__init() failed");
+      if !motor_action__action__Move_GetResult_Request__init(&mut msg as *mut _) {
+        panic!("Call to motor_action__action__Move_GetResult_Request__init() failed");
       }
       msg
     }
   }
 }
 
-impl rosidl_runtime_rs::SequenceAlloc for Rotate_GetResult_Request {
+impl rosidl_runtime_rs::SequenceAlloc for Move_GetResult_Request {
   fn sequence_init(seq: &mut rosidl_runtime_rs::Sequence<Self>, size: usize) -> bool {
     // SAFETY: This is safe since the pointer is guaranteed to be valid/initialized.
-    unsafe { motor_action__action__Rotate_GetResult_Request__Sequence__init(seq as *mut _, size) }
+    unsafe { motor_action__action__Move_GetResult_Request__Sequence__init(seq as *mut _, size) }
   }
   fn sequence_fini(seq: &mut rosidl_runtime_rs::Sequence<Self>) {
     // SAFETY: This is safe since the pointer is guaranteed to be valid/initialized.
-    unsafe { motor_action__action__Rotate_GetResult_Request__Sequence__fini(seq as *mut _) }
+    unsafe { motor_action__action__Move_GetResult_Request__Sequence__fini(seq as *mut _) }
   }
   fn sequence_copy(in_seq: &rosidl_runtime_rs::Sequence<Self>, out_seq: &mut rosidl_runtime_rs::Sequence<Self>) -> bool {
     // SAFETY: This is safe since the pointer is guaranteed to be valid/initialized.
-    unsafe { motor_action__action__Rotate_GetResult_Request__Sequence__copy(in_seq, out_seq as *mut _) }
+    unsafe { motor_action__action__Move_GetResult_Request__Sequence__copy(in_seq, out_seq as *mut _) }
   }
 }
 
-impl rosidl_runtime_rs::Message for Rotate_GetResult_Request {
+impl rosidl_runtime_rs::Message for Move_GetResult_Request {
   type RmwMsg = Self;
   fn into_rmw_message(msg_cow: std::borrow::Cow<'_, Self>) -> std::borrow::Cow<'_, Self::RmwMsg> { msg_cow }
   fn from_rmw_message(msg: Self::RmwMsg) -> Self { msg }
 }
 
-impl rosidl_runtime_rs::RmwMessage for Rotate_GetResult_Request where Self: Sized {
-  const TYPE_NAME: &'static str = "motor_action/action/Rotate_GetResult_Request";
+impl rosidl_runtime_rs::RmwMessage for Move_GetResult_Request where Self: Sized {
+  const TYPE_NAME: &'static str = "motor_action/action/Move_GetResult_Request";
   fn get_type_support() -> *const std::ffi::c_void {
     // SAFETY: No preconditions for this function.
-    unsafe { rosidl_typesupport_c__get_message_type_support_handle__motor_action__action__Rotate_GetResult_Request() }
+    unsafe { rosidl_typesupport_c__get_message_type_support_handle__motor_action__action__Move_GetResult_Request() }
   }
 }
 
 
 #[link(name = "motor_action__rosidl_typesupport_c")]
 extern "C" {
-    fn rosidl_typesupport_c__get_message_type_support_handle__motor_action__action__Rotate_GetResult_Response() -> *const std::ffi::c_void;
+    fn rosidl_typesupport_c__get_message_type_support_handle__motor_action__action__Move_GetResult_Response() -> *const std::ffi::c_void;
 }
 
 #[link(name = "motor_action__rosidl_generator_c")]
 extern "C" {
-    fn motor_action__action__Rotate_GetResult_Response__init(msg: *mut Rotate_GetResult_Response) -> bool;
-    fn motor_action__action__Rotate_GetResult_Response__Sequence__init(seq: *mut rosidl_runtime_rs::Sequence<Rotate_GetResult_Response>, size: usize) -> bool;
-    fn motor_action__action__Rotate_GetResult_Response__Sequence__fini(seq: *mut rosidl_runtime_rs::Sequence<Rotate_GetResult_Response>);
-    fn motor_action__action__Rotate_GetResult_Response__Sequence__copy(in_seq: &rosidl_runtime_rs::Sequence<Rotate_GetResult_Response>, out_seq: *mut rosidl_runtime_rs::Sequence<Rotate_GetResult_Response>) -> bool;
+    fn motor_action__action__Move_GetResult_Response__init(msg: *mut Move_GetResult_Response) -> bool;
+    fn motor_action__action__Move_GetResult_Response__Sequence__init(seq: *mut rosidl_runtime_rs::Sequence<Move_GetResult_Response>, size: usize) -> bool;
+    fn motor_action__action__Move_GetResult_Response__Sequence__fini(seq: *mut rosidl_runtime_rs::Sequence<Move_GetResult_Response>);
+    fn motor_action__action__Move_GetResult_Response__Sequence__copy(in_seq: &rosidl_runtime_rs::Sequence<Move_GetResult_Response>, out_seq: *mut rosidl_runtime_rs::Sequence<Move_GetResult_Response>) -> bool;
 }
 
-// Corresponds to motor_action__action__Rotate_GetResult_Response
+// Corresponds to motor_action__action__Move_GetResult_Response
 #[cfg_attr(feature = "serde", derive(Deserialize, Serialize))]
 
 
@@ -568,7 +568,7 @@ extern "C" {
 #[allow(non_camel_case_types)]
 #[repr(C)]
 #[derive(Clone, Debug, PartialEq, PartialOrd)]
-pub struct Rotate_GetResult_Response {
+pub struct Move_GetResult_Response {
 
     // This member is not documented.
     #[allow(missing_docs)]
@@ -577,50 +577,50 @@ pub struct Rotate_GetResult_Response {
 
     // This member is not documented.
     #[allow(missing_docs)]
-    pub result: super::super::action::rmw::Rotate_Result,
+    pub result: super::super::action::rmw::Move_Result,
 
 }
 
 
 
-impl Default for Rotate_GetResult_Response {
+impl Default for Move_GetResult_Response {
   fn default() -> Self {
     unsafe {
       let mut msg = std::mem::zeroed();
-      if !motor_action__action__Rotate_GetResult_Response__init(&mut msg as *mut _) {
-        panic!("Call to motor_action__action__Rotate_GetResult_Response__init() failed");
+      if !motor_action__action__Move_GetResult_Response__init(&mut msg as *mut _) {
+        panic!("Call to motor_action__action__Move_GetResult_Response__init() failed");
       }
       msg
     }
   }
 }
 
-impl rosidl_runtime_rs::SequenceAlloc for Rotate_GetResult_Response {
+impl rosidl_runtime_rs::SequenceAlloc for Move_GetResult_Response {
   fn sequence_init(seq: &mut rosidl_runtime_rs::Sequence<Self>, size: usize) -> bool {
     // SAFETY: This is safe since the pointer is guaranteed to be valid/initialized.
-    unsafe { motor_action__action__Rotate_GetResult_Response__Sequence__init(seq as *mut _, size) }
+    unsafe { motor_action__action__Move_GetResult_Response__Sequence__init(seq as *mut _, size) }
   }
   fn sequence_fini(seq: &mut rosidl_runtime_rs::Sequence<Self>) {
     // SAFETY: This is safe since the pointer is guaranteed to be valid/initialized.
-    unsafe { motor_action__action__Rotate_GetResult_Response__Sequence__fini(seq as *mut _) }
+    unsafe { motor_action__action__Move_GetResult_Response__Sequence__fini(seq as *mut _) }
   }
   fn sequence_copy(in_seq: &rosidl_runtime_rs::Sequence<Self>, out_seq: &mut rosidl_runtime_rs::Sequence<Self>) -> bool {
     // SAFETY: This is safe since the pointer is guaranteed to be valid/initialized.
-    unsafe { motor_action__action__Rotate_GetResult_Response__Sequence__copy(in_seq, out_seq as *mut _) }
+    unsafe { motor_action__action__Move_GetResult_Response__Sequence__copy(in_seq, out_seq as *mut _) }
   }
 }
 
-impl rosidl_runtime_rs::Message for Rotate_GetResult_Response {
+impl rosidl_runtime_rs::Message for Move_GetResult_Response {
   type RmwMsg = Self;
   fn into_rmw_message(msg_cow: std::borrow::Cow<'_, Self>) -> std::borrow::Cow<'_, Self::RmwMsg> { msg_cow }
   fn from_rmw_message(msg: Self::RmwMsg) -> Self { msg }
 }
 
-impl rosidl_runtime_rs::RmwMessage for Rotate_GetResult_Response where Self: Sized {
-  const TYPE_NAME: &'static str = "motor_action/action/Rotate_GetResult_Response";
+impl rosidl_runtime_rs::RmwMessage for Move_GetResult_Response where Self: Sized {
+  const TYPE_NAME: &'static str = "motor_action/action/Move_GetResult_Response";
   fn get_type_support() -> *const std::ffi::c_void {
     // SAFETY: No preconditions for this function.
-    unsafe { rosidl_typesupport_c__get_message_type_support_handle__motor_action__action__Rotate_GetResult_Response() }
+    unsafe { rosidl_typesupport_c__get_message_type_support_handle__motor_action__action__Move_GetResult_Response() }
   }
 }
 
@@ -631,20 +631,20 @@ impl rosidl_runtime_rs::RmwMessage for Rotate_GetResult_Response where Self: Siz
 
 #[link(name = "motor_action__rosidl_typesupport_c")]
 extern "C" {
-    fn rosidl_typesupport_c__get_service_type_support_handle__motor_action__action__Rotate_SendGoal() -> *const std::ffi::c_void;
+    fn rosidl_typesupport_c__get_service_type_support_handle__motor_action__action__Move_SendGoal() -> *const std::ffi::c_void;
 }
 
-// Corresponds to motor_action__action__Rotate_SendGoal
+// Corresponds to motor_action__action__Move_SendGoal
 #[allow(missing_docs, non_camel_case_types)]
-pub struct Rotate_SendGoal;
+pub struct Move_SendGoal;
 
-impl rosidl_runtime_rs::Service for Rotate_SendGoal {
-    type Request = Rotate_SendGoal_Request;
-    type Response = Rotate_SendGoal_Response;
+impl rosidl_runtime_rs::Service for Move_SendGoal {
+    type Request = Move_SendGoal_Request;
+    type Response = Move_SendGoal_Response;
 
     fn get_type_support() -> *const std::ffi::c_void {
         // SAFETY: No preconditions for this function.
-        unsafe { rosidl_typesupport_c__get_service_type_support_handle__motor_action__action__Rotate_SendGoal() }
+        unsafe { rosidl_typesupport_c__get_service_type_support_handle__motor_action__action__Move_SendGoal() }
     }
 }
 
@@ -653,20 +653,20 @@ impl rosidl_runtime_rs::Service for Rotate_SendGoal {
 
 #[link(name = "motor_action__rosidl_typesupport_c")]
 extern "C" {
-    fn rosidl_typesupport_c__get_service_type_support_handle__motor_action__action__Rotate_GetResult() -> *const std::ffi::c_void;
+    fn rosidl_typesupport_c__get_service_type_support_handle__motor_action__action__Move_GetResult() -> *const std::ffi::c_void;
 }
 
-// Corresponds to motor_action__action__Rotate_GetResult
+// Corresponds to motor_action__action__Move_GetResult
 #[allow(missing_docs, non_camel_case_types)]
-pub struct Rotate_GetResult;
+pub struct Move_GetResult;
 
-impl rosidl_runtime_rs::Service for Rotate_GetResult {
-    type Request = Rotate_GetResult_Request;
-    type Response = Rotate_GetResult_Response;
+impl rosidl_runtime_rs::Service for Move_GetResult {
+    type Request = Move_GetResult_Request;
+    type Response = Move_GetResult_Response;
 
     fn get_type_support() -> *const std::ffi::c_void {
         // SAFETY: No preconditions for this function.
-        unsafe { rosidl_typesupport_c__get_service_type_support_handle__motor_action__action__Rotate_GetResult() }
+        unsafe { rosidl_typesupport_c__get_service_type_support_handle__motor_action__action__Move_GetResult() }
     }
 }
 

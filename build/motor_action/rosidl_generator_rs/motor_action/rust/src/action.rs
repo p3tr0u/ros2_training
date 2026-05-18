@@ -4,7 +4,7 @@ use serde::{Deserialize, Serialize};
 
 
 
-// Corresponds to motor_action__action__Rotate_Goal
+// Corresponds to motor_action__action__Move_Goal
 
 // This struct is not documented.
 #[allow(missing_docs)]
@@ -12,7 +12,7 @@ use serde::{Deserialize, Serialize};
 #[allow(non_camel_case_types)]
 #[cfg_attr(feature = "serde", derive(Deserialize, Serialize))]
 #[derive(Clone, Debug, PartialEq, PartialOrd)]
-pub struct Rotate_Goal {
+pub struct Move_Goal {
 
     // This member is not documented.
     #[allow(missing_docs)]
@@ -22,14 +22,14 @@ pub struct Rotate_Goal {
 
 
 
-impl Default for Rotate_Goal {
+impl Default for Move_Goal {
   fn default() -> Self {
-    <Self as rosidl_runtime_rs::Message>::from_rmw_message(super::action::rmw::Rotate_Goal::default())
+    <Self as rosidl_runtime_rs::Message>::from_rmw_message(super::action::rmw::Move_Goal::default())
   }
 }
 
-impl rosidl_runtime_rs::Message for Rotate_Goal {
-  type RmwMsg = super::action::rmw::Rotate_Goal;
+impl rosidl_runtime_rs::Message for Move_Goal {
+  type RmwMsg = super::action::rmw::Move_Goal;
 
   fn into_rmw_message(msg_cow: std::borrow::Cow<'_, Self>) -> std::borrow::Cow<'_, Self::RmwMsg> {
     match msg_cow {
@@ -52,7 +52,7 @@ impl rosidl_runtime_rs::Message for Rotate_Goal {
 }
 
 
-// Corresponds to motor_action__action__Rotate_Result
+// Corresponds to motor_action__action__Move_Result
 
 // This struct is not documented.
 #[allow(missing_docs)]
@@ -60,7 +60,7 @@ impl rosidl_runtime_rs::Message for Rotate_Goal {
 #[allow(non_camel_case_types)]
 #[cfg_attr(feature = "serde", derive(Deserialize, Serialize))]
 #[derive(Clone, Debug, PartialEq, PartialOrd)]
-pub struct Rotate_Result {
+pub struct Move_Result {
 
     // This member is not documented.
     #[allow(missing_docs)]
@@ -70,14 +70,14 @@ pub struct Rotate_Result {
 
 
 
-impl Default for Rotate_Result {
+impl Default for Move_Result {
   fn default() -> Self {
-    <Self as rosidl_runtime_rs::Message>::from_rmw_message(super::action::rmw::Rotate_Result::default())
+    <Self as rosidl_runtime_rs::Message>::from_rmw_message(super::action::rmw::Move_Result::default())
   }
 }
 
-impl rosidl_runtime_rs::Message for Rotate_Result {
-  type RmwMsg = super::action::rmw::Rotate_Result;
+impl rosidl_runtime_rs::Message for Move_Result {
+  type RmwMsg = super::action::rmw::Move_Result;
 
   fn into_rmw_message(msg_cow: std::borrow::Cow<'_, Self>) -> std::borrow::Cow<'_, Self::RmwMsg> {
     match msg_cow {
@@ -98,7 +98,7 @@ impl rosidl_runtime_rs::Message for Rotate_Result {
 }
 
 
-// Corresponds to motor_action__action__Rotate_Feedback
+// Corresponds to motor_action__action__Move_Feedback
 
 // This struct is not documented.
 #[allow(missing_docs)]
@@ -106,7 +106,7 @@ impl rosidl_runtime_rs::Message for Rotate_Result {
 #[allow(non_camel_case_types)]
 #[cfg_attr(feature = "serde", derive(Deserialize, Serialize))]
 #[derive(Clone, Debug, PartialEq, PartialOrd)]
-pub struct Rotate_Feedback {
+pub struct Move_Feedback {
 
     // This member is not documented.
     #[allow(missing_docs)]
@@ -116,14 +116,14 @@ pub struct Rotate_Feedback {
 
 
 
-impl Default for Rotate_Feedback {
+impl Default for Move_Feedback {
   fn default() -> Self {
-    <Self as rosidl_runtime_rs::Message>::from_rmw_message(super::action::rmw::Rotate_Feedback::default())
+    <Self as rosidl_runtime_rs::Message>::from_rmw_message(super::action::rmw::Move_Feedback::default())
   }
 }
 
-impl rosidl_runtime_rs::Message for Rotate_Feedback {
-  type RmwMsg = super::action::rmw::Rotate_Feedback;
+impl rosidl_runtime_rs::Message for Move_Feedback {
+  type RmwMsg = super::action::rmw::Move_Feedback;
 
   fn into_rmw_message(msg_cow: std::borrow::Cow<'_, Self>) -> std::borrow::Cow<'_, Self::RmwMsg> {
     match msg_cow {
@@ -144,7 +144,7 @@ impl rosidl_runtime_rs::Message for Rotate_Feedback {
 }
 
 
-// Corresponds to motor_action__action__Rotate_FeedbackMessage
+// Corresponds to motor_action__action__Move_FeedbackMessage
 
 // This struct is not documented.
 #[allow(missing_docs)]
@@ -152,7 +152,7 @@ impl rosidl_runtime_rs::Message for Rotate_Feedback {
 #[allow(non_camel_case_types)]
 #[cfg_attr(feature = "serde", derive(Deserialize, Serialize))]
 #[derive(Clone, Debug, PartialEq, PartialOrd)]
-pub struct Rotate_FeedbackMessage {
+pub struct Move_FeedbackMessage {
 
     // This member is not documented.
     #[allow(missing_docs)]
@@ -161,30 +161,30 @@ pub struct Rotate_FeedbackMessage {
 
     // This member is not documented.
     #[allow(missing_docs)]
-    pub feedback: super::action::Rotate_Feedback,
+    pub feedback: super::action::Move_Feedback,
 
 }
 
 
 
-impl Default for Rotate_FeedbackMessage {
+impl Default for Move_FeedbackMessage {
   fn default() -> Self {
-    <Self as rosidl_runtime_rs::Message>::from_rmw_message(super::action::rmw::Rotate_FeedbackMessage::default())
+    <Self as rosidl_runtime_rs::Message>::from_rmw_message(super::action::rmw::Move_FeedbackMessage::default())
   }
 }
 
-impl rosidl_runtime_rs::Message for Rotate_FeedbackMessage {
-  type RmwMsg = super::action::rmw::Rotate_FeedbackMessage;
+impl rosidl_runtime_rs::Message for Move_FeedbackMessage {
+  type RmwMsg = super::action::rmw::Move_FeedbackMessage;
 
   fn into_rmw_message(msg_cow: std::borrow::Cow<'_, Self>) -> std::borrow::Cow<'_, Self::RmwMsg> {
     match msg_cow {
       std::borrow::Cow::Owned(msg) => std::borrow::Cow::Owned(Self::RmwMsg {
         goal_id: unique_identifier_msgs::msg::UUID::into_rmw_message(std::borrow::Cow::Owned(msg.goal_id)).into_owned(),
-        feedback: super::action::Rotate_Feedback::into_rmw_message(std::borrow::Cow::Owned(msg.feedback)).into_owned(),
+        feedback: super::action::Move_Feedback::into_rmw_message(std::borrow::Cow::Owned(msg.feedback)).into_owned(),
       }),
       std::borrow::Cow::Borrowed(msg) => std::borrow::Cow::Owned(Self::RmwMsg {
         goal_id: unique_identifier_msgs::msg::UUID::into_rmw_message(std::borrow::Cow::Borrowed(&msg.goal_id)).into_owned(),
-        feedback: super::action::Rotate_Feedback::into_rmw_message(std::borrow::Cow::Borrowed(&msg.feedback)).into_owned(),
+        feedback: super::action::Move_Feedback::into_rmw_message(std::borrow::Cow::Borrowed(&msg.feedback)).into_owned(),
       })
     }
   }
@@ -192,7 +192,7 @@ impl rosidl_runtime_rs::Message for Rotate_FeedbackMessage {
   fn from_rmw_message(msg: Self::RmwMsg) -> Self {
     Self {
       goal_id: unique_identifier_msgs::msg::UUID::from_rmw_message(msg.goal_id),
-      feedback: super::action::Rotate_Feedback::from_rmw_message(msg.feedback),
+      feedback: super::action::Move_Feedback::from_rmw_message(msg.feedback),
     }
   }
 }
@@ -202,7 +202,7 @@ impl rosidl_runtime_rs::Message for Rotate_FeedbackMessage {
 
 
 
-// Corresponds to motor_action__action__Rotate_SendGoal_Request
+// Corresponds to motor_action__action__Move_SendGoal_Request
 
 // This struct is not documented.
 #[allow(missing_docs)]
@@ -210,7 +210,7 @@ impl rosidl_runtime_rs::Message for Rotate_FeedbackMessage {
 #[allow(non_camel_case_types)]
 #[cfg_attr(feature = "serde", derive(Deserialize, Serialize))]
 #[derive(Clone, Debug, PartialEq, PartialOrd)]
-pub struct Rotate_SendGoal_Request {
+pub struct Move_SendGoal_Request {
 
     // This member is not documented.
     #[allow(missing_docs)]
@@ -219,30 +219,30 @@ pub struct Rotate_SendGoal_Request {
 
     // This member is not documented.
     #[allow(missing_docs)]
-    pub goal: super::action::Rotate_Goal,
+    pub goal: super::action::Move_Goal,
 
 }
 
 
 
-impl Default for Rotate_SendGoal_Request {
+impl Default for Move_SendGoal_Request {
   fn default() -> Self {
-    <Self as rosidl_runtime_rs::Message>::from_rmw_message(super::action::rmw::Rotate_SendGoal_Request::default())
+    <Self as rosidl_runtime_rs::Message>::from_rmw_message(super::action::rmw::Move_SendGoal_Request::default())
   }
 }
 
-impl rosidl_runtime_rs::Message for Rotate_SendGoal_Request {
-  type RmwMsg = super::action::rmw::Rotate_SendGoal_Request;
+impl rosidl_runtime_rs::Message for Move_SendGoal_Request {
+  type RmwMsg = super::action::rmw::Move_SendGoal_Request;
 
   fn into_rmw_message(msg_cow: std::borrow::Cow<'_, Self>) -> std::borrow::Cow<'_, Self::RmwMsg> {
     match msg_cow {
       std::borrow::Cow::Owned(msg) => std::borrow::Cow::Owned(Self::RmwMsg {
         goal_id: unique_identifier_msgs::msg::UUID::into_rmw_message(std::borrow::Cow::Owned(msg.goal_id)).into_owned(),
-        goal: super::action::Rotate_Goal::into_rmw_message(std::borrow::Cow::Owned(msg.goal)).into_owned(),
+        goal: super::action::Move_Goal::into_rmw_message(std::borrow::Cow::Owned(msg.goal)).into_owned(),
       }),
       std::borrow::Cow::Borrowed(msg) => std::borrow::Cow::Owned(Self::RmwMsg {
         goal_id: unique_identifier_msgs::msg::UUID::into_rmw_message(std::borrow::Cow::Borrowed(&msg.goal_id)).into_owned(),
-        goal: super::action::Rotate_Goal::into_rmw_message(std::borrow::Cow::Borrowed(&msg.goal)).into_owned(),
+        goal: super::action::Move_Goal::into_rmw_message(std::borrow::Cow::Borrowed(&msg.goal)).into_owned(),
       })
     }
   }
@@ -250,13 +250,13 @@ impl rosidl_runtime_rs::Message for Rotate_SendGoal_Request {
   fn from_rmw_message(msg: Self::RmwMsg) -> Self {
     Self {
       goal_id: unique_identifier_msgs::msg::UUID::from_rmw_message(msg.goal_id),
-      goal: super::action::Rotate_Goal::from_rmw_message(msg.goal),
+      goal: super::action::Move_Goal::from_rmw_message(msg.goal),
     }
   }
 }
 
 
-// Corresponds to motor_action__action__Rotate_SendGoal_Response
+// Corresponds to motor_action__action__Move_SendGoal_Response
 
 // This struct is not documented.
 #[allow(missing_docs)]
@@ -264,7 +264,7 @@ impl rosidl_runtime_rs::Message for Rotate_SendGoal_Request {
 #[allow(non_camel_case_types)]
 #[cfg_attr(feature = "serde", derive(Deserialize, Serialize))]
 #[derive(Clone, Debug, PartialEq, PartialOrd)]
-pub struct Rotate_SendGoal_Response {
+pub struct Move_SendGoal_Response {
 
     // This member is not documented.
     #[allow(missing_docs)]
@@ -279,14 +279,14 @@ pub struct Rotate_SendGoal_Response {
 
 
 
-impl Default for Rotate_SendGoal_Response {
+impl Default for Move_SendGoal_Response {
   fn default() -> Self {
-    <Self as rosidl_runtime_rs::Message>::from_rmw_message(super::action::rmw::Rotate_SendGoal_Response::default())
+    <Self as rosidl_runtime_rs::Message>::from_rmw_message(super::action::rmw::Move_SendGoal_Response::default())
   }
 }
 
-impl rosidl_runtime_rs::Message for Rotate_SendGoal_Response {
-  type RmwMsg = super::action::rmw::Rotate_SendGoal_Response;
+impl rosidl_runtime_rs::Message for Move_SendGoal_Response {
+  type RmwMsg = super::action::rmw::Move_SendGoal_Response;
 
   fn into_rmw_message(msg_cow: std::borrow::Cow<'_, Self>) -> std::borrow::Cow<'_, Self::RmwMsg> {
     match msg_cow {
@@ -310,7 +310,7 @@ impl rosidl_runtime_rs::Message for Rotate_SendGoal_Response {
 }
 
 
-// Corresponds to motor_action__action__Rotate_GetResult_Request
+// Corresponds to motor_action__action__Move_GetResult_Request
 
 // This struct is not documented.
 #[allow(missing_docs)]
@@ -318,7 +318,7 @@ impl rosidl_runtime_rs::Message for Rotate_SendGoal_Response {
 #[allow(non_camel_case_types)]
 #[cfg_attr(feature = "serde", derive(Deserialize, Serialize))]
 #[derive(Clone, Debug, PartialEq, PartialOrd)]
-pub struct Rotate_GetResult_Request {
+pub struct Move_GetResult_Request {
 
     // This member is not documented.
     #[allow(missing_docs)]
@@ -328,14 +328,14 @@ pub struct Rotate_GetResult_Request {
 
 
 
-impl Default for Rotate_GetResult_Request {
+impl Default for Move_GetResult_Request {
   fn default() -> Self {
-    <Self as rosidl_runtime_rs::Message>::from_rmw_message(super::action::rmw::Rotate_GetResult_Request::default())
+    <Self as rosidl_runtime_rs::Message>::from_rmw_message(super::action::rmw::Move_GetResult_Request::default())
   }
 }
 
-impl rosidl_runtime_rs::Message for Rotate_GetResult_Request {
-  type RmwMsg = super::action::rmw::Rotate_GetResult_Request;
+impl rosidl_runtime_rs::Message for Move_GetResult_Request {
+  type RmwMsg = super::action::rmw::Move_GetResult_Request;
 
   fn into_rmw_message(msg_cow: std::borrow::Cow<'_, Self>) -> std::borrow::Cow<'_, Self::RmwMsg> {
     match msg_cow {
@@ -356,7 +356,7 @@ impl rosidl_runtime_rs::Message for Rotate_GetResult_Request {
 }
 
 
-// Corresponds to motor_action__action__Rotate_GetResult_Response
+// Corresponds to motor_action__action__Move_GetResult_Response
 
 // This struct is not documented.
 #[allow(missing_docs)]
@@ -364,7 +364,7 @@ impl rosidl_runtime_rs::Message for Rotate_GetResult_Request {
 #[allow(non_camel_case_types)]
 #[cfg_attr(feature = "serde", derive(Deserialize, Serialize))]
 #[derive(Clone, Debug, PartialEq, PartialOrd)]
-pub struct Rotate_GetResult_Response {
+pub struct Move_GetResult_Response {
 
     // This member is not documented.
     #[allow(missing_docs)]
@@ -373,30 +373,30 @@ pub struct Rotate_GetResult_Response {
 
     // This member is not documented.
     #[allow(missing_docs)]
-    pub result: super::action::Rotate_Result,
+    pub result: super::action::Move_Result,
 
 }
 
 
 
-impl Default for Rotate_GetResult_Response {
+impl Default for Move_GetResult_Response {
   fn default() -> Self {
-    <Self as rosidl_runtime_rs::Message>::from_rmw_message(super::action::rmw::Rotate_GetResult_Response::default())
+    <Self as rosidl_runtime_rs::Message>::from_rmw_message(super::action::rmw::Move_GetResult_Response::default())
   }
 }
 
-impl rosidl_runtime_rs::Message for Rotate_GetResult_Response {
-  type RmwMsg = super::action::rmw::Rotate_GetResult_Response;
+impl rosidl_runtime_rs::Message for Move_GetResult_Response {
+  type RmwMsg = super::action::rmw::Move_GetResult_Response;
 
   fn into_rmw_message(msg_cow: std::borrow::Cow<'_, Self>) -> std::borrow::Cow<'_, Self::RmwMsg> {
     match msg_cow {
       std::borrow::Cow::Owned(msg) => std::borrow::Cow::Owned(Self::RmwMsg {
         status: msg.status,
-        result: super::action::Rotate_Result::into_rmw_message(std::borrow::Cow::Owned(msg.result)).into_owned(),
+        result: super::action::Move_Result::into_rmw_message(std::borrow::Cow::Owned(msg.result)).into_owned(),
       }),
       std::borrow::Cow::Borrowed(msg) => std::borrow::Cow::Owned(Self::RmwMsg {
       status: msg.status,
-        result: super::action::Rotate_Result::into_rmw_message(std::borrow::Cow::Borrowed(&msg.result)).into_owned(),
+        result: super::action::Move_Result::into_rmw_message(std::borrow::Cow::Borrowed(&msg.result)).into_owned(),
       })
     }
   }
@@ -404,7 +404,7 @@ impl rosidl_runtime_rs::Message for Rotate_GetResult_Response {
   fn from_rmw_message(msg: Self::RmwMsg) -> Self {
     Self {
       status: msg.status,
-      result: super::action::Rotate_Result::from_rmw_message(msg.result),
+      result: super::action::Move_Result::from_rmw_message(msg.result),
     }
   }
 }
@@ -416,20 +416,20 @@ impl rosidl_runtime_rs::Message for Rotate_GetResult_Response {
 
 #[link(name = "motor_action__rosidl_typesupport_c")]
 extern "C" {
-    fn rosidl_typesupport_c__get_service_type_support_handle__motor_action__action__Rotate_SendGoal() -> *const std::ffi::c_void;
+    fn rosidl_typesupport_c__get_service_type_support_handle__motor_action__action__Move_SendGoal() -> *const std::ffi::c_void;
 }
 
-// Corresponds to motor_action__action__Rotate_SendGoal
+// Corresponds to motor_action__action__Move_SendGoal
 #[allow(missing_docs, non_camel_case_types)]
-pub struct Rotate_SendGoal;
+pub struct Move_SendGoal;
 
-impl rosidl_runtime_rs::Service for Rotate_SendGoal {
-    type Request = Rotate_SendGoal_Request;
-    type Response = Rotate_SendGoal_Response;
+impl rosidl_runtime_rs::Service for Move_SendGoal {
+    type Request = Move_SendGoal_Request;
+    type Response = Move_SendGoal_Response;
 
     fn get_type_support() -> *const std::ffi::c_void {
         // SAFETY: No preconditions for this function.
-        unsafe { rosidl_typesupport_c__get_service_type_support_handle__motor_action__action__Rotate_SendGoal() }
+        unsafe { rosidl_typesupport_c__get_service_type_support_handle__motor_action__action__Move_SendGoal() }
     }
 }
 
@@ -438,20 +438,20 @@ impl rosidl_runtime_rs::Service for Rotate_SendGoal {
 
 #[link(name = "motor_action__rosidl_typesupport_c")]
 extern "C" {
-    fn rosidl_typesupport_c__get_service_type_support_handle__motor_action__action__Rotate_GetResult() -> *const std::ffi::c_void;
+    fn rosidl_typesupport_c__get_service_type_support_handle__motor_action__action__Move_GetResult() -> *const std::ffi::c_void;
 }
 
-// Corresponds to motor_action__action__Rotate_GetResult
+// Corresponds to motor_action__action__Move_GetResult
 #[allow(missing_docs, non_camel_case_types)]
-pub struct Rotate_GetResult;
+pub struct Move_GetResult;
 
-impl rosidl_runtime_rs::Service for Rotate_GetResult {
-    type Request = Rotate_GetResult_Request;
-    type Response = Rotate_GetResult_Response;
+impl rosidl_runtime_rs::Service for Move_GetResult {
+    type Request = Move_GetResult_Request;
+    type Response = Move_GetResult_Response;
 
     fn get_type_support() -> *const std::ffi::c_void {
         // SAFETY: No preconditions for this function.
-        unsafe { rosidl_typesupport_c__get_service_type_support_handle__motor_action__action__Rotate_GetResult() }
+        unsafe { rosidl_typesupport_c__get_service_type_support_handle__motor_action__action__Move_GetResult() }
     }
 }
 
@@ -462,58 +462,58 @@ impl rosidl_runtime_rs::Service for Rotate_GetResult {
 
 #[link(name = "motor_action__rosidl_typesupport_c")]
 extern "C" {
-    fn rosidl_typesupport_c__get_action_type_support_handle__motor_action__action__Rotate() -> *const std::ffi::c_void;
+    fn rosidl_typesupport_c__get_action_type_support_handle__motor_action__action__Move() -> *const std::ffi::c_void;
 }
 
-// Corresponds to motor_action__action__Rotate
+// Corresponds to motor_action__action__Move
 #[allow(missing_docs, non_camel_case_types)]
-pub struct Rotate;
+pub struct Move;
 
-impl rosidl_runtime_rs::Action for Rotate {
+impl rosidl_runtime_rs::Action for Move {
   // --- Associated types for client library users ---
   /// The goal message defined in the action definition.
-  type Goal = Rotate_Goal;
+  type Goal = Move_Goal;
 
   /// The result message defined in the action definition.
-  type Result = Rotate_Result;
+  type Result = Move_Result;
 
   /// The feedback message defined in the action definition.
-  type Feedback = Rotate_Feedback;
+  type Feedback = Move_Feedback;
 
   // --- Associated types for client library implementation ---
   /// The feedback message with generic fields which wraps the feedback message.
-  type FeedbackMessage = super::action::Rotate_FeedbackMessage;
+  type FeedbackMessage = super::action::Move_FeedbackMessage;
 
   /// The send_goal service using a wrapped version of the goal message as a request.
-  type SendGoalService = super::action::Rotate_SendGoal;
+  type SendGoalService = super::action::Move_SendGoal;
 
   /// The generic service to cancel a goal.
   type CancelGoalService = action_msgs::srv::rmw::CancelGoal;
 
   /// The get_result service using a wrapped version of the result message as a response.
-  type GetResultService = super::action::Rotate_GetResult;
+  type GetResultService = super::action::Move_GetResult;
 
   // --- Methods for client library implementation ---
   fn get_type_support() -> *const std::ffi::c_void {
     // SAFETY: No preconditions for this function.
-    unsafe { rosidl_typesupport_c__get_action_type_support_handle__motor_action__action__Rotate() }
+    unsafe { rosidl_typesupport_c__get_action_type_support_handle__motor_action__action__Move() }
   }
 
   fn create_goal_request(
     goal_id: &[u8; 16],
-    goal: super::action::rmw::Rotate_Goal,
-  ) -> super::action::rmw::Rotate_SendGoal_Request {
-   super::action::rmw::Rotate_SendGoal_Request {
+    goal: super::action::rmw::Move_Goal,
+  ) -> super::action::rmw::Move_SendGoal_Request {
+   super::action::rmw::Move_SendGoal_Request {
       goal_id: unique_identifier_msgs::msg::rmw::UUID { uuid: *goal_id },
       goal,
     }
   }
 
   fn split_goal_request(
-    request: super::action::rmw::Rotate_SendGoal_Request,
+    request: super::action::rmw::Move_SendGoal_Request,
   ) -> (
     [u8; 16],
-   super::action::rmw::Rotate_Goal,
+   super::action::rmw::Move_Goal,
   ) {
     (request.goal_id.uuid, request.goal)
   }
@@ -521,8 +521,8 @@ impl rosidl_runtime_rs::Action for Rotate {
   fn create_goal_response(
     accepted: bool,
     stamp: (i32, u32),
-  ) -> super::action::rmw::Rotate_SendGoal_Response {
-   super::action::rmw::Rotate_SendGoal_Response {
+  ) -> super::action::rmw::Move_SendGoal_Response {
+   super::action::rmw::Move_SendGoal_Response {
       accepted,
       stamp: builtin_interfaces::msg::rmw::Time {
         sec: stamp.0,
@@ -532,65 +532,65 @@ impl rosidl_runtime_rs::Action for Rotate {
   }
 
   fn get_goal_response_accepted(
-    response: &super::action::rmw::Rotate_SendGoal_Response,
+    response: &super::action::rmw::Move_SendGoal_Response,
   ) -> bool {
     response.accepted
   }
 
   fn get_goal_response_stamp(
-    response: &super::action::rmw::Rotate_SendGoal_Response,
+    response: &super::action::rmw::Move_SendGoal_Response,
   ) -> (i32, u32) {
     (response.stamp.sec, response.stamp.nanosec)
   }
 
   fn create_feedback_message(
     goal_id: &[u8; 16],
-    feedback: super::action::rmw::Rotate_Feedback,
-  ) -> super::action::rmw::Rotate_FeedbackMessage {
-    let mut message = super::action::rmw::Rotate_FeedbackMessage::default();
+    feedback: super::action::rmw::Move_Feedback,
+  ) -> super::action::rmw::Move_FeedbackMessage {
+    let mut message = super::action::rmw::Move_FeedbackMessage::default();
     message.goal_id.uuid = *goal_id;
     message.feedback = feedback;
     message
   }
 
   fn split_feedback_message(
-    feedback: super::action::rmw::Rotate_FeedbackMessage,
+    feedback: super::action::rmw::Move_FeedbackMessage,
   ) -> (
     [u8; 16],
-   super::action::rmw::Rotate_Feedback,
+   super::action::rmw::Move_Feedback,
   ) {
     (feedback.goal_id.uuid, feedback.feedback)
   }
 
   fn create_result_request(
     goal_id: &[u8; 16],
-  ) -> super::action::rmw::Rotate_GetResult_Request {
-   super::action::rmw::Rotate_GetResult_Request {
+  ) -> super::action::rmw::Move_GetResult_Request {
+   super::action::rmw::Move_GetResult_Request {
       goal_id: unique_identifier_msgs::msg::rmw::UUID { uuid: *goal_id },
     }
   }
 
   fn get_result_request_uuid(
-    request: &super::action::rmw::Rotate_GetResult_Request,
+    request: &super::action::rmw::Move_GetResult_Request,
   ) -> &[u8; 16] {
     &request.goal_id.uuid
   }
 
   fn create_result_response(
     status: i8,
-    result: super::action::rmw::Rotate_Result,
-  ) -> super::action::rmw::Rotate_GetResult_Response {
-   super::action::rmw::Rotate_GetResult_Response {
+    result: super::action::rmw::Move_Result,
+  ) -> super::action::rmw::Move_GetResult_Response {
+   super::action::rmw::Move_GetResult_Response {
       status,
       result,
     }
   }
 
   fn split_result_response(
-    response: super::action::rmw::Rotate_GetResult_Response
+    response: super::action::rmw::Move_GetResult_Response
   ) -> (
     i8,
-   super::action::rmw::Rotate_Result,
+   super::action::rmw::Move_Result,
   ) {
     (response.status, response.result)
   }

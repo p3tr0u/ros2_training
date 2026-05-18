@@ -1,0 +1,18 @@
+[100%] Built target input_handler
+-- Install configuration: ""
+-- Up-to-date: /home/prog1/ros2_training/install/input_handler/lib/input_handler/input_handler
+-- Up-to-date: /home/prog1/ros2_training/install/input_handler/share/ament_index/resource_index/package_run_dependencies/input_handler
+-- Up-to-date: /home/prog1/ros2_training/install/input_handler/share/ament_index/resource_index/parent_prefix_path/input_handler
+-- Up-to-date: /home/prog1/ros2_training/install/input_handler/share/input_handler/environment/ament_prefix_path.sh
+-- Up-to-date: /home/prog1/ros2_training/install/input_handler/share/input_handler/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/prog1/ros2_training/install/input_handler/share/input_handler/environment/path.sh
+-- Up-to-date: /home/prog1/ros2_training/install/input_handler/share/input_handler/environment/path.dsv
+-- Up-to-date: /home/prog1/ros2_training/install/input_handler/share/input_handler/local_setup.bash
+-- Up-to-date: /home/prog1/ros2_training/install/input_handler/share/input_handler/local_setup.sh
+-- Up-to-date: /home/prog1/ros2_training/install/input_handler/share/input_handler/local_setup.zsh
+-- Up-to-date: /home/prog1/ros2_training/install/input_handler/share/input_handler/local_setup.dsv
+-- Installing: /home/prog1/ros2_training/install/input_handler/share/input_handler/package.dsv
+-- Up-to-date: /home/prog1/ros2_training/install/input_handler/share/ament_index/resource_index/packages/input_handler
+-- Up-to-date: /home/prog1/ros2_training/install/input_handler/share/input_handler/cmake/input_handlerConfig.cmake
+-- Up-to-date: /home/prog1/ros2_training/install/input_handler/share/input_handler/cmake/input_handlerConfig-version.cmake
+-- Up-to-date: /home/prog1/ros2_training/install/input_handler/share/input_handler/package.xml

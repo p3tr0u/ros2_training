@@ -66,65 +66,65 @@ include CMakeFiles/motor_action__cpp.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/motor_action__cpp.dir/progress.make
 
-CMakeFiles/motor_action__cpp: rosidl_generator_cpp/motor_action/action/rotate.hpp
-CMakeFiles/motor_action__cpp: rosidl_generator_cpp/motor_action/action/detail/rotate__builder.hpp
-CMakeFiles/motor_action__cpp: rosidl_generator_cpp/motor_action/action/detail/rotate__struct.hpp
-CMakeFiles/motor_action__cpp: rosidl_generator_cpp/motor_action/action/detail/rotate__traits.hpp
-CMakeFiles/motor_action__cpp: rosidl_generator_cpp/motor_action/action/detail/rotate__type_support.hpp
+CMakeFiles/motor_action__cpp: rosidl_generator_cpp/motor_action/action/move.hpp
+CMakeFiles/motor_action__cpp: rosidl_generator_cpp/motor_action/action/detail/move__builder.hpp
+CMakeFiles/motor_action__cpp: rosidl_generator_cpp/motor_action/action/detail/move__struct.hpp
+CMakeFiles/motor_action__cpp: rosidl_generator_cpp/motor_action/action/detail/move__traits.hpp
+CMakeFiles/motor_action__cpp: rosidl_generator_cpp/motor_action/action/detail/move__type_support.hpp
 CMakeFiles/motor_action__cpp: rosidl_generator_cpp/motor_action/msg/rosidl_generator_cpp__visibility_control.hpp
 
-rosidl_generator_cpp/motor_action/action/rotate.hpp: /opt/ros/jazzy/lib/rosidl_generator_cpp/rosidl_generator_cpp
-rosidl_generator_cpp/motor_action/action/rotate.hpp: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_cpp/__init__.py
-rosidl_generator_cpp/motor_action/action/rotate.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/action__builder.hpp.em
-rosidl_generator_cpp/motor_action/action/rotate.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/action__struct.hpp.em
-rosidl_generator_cpp/motor_action/action/rotate.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/action__traits.hpp.em
-rosidl_generator_cpp/motor_action/action/rotate.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/action__type_support.hpp.em
-rosidl_generator_cpp/motor_action/action/rotate.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/idl.hpp.em
-rosidl_generator_cpp/motor_action/action/rotate.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/idl__builder.hpp.em
-rosidl_generator_cpp/motor_action/action/rotate.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/idl__struct.hpp.em
-rosidl_generator_cpp/motor_action/action/rotate.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/idl__traits.hpp.em
-rosidl_generator_cpp/motor_action/action/rotate.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/idl__type_support.hpp.em
-rosidl_generator_cpp/motor_action/action/rotate.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/msg__builder.hpp.em
-rosidl_generator_cpp/motor_action/action/rotate.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/msg__struct.hpp.em
-rosidl_generator_cpp/motor_action/action/rotate.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/msg__traits.hpp.em
-rosidl_generator_cpp/motor_action/action/rotate.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/msg__type_support.hpp.em
-rosidl_generator_cpp/motor_action/action/rotate.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/srv__builder.hpp.em
-rosidl_generator_cpp/motor_action/action/rotate.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
-rosidl_generator_cpp/motor_action/action/rotate.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
-rosidl_generator_cpp/motor_action/action/rotate.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/srv__type_support.hpp.em
-rosidl_generator_cpp/motor_action/action/rotate.hpp: rosidl_adapter/motor_action/action/Rotate.idl
-rosidl_generator_cpp/motor_action/action/rotate.hpp: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
-rosidl_generator_cpp/motor_action/action/rotate.hpp: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
-rosidl_generator_cpp/motor_action/action/rotate.hpp: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
-rosidl_generator_cpp/motor_action/action/rotate.hpp: /opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl
-rosidl_generator_cpp/motor_action/action/rotate.hpp: /opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl
-rosidl_generator_cpp/motor_action/action/rotate.hpp: /opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl
-rosidl_generator_cpp/motor_action/action/rotate.hpp: /opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl
-rosidl_generator_cpp/motor_action/action/rotate.hpp: /opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl
+rosidl_generator_cpp/motor_action/action/move.hpp: /opt/ros/jazzy/lib/rosidl_generator_cpp/rosidl_generator_cpp
+rosidl_generator_cpp/motor_action/action/move.hpp: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_cpp/__init__.py
+rosidl_generator_cpp/motor_action/action/move.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/action__builder.hpp.em
+rosidl_generator_cpp/motor_action/action/move.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/action__struct.hpp.em
+rosidl_generator_cpp/motor_action/action/move.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/action__traits.hpp.em
+rosidl_generator_cpp/motor_action/action/move.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/action__type_support.hpp.em
+rosidl_generator_cpp/motor_action/action/move.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/idl.hpp.em
+rosidl_generator_cpp/motor_action/action/move.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/idl__builder.hpp.em
+rosidl_generator_cpp/motor_action/action/move.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/idl__struct.hpp.em
+rosidl_generator_cpp/motor_action/action/move.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/idl__traits.hpp.em
+rosidl_generator_cpp/motor_action/action/move.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/idl__type_support.hpp.em
+rosidl_generator_cpp/motor_action/action/move.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/msg__builder.hpp.em
+rosidl_generator_cpp/motor_action/action/move.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/msg__struct.hpp.em
+rosidl_generator_cpp/motor_action/action/move.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/msg__traits.hpp.em
+rosidl_generator_cpp/motor_action/action/move.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/msg__type_support.hpp.em
+rosidl_generator_cpp/motor_action/action/move.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/srv__builder.hpp.em
+rosidl_generator_cpp/motor_action/action/move.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
+rosidl_generator_cpp/motor_action/action/move.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
+rosidl_generator_cpp/motor_action/action/move.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/srv__type_support.hpp.em
+rosidl_generator_cpp/motor_action/action/move.hpp: rosidl_adapter/motor_action/action/Move.idl
+rosidl_generator_cpp/motor_action/action/move.hpp: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
+rosidl_generator_cpp/motor_action/action/move.hpp: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_cpp/motor_action/action/move.hpp: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_cpp/motor_action/action/move.hpp: /opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl
+rosidl_generator_cpp/motor_action/action/move.hpp: /opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl
+rosidl_generator_cpp/motor_action/action/move.hpp: /opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl
+rosidl_generator_cpp/motor_action/action/move.hpp: /opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl
+rosidl_generator_cpp/motor_action/action/move.hpp: /opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/prog1/ros2_training/build/motor_action/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/prog1/ros2_training/build/motor_action/rosidl_generator_cpp__arguments.json
 
-rosidl_generator_cpp/motor_action/action/detail/rotate__builder.hpp: rosidl_generator_cpp/motor_action/action/rotate.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/motor_action/action/detail/rotate__builder.hpp
+rosidl_generator_cpp/motor_action/action/detail/move__builder.hpp: rosidl_generator_cpp/motor_action/action/move.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/motor_action/action/detail/move__builder.hpp
 
-rosidl_generator_cpp/motor_action/action/detail/rotate__struct.hpp: rosidl_generator_cpp/motor_action/action/rotate.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/motor_action/action/detail/rotate__struct.hpp
+rosidl_generator_cpp/motor_action/action/detail/move__struct.hpp: rosidl_generator_cpp/motor_action/action/move.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/motor_action/action/detail/move__struct.hpp
 
-rosidl_generator_cpp/motor_action/action/detail/rotate__traits.hpp: rosidl_generator_cpp/motor_action/action/rotate.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/motor_action/action/detail/rotate__traits.hpp
+rosidl_generator_cpp/motor_action/action/detail/move__traits.hpp: rosidl_generator_cpp/motor_action/action/move.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/motor_action/action/detail/move__traits.hpp
 
-rosidl_generator_cpp/motor_action/action/detail/rotate__type_support.hpp: rosidl_generator_cpp/motor_action/action/rotate.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/motor_action/action/detail/rotate__type_support.hpp
+rosidl_generator_cpp/motor_action/action/detail/move__type_support.hpp: rosidl_generator_cpp/motor_action/action/move.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/motor_action/action/detail/move__type_support.hpp
 
-rosidl_generator_cpp/motor_action/msg/rosidl_generator_cpp__visibility_control.hpp: rosidl_generator_cpp/motor_action/action/rotate.hpp
+rosidl_generator_cpp/motor_action/msg/rosidl_generator_cpp__visibility_control.hpp: rosidl_generator_cpp/motor_action/action/move.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/motor_action/msg/rosidl_generator_cpp__visibility_control.hpp
 
 motor_action__cpp: CMakeFiles/motor_action__cpp
-motor_action__cpp: rosidl_generator_cpp/motor_action/action/detail/rotate__builder.hpp
-motor_action__cpp: rosidl_generator_cpp/motor_action/action/detail/rotate__struct.hpp
-motor_action__cpp: rosidl_generator_cpp/motor_action/action/detail/rotate__traits.hpp
-motor_action__cpp: rosidl_generator_cpp/motor_action/action/detail/rotate__type_support.hpp
-motor_action__cpp: rosidl_generator_cpp/motor_action/action/rotate.hpp
+motor_action__cpp: rosidl_generator_cpp/motor_action/action/detail/move__builder.hpp
+motor_action__cpp: rosidl_generator_cpp/motor_action/action/detail/move__struct.hpp
+motor_action__cpp: rosidl_generator_cpp/motor_action/action/detail/move__traits.hpp
+motor_action__cpp: rosidl_generator_cpp/motor_action/action/detail/move__type_support.hpp
+motor_action__cpp: rosidl_generator_cpp/motor_action/action/move.hpp
 motor_action__cpp: rosidl_generator_cpp/motor_action/msg/rosidl_generator_cpp__visibility_control.hpp
 motor_action__cpp: CMakeFiles/motor_action__cpp.dir/build.make
 .PHONY : motor_action__cpp

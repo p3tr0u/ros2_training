@@ -1,0 +1,47 @@
+[0.016s] Invoking command in '/home/prog1/ros2_training/build/motor_handler': CMAKE_PREFIX_PATH=/home/prog1/ros2_training/install/motor_action:/home/prog1/ros2_training/install/motor_handler:/home/prog1/ros2_training/install/input_handler:/home/prog1/ros2_training/install/cpp_listener:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/prog1/ros2_training/install/py_talker:/home/prog1/ros2_training/install/controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages:/home/prog1/ros2_training/install/py_talker/lib/python3.12/site-packages:/home/prog1/ros2_training/install/controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/prog1/ros2_training/build/motor_handler -- -j2 -l2
+[0.055s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.315s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.346s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.359s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.375s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.394s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.476s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.478s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.561s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.653s] -- Found rclcpp_action: 28.1.18 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[0.714s] -- Found motor_action: 0.0.0 (/home/prog1/ros2_training/install/motor_action/share/motor_action/cmake)
+[0.743s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.865s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.865s] -- Configured cppcheck include dirs: 
+[0.865s] -- Configured cppcheck exclude dirs and/or files: 
+[0.867s] -- Added test 'lint_cmake' to check CMake code style
+[0.868s] -- Added test 'uncrustify' to check C / C++ code style
+[0.869s] -- Configured uncrustify additional arguments: 
+[0.869s] -- Added test 'xmllint' to check XML markup files
+[0.872s] -- Configuring done (0.8s)
+[0.895s] -- Generating done (0.0s)
+[0.903s] -- Build files have been written to: /home/prog1/ros2_training/build/motor_handler
+[0.957s] [ 50%] [32mBuilding CXX object CMakeFiles/motor_handler.dir/src/motor_handler.cpp.o[0m
+[5.487s] [100%] [32m[1mLinking CXX executable motor_handler[0m
+[5.684s] [100%] Built target motor_handler
+[5.698s] Invoked command in '/home/prog1/ros2_training/build/motor_handler' returned '0': CMAKE_PREFIX_PATH=/home/prog1/ros2_training/install/motor_action:/home/prog1/ros2_training/install/motor_handler:/home/prog1/ros2_training/install/input_handler:/home/prog1/ros2_training/install/cpp_listener:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/prog1/ros2_training/install/py_talker:/home/prog1/ros2_training/install/controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages:/home/prog1/ros2_training/install/py_talker/lib/python3.12/site-packages:/home/prog1/ros2_training/install/controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/prog1/ros2_training/build/motor_handler -- -j2 -l2
+[5.699s] Invoking command in '/home/prog1/ros2_training/build/motor_handler': CMAKE_PREFIX_PATH=/home/prog1/ros2_training/install/motor_action:/home/prog1/ros2_training/install/motor_handler:/home/prog1/ros2_training/install/input_handler:/home/prog1/ros2_training/install/cpp_listener:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/prog1/ros2_training/install/py_talker:/home/prog1/ros2_training/install/controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages:/home/prog1/ros2_training/install/py_talker/lib/python3.12/site-packages:/home/prog1/ros2_training/install/controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/prog1/ros2_training/build/motor_handler
+[5.710s] -- Install configuration: ""
+[5.711s] -- Installing: /home/prog1/ros2_training/install/motor_handler/lib/motor_handler/motor_handler
+[5.711s] -- Set non-toolchain portion of runtime path of "/home/prog1/ros2_training/install/motor_handler/lib/motor_handler/motor_handler" to ""
+[5.711s] -- Installing: /home/prog1/ros2_training/install/motor_handler/share/ament_index/resource_index/package_run_dependencies/motor_handler
+[5.711s] -- Installing: /home/prog1/ros2_training/install/motor_handler/share/ament_index/resource_index/parent_prefix_path/motor_handler
+[5.713s] -- Up-to-date: /home/prog1/ros2_training/install/motor_handler/share/motor_handler/environment/ament_prefix_path.sh
+[5.713s] -- Up-to-date: /home/prog1/ros2_training/install/motor_handler/share/motor_handler/environment/ament_prefix_path.dsv
+[5.713s] -- Up-to-date: /home/prog1/ros2_training/install/motor_handler/share/motor_handler/environment/path.sh
+[5.713s] -- Up-to-date: /home/prog1/ros2_training/install/motor_handler/share/motor_handler/environment/path.dsv
+[5.714s] -- Up-to-date: /home/prog1/ros2_training/install/motor_handler/share/motor_handler/local_setup.bash
+[5.714s] -- Up-to-date: /home/prog1/ros2_training/install/motor_handler/share/motor_handler/local_setup.sh
+[5.715s] -- Up-to-date: /home/prog1/ros2_training/install/motor_handler/share/motor_handler/local_setup.zsh
+[5.715s] -- Up-to-date: /home/prog1/ros2_training/install/motor_handler/share/motor_handler/local_setup.dsv
+[5.715s] -- Installing: /home/prog1/ros2_training/install/motor_handler/share/motor_handler/package.dsv
+[5.715s] -- Up-to-date: /home/prog1/ros2_training/install/motor_handler/share/ament_index/resource_index/packages/motor_handler
+[5.715s] -- Up-to-date: /home/prog1/ros2_training/install/motor_handler/share/motor_handler/cmake/motor_handlerConfig.cmake
+[5.716s] -- Up-to-date: /home/prog1/ros2_training/install/motor_handler/share/motor_handler/cmake/motor_handlerConfig-version.cmake
+[5.716s] -- Installing: /home/prog1/ros2_training/install/motor_handler/share/motor_handler/package.xml
+[5.720s] Invoked command in '/home/prog1/ros2_training/build/motor_handler' returned '0': CMAKE_PREFIX_PATH=/home/prog1/ros2_training/install/motor_action:/home/prog1/ros2_training/install/motor_handler:/home/prog1/ros2_training/install/input_handler:/home/prog1/ros2_training/install/cpp_listener:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/prog1/ros2_training/install/py_talker:/home/prog1/ros2_training/install/controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages:/home/prog1/ros2_training/install/py_talker/lib/python3.12/site-packages:/home/prog1/ros2_training/install/controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/prog1/ros2_training/build/motor_handler

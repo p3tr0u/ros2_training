@@ -69,9 +69,9 @@ include /home/prog1/ros2_training/build/motor_action/motor_action__py/CMakeFiles
 /home/prog1/ros2_training/build/motor_action/motor_action__py/CMakeFiles/motor_action__py: rosidl_generator_py/motor_action/_motor_action_s.ep.rosidl_typesupport_fastrtps_c.c
 /home/prog1/ros2_training/build/motor_action/motor_action__py/CMakeFiles/motor_action__py: rosidl_generator_py/motor_action/_motor_action_s.ep.rosidl_typesupport_introspection_c.c
 /home/prog1/ros2_training/build/motor_action/motor_action__py/CMakeFiles/motor_action__py: rosidl_generator_py/motor_action/_motor_action_s.ep.rosidl_typesupport_c.c
-/home/prog1/ros2_training/build/motor_action/motor_action__py/CMakeFiles/motor_action__py: rosidl_generator_py/motor_action/action/_rotate.py
+/home/prog1/ros2_training/build/motor_action/motor_action__py/CMakeFiles/motor_action__py: rosidl_generator_py/motor_action/action/_move.py
 /home/prog1/ros2_training/build/motor_action/motor_action__py/CMakeFiles/motor_action__py: rosidl_generator_py/motor_action/action/__init__.py
-/home/prog1/ros2_training/build/motor_action/motor_action__py/CMakeFiles/motor_action__py: rosidl_generator_py/motor_action/action/_rotate_s.c
+/home/prog1/ros2_training/build/motor_action/motor_action__py/CMakeFiles/motor_action__py: rosidl_generator_py/motor_action/action/_move_s.c
 
 rosidl_generator_py/motor_action/_motor_action_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/motor_action/_motor_action_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_py/__init__.py
@@ -86,7 +86,7 @@ rosidl_generator_py/motor_action/_motor_action_s.ep.rosidl_typesupport_fastrtps_
 rosidl_generator_py/motor_action/_motor_action_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/rosidl_generator_py/resource/_msg.py.em
 rosidl_generator_py/motor_action/_motor_action_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/motor_action/_motor_action_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/rosidl_generator_py/resource/_srv.py.em
-rosidl_generator_py/motor_action/_motor_action_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/motor_action/action/Rotate.idl
+rosidl_generator_py/motor_action/_motor_action_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/motor_action/action/Move.idl
 rosidl_generator_py/motor_action/_motor_action_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
 rosidl_generator_py/motor_action/_motor_action_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_py/motor_action/_motor_action_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
@@ -104,22 +104,22 @@ rosidl_generator_py/motor_action/_motor_action_s.ep.rosidl_typesupport_introspec
 rosidl_generator_py/motor_action/_motor_action_s.ep.rosidl_typesupport_c.c: rosidl_generator_py/motor_action/_motor_action_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/motor_action/_motor_action_s.ep.rosidl_typesupport_c.c
 
-rosidl_generator_py/motor_action/action/_rotate.py: rosidl_generator_py/motor_action/_motor_action_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/motor_action/action/_rotate.py
+rosidl_generator_py/motor_action/action/_move.py: rosidl_generator_py/motor_action/_motor_action_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/motor_action/action/_move.py
 
 rosidl_generator_py/motor_action/action/__init__.py: rosidl_generator_py/motor_action/_motor_action_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/motor_action/action/__init__.py
 
-rosidl_generator_py/motor_action/action/_rotate_s.c: rosidl_generator_py/motor_action/_motor_action_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/motor_action/action/_rotate_s.c
+rosidl_generator_py/motor_action/action/_move_s.c: rosidl_generator_py/motor_action/_motor_action_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/motor_action/action/_move_s.c
 
 motor_action__py: /home/prog1/ros2_training/build/motor_action/motor_action__py/CMakeFiles/motor_action__py
 motor_action__py: rosidl_generator_py/motor_action/_motor_action_s.ep.rosidl_typesupport_c.c
 motor_action__py: rosidl_generator_py/motor_action/_motor_action_s.ep.rosidl_typesupport_fastrtps_c.c
 motor_action__py: rosidl_generator_py/motor_action/_motor_action_s.ep.rosidl_typesupport_introspection_c.c
 motor_action__py: rosidl_generator_py/motor_action/action/__init__.py
-motor_action__py: rosidl_generator_py/motor_action/action/_rotate.py
-motor_action__py: rosidl_generator_py/motor_action/action/_rotate_s.c
+motor_action__py: rosidl_generator_py/motor_action/action/_move.py
+motor_action__py: rosidl_generator_py/motor_action/action/_move_s.c
 motor_action__py: /home/prog1/ros2_training/build/motor_action/motor_action__py/CMakeFiles/motor_action__py.dir/build.make
 .PHONY : motor_action__py
 

@@ -1,6 +1,6 @@
 {
   "package_name": "motor_action",
   "non_idl_tuples": [
-    "/home/prog1/ros2_training/src/motor_action:action/Rotate.action"
+    "/home/prog1/ros2_training/src/motor_action:action/Move.action"
   ]
 }

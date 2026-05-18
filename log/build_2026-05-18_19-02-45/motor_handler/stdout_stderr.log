@@ -1,0 +1,128 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/motor_handler.dir/src/motor_handler.cpp.o[0m
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:[m[K In member function ‘[01m[Kvoid MotorHandler::[01;32m[Kexecute[m[K(std::shared_ptr<rclcpp_action::ServerGoalHandle<motor_action::action::Move> >)[m[K’:
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:51:25:[m[K [01;31m[Kerror: [m[Kclass template argument deduction failed:
+   51 |             std::vector [01;31m[Karr[m[K;
+      |                         [01;31m[K^~~[m[K
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:51:25:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kvector()[m[K’
+In file included from [01m[K/usr/include/c++/13/vector:66[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:19[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:3[m[K:
+[01m[K/usr/include/c++/13/bits/stl_vector.h:707:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc, class _InputIterator, class> [01;32m[Kvector[m[K(_InputIterator, _InputIterator, const _Alloc&)-> std::vector<_Tp, _Alloc>[m[K’
+  707 |         [01;36m[Kvector[m[K(_InputIterator __first, _InputIterator __last,
+      |         [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_vector.h:707:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:51:25:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+   51 |             std::vector [01;36m[Karr[m[K;
+      |                         [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_vector.h:678:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> [01;32m[Kvector[m[K(std::initializer_list<_Tp>, const _Alloc&)-> std::vector<_Tp, _Alloc>[m[K’
+  678 |       [01;36m[Kvector[m[K(initializer_list<value_type> __l,
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_vector.h:678:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:51:25:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+   51 |             std::vector [01;36m[Karr[m[K;
+      |                         [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_vector.h:659:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> [01;32m[Kvector[m[K(std::vector<_Tp, _Alloc>&&, std::__type_identity_t<_Alloc>&)-> std::vector<_Tp, _Alloc>[m[K’
+  659 |       [01;36m[Kvector[m[K(vector&& __rv, const __type_identity_t<allocator_type>& __m)
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_vector.h:659:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:51:25:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+   51 |             std::vector [01;36m[Karr[m[K;
+      |                         [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_vector.h:640:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> [01;32m[Kvector[m[K(std::vector<_Tp, _Alloc>&&, const _Alloc&, std::false_type)-> std::vector<_Tp, _Alloc>[m[K’
+  640 |       [01;36m[Kvector[m[K(vector&& __rv, const allocator_type& __m, false_type)
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_vector.h:640:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:51:25:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+   51 |             std::vector [01;36m[Karr[m[K;
+      |                         [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_vector.h:635:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> [01;32m[Kvector[m[K(std::vector<_Tp, _Alloc>&&, const _Alloc&, std::true_type)-> std::vector<_Tp, _Alloc>[m[K’
+  635 |       [01;36m[Kvector[m[K(vector&& __rv, const allocator_type& __m, true_type) noexcept
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_vector.h:635:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:51:25:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+   51 |             std::vector [01;36m[Karr[m[K;
+      |                         [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_vector.h:624:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> [01;32m[Kvector[m[K(const std::vector<_Tp, _Alloc>&, std::__type_identity_t<_Alloc>&)-> std::vector<_Tp, _Alloc>[m[K’
+  624 |       [01;36m[Kvector[m[K(const vector& __x, const __type_identity_t<allocator_type>& __a)
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_vector.h:624:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:51:25:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+   51 |             std::vector [01;36m[Karr[m[K;
+      |                         [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_vector.h:620:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> [01;32m[Kvector[m[K(std::vector<_Tp, _Alloc>&&)-> std::vector<_Tp, _Alloc>[m[K’
+  620 |       [01;36m[Kvector[m[K(vector&&) noexcept = default;
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_vector.h:620:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:51:25:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+   51 |             std::vector [01;36m[Karr[m[K;
+      |                         [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_vector.h:601:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> [01;32m[Kvector[m[K(const std::vector<_Tp, _Alloc>&)-> std::vector<_Tp, _Alloc>[m[K’
+  601 |       [01;36m[Kvector[m[K(const vector& __x)
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_vector.h:601:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:51:25:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+   51 |             std::vector [01;36m[Karr[m[K;
+      |                         [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_vector.h:569:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> [01;32m[Kvector[m[K(std::size_t, const _Tp&, const _Alloc&)-> std::vector<_Tp, _Alloc>[m[K’
+  569 |       [01;36m[Kvector[m[K(size_type __n, const value_type& __value,
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_vector.h:569:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:51:25:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+   51 |             std::vector [01;36m[Karr[m[K;
+      |                         [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_vector.h:556:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> [01;32m[Kvector[m[K(std::size_t, const _Alloc&)-> std::vector<_Tp, _Alloc>[m[K’
+  556 |       [01;36m[Kvector[m[K(size_type __n, const allocator_type& __a = allocator_type())
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_vector.h:556:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:51:25:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+   51 |             std::vector [01;36m[Karr[m[K;
+      |                         [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_vector.h:542:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> [01;32m[Kvector[m[K(const _Alloc&)-> std::vector<_Tp, _Alloc>[m[K’
+  542 |       [01;36m[Kvector[m[K(const allocator_type& __a) _GLIBCXX_NOEXCEPT
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_vector.h:542:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:51:25:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+   51 |             std::vector [01;36m[Karr[m[K;
+      |                         [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_vector.h:531:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> [01;32m[Kvector[m[K()-> std::vector<_Tp, _Alloc>[m[K’
+  531 |       [01;36m[Kvector[m[K() = default;
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_vector.h:531:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:51:25:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_Tp[m[K’
+   51 |             std::vector [01;36m[Karr[m[K;
+      |                         [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_vector.h:428:11:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> [01;32m[Kvector[m[K(std::vector<_Tp, _Alloc>)-> std::vector<_Tp, _Alloc>[m[K’
+  428 |     class [01;36m[Kvector[m[K : protected _Vector_base<_Tp, _Alloc>
+      |           [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_vector.h:428:11:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:51:25:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+   51 |             std::vector [01;36m[Karr[m[K;
+      |                         [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_vector.h:2023:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _InputIterator, class _ValT, class _Allocator, class, class> std::[01;32m[Kvector[m[K(_InputIterator, _InputIterator, _Allocator)-> vector<_ValT, _Allocator>[m[K’
+ 2023 |     [01;36m[Kvector[m[K(_InputIterator, _InputIterator, _Allocator = _Allocator())
+      |     [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_vector.h:2023:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:51:25:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+   51 |             std::vector [01;36m[Karr[m[K;
+      |                         [01;36m[K^~~[m[K
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:56:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   56 |             [01;31m[K}[m[K
+      |             [01;31m[K^[m[K
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:58:23:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K{[m[K’ token
+   58 |             if(arr == [01;31m[K{[m[K15, 20, 10}){
+      |                       [01;31m[K^[m[K
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:58:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K{[m[K’ token
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:58:15:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   58 |             if[01;36m[K([m[Karr == {15, 20, 10}){
+      |               [01;36m[K^[m[K
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:61:23:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K{[m[K’ token
+   61 |             if(arr == [01;31m[K{[m[K-10, -20, -15}){
+      |                       [01;31m[K^[m[K
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:61:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K{[m[K’ token
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:61:15:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   61 |             if[01;36m[K([m[Karr == {-10, -20, -15}){
+      |               [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/motor_handler.dir/build.make:76: CMakeFiles/motor_handler.dir/src/motor_handler.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motor_handler.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

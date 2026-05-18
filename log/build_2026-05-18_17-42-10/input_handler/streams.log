@@ -1,0 +1,10 @@
+[0.268s] Invoking command in '/home/prog1/ros2_training/build/input_handler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prog1/ros2_training/install/py_talker:/home/prog1/ros2_training/install/controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/prog1/ros2_training/build/input_handler -- -j2 -l2
+[0.348s] [ 50%] [32mBuilding CXX object CMakeFiles/input_handler.dir/src/input_handler.cpp.o[0m
+[0.590s] [01m[K/home/prog1/ros2_training/src/input_handler/src/input_handler.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Krclcpp_action/rclcpp_action.hpp: No such file or directory
+[0.590s]     5 | #include [01;31m[K"rclcpp_action/rclcpp_action.hpp"[m[K
+[0.590s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.590s] compilation terminated.
+[0.592s] gmake[2]: *** [CMakeFiles/input_handler.dir/build.make:76: CMakeFiles/input_handler.dir/src/input_handler.cpp.o] Error 1
+[0.593s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/input_handler.dir/all] Error 2
+[0.594s] gmake: *** [Makefile:146: all] Error 2
+[0.596s] Invoked command in '/home/prog1/ros2_training/build/input_handler' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prog1/ros2_training/install/py_talker:/home/prog1/ros2_training/install/controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/prog1/ros2_training/build/input_handler -- -j2 -l2

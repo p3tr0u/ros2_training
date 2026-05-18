@@ -84,8 +84,8 @@ rosidl_generator_rs/motor_action/rust/src/lib.rs: /opt/ros/jazzy/share/rosidl_ge
 rosidl_generator_rs/motor_action/rust/src/lib.rs: /opt/ros/jazzy/share/rosidl_generator_rs/resource/templates/msg_rmw.rs.em
 rosidl_generator_rs/motor_action/rust/src/lib.rs: /opt/ros/jazzy/share/rosidl_generator_rs/resource/templates/srv_idiomatic.rs.em
 rosidl_generator_rs/motor_action/rust/src/lib.rs: /opt/ros/jazzy/share/rosidl_generator_rs/resource/templates/srv_rmw.rs.em
-rosidl_generator_rs/motor_action/rust/src/lib.rs: rosidl_adapter/motor_action/action/Rotate.idl
-rosidl_generator_rs/motor_action/rust/src/lib.rs: rosidl_adapter/motor_action/action/Rotate.idl
+rosidl_generator_rs/motor_action/rust/src/lib.rs: rosidl_adapter/motor_action/action/Move.idl
+rosidl_generator_rs/motor_action/rust/src/lib.rs: rosidl_adapter/motor_action/action/Move.idl
 rosidl_generator_rs/motor_action/rust/src/lib.rs: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
 rosidl_generator_rs/motor_action/rust/src/lib.rs: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_rs/motor_action/rust/src/lib.rs: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl

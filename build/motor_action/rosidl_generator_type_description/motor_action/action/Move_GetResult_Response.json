@@ -1,0 +1,56 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "motor_action/action/Move_GetResult_Response",
+      "fields": [
+        {
+          "name": "status",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "motor_action/action/Move_Result"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "motor_action/action/Move_Result",
+        "fields": [
+          {
+            "name": "success",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "motor_action/action/Move_GetResult_Response",
+      "hash_string": "RIHS01_9c809b4e9390db1d5d3e09930d74b3fa38c031f3577fe912ac805f821f95e587"
+    },
+    {
+      "type_name": "motor_action/action/Move_Result",
+      "hash_string": "RIHS01_d6af90dbfed195d5974ea9b154cfffa29dbf8b827ce01d0945605547140fc817"
+    }
+  ]
+}

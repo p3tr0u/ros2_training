@@ -1,0 +1,402 @@
+[0.000000] (-) TimerEvent: {}
+[0.000893] (controller) JobQueued: {'identifier': 'controller', 'dependencies': OrderedDict()}
+[0.001002] (motor_action) JobQueued: {'identifier': 'motor_action', 'dependencies': OrderedDict()}
+[0.001062] (input_handler) JobQueued: {'identifier': 'input_handler', 'dependencies': OrderedDict({'motor_action': '/home/prog1/ros2_training/install/motor_action'})}
+[0.001088] (motor_action) JobStarted: {'identifier': 'motor_action'}
+[0.008294] (controller) JobStarted: {'identifier': 'controller'}
+[0.016958] (motor_action) JobProgress: {'identifier': 'motor_action', 'progress': 'cmake'}
+[0.018569] (motor_action) JobProgress: {'identifier': 'motor_action', 'progress': 'build'}
+[0.018638] (motor_action) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/prog1/ros2_training/build/motor_action', '--', '-j2', '-l2'], 'cwd': '/home/prog1/ros2_training/build/motor_action', 'env': OrderedDict({'PROFILEHOME': '', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'KDE_FULL_SESSION': 'true', 'LANGUAGE': '', 'USER': 'prog1', 'PAM_KWALLET5_LOGIN': '/run/user/1000/kwallet5.socket', 'LC_TIME': 'el_GR.UTF-8', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1695', 'XDG_SESSION_TYPE': 'x11', 'XCURSOR_SIZE': '24', 'KONSOLE_VERSION': '230805', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/prog1/ros2_training/install/motor_action/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/prog1', 'KDE_APPLICATIONS_AS_SCOPE': '1', 'OLDPWD': '/home/prog1/ros2_training', 'DESKTOP_SESSION': 'plasma', 'ROS_PYTHON_VERSION': '3', 'SHELL_SESSION_ID': '2077fd9e016143d18b3a134d22f33728', 'GTK_RC_FILES': '/etc/gtk/gtkrc:/home/prog1/.gtkrc:/home/prog1/.config/gtkrc', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'SDL_IM_MODULE': 'fcitx', 'KDE_SESSION_VERSION': '5', 'LC_MONETARY': 'el_GR.UTF-8', 'KONSOLE_DBUS_SESSION': '/Sessions/2', 'MANAGERPID': '1582', 'SYSTEMD_EXEC_PID': '1872', 'SSH_ASKPASS': '/usr/bin/ksshaskpass', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'KONSOLE_DBUS_WINDOW': '/Windows/1', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/prog1/ros2_training/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'prog1', 'WINDOWID': '6291469', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', 'JOURNAL_STREAM': '9:23986', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/plasma-plasmashell.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'COLORFGBG': '15;0', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'GTK2_RC_FILES': '/etc/gtk-2.0/gtkrc:/home/prog1/.gtkrc-2.0:/home/prog1/.config/gtkrc-2.0', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/prog1VM:@/tmp/.ICE-unix/1803,unix/prog1VM:/tmp/.ICE-unix/1803', 'INVOCATION_ID': '2764c677788548da934debc6b0e905b2', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'LC_ADDRESS': 'el_GR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XCURSOR_THEME': 'breeze_cursors', 'ICEAUTHORITY': '/run/user/1000/iceauth_baeaWq', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'LC_TELEPHONE': 'el_GR.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'KDE', 'XAUTHORITY': '/tmp/xauth_NQyxZj', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/tmp/ssh-kdsKjmHdIJ4w/agent.1605', 'AMENT_PREFIX_PATH': '/home/prog1/ros2_training/install/py_talker:/home/prog1/ros2_training/install/motor_handler:/home/prog1/ros2_training/install/motor_action:/home/prog1/ros2_training/install/input_handler:/home/prog1/ros2_training/install/cpp_listener:/home/prog1/ros2_training/install/controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'el_GR.UTF-8', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'KONSOLE_DBUS_SERVICE': ':1.110', 'LC_MEASUREMENT': 'el_GR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'el_GR.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'fcitx', 'XDG_VTNR': '2', 'PWD': '/home/prog1/ros2_training/build/motor_action', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/home/prog1/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings', 'CLUTTER_IM_MODULE': 'xim', 'XDG_DATA_DIRS': '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/prog1/ros2_training/install/py_talker/lib/python3.12/site-packages:/home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages:/home/prog1/ros2_training/install/controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'el_GR.UTF-8', 'LC_PAPER': 'el_GR.UTF-8', 'KDE_SESSION_UID': '1000', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/prog1/ros2_training/install/motor_handler:/home/prog1/ros2_training/install/motor_action:/home/prog1/ros2_training/install/input_handler:/home/prog1/ros2_training/install/cpp_listener:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/prog1/ros2_training/install/py_talker:/home/prog1/ros2_training/install/controller:/opt/ros/jazzy'}), 'shell': False}
+[0.057768] (motor_action) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.100987] (-) TimerEvent: {}
+[0.188867] (motor_action) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.190626] (motor_action) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.201682] (-) TimerEvent: {}
+[0.234833] (motor_action) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.274678] (motor_action) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.301945] (-) TimerEvent: {}
+[0.402937] (-) TimerEvent: {}
+[0.505640] (-) TimerEvent: {}
+[0.606591] (-) TimerEvent: {}
+[0.688166] (motor_action) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[0.707012] (-) TimerEvent: {}
+[0.808814] (-) TimerEvent: {}
+[0.833758] (motor_action) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.908885] (-) TimerEvent: {}
+[0.999057] (motor_action) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.002279] (motor_action) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[1.009400] (-) TimerEvent: {}
+[1.068341] (controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/controller', 'build', '--build-base', '/home/prog1/ros2_training/build/controller/build', 'install', '--record', '/home/prog1/ros2_training/build/controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/prog1/ros2_training/src/controller', 'env': {'PROFILEHOME': '', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'KDE_FULL_SESSION': 'true', 'LANGUAGE': '', 'USER': 'prog1', 'PAM_KWALLET5_LOGIN': '/run/user/1000/kwallet5.socket', 'LC_TIME': 'el_GR.UTF-8', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1695', 'XDG_SESSION_TYPE': 'x11', 'XCURSOR_SIZE': '24', 'KONSOLE_VERSION': '230805', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/prog1/ros2_training/install/motor_action/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/prog1', 'KDE_APPLICATIONS_AS_SCOPE': '1', 'OLDPWD': '/home/prog1/ros2_training', 'DESKTOP_SESSION': 'plasma', 'ROS_PYTHON_VERSION': '3', 'SHELL_SESSION_ID': '2077fd9e016143d18b3a134d22f33728', 'GTK_RC_FILES': '/etc/gtk/gtkrc:/home/prog1/.gtkrc:/home/prog1/.config/gtkrc', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'SDL_IM_MODULE': 'fcitx', 'KDE_SESSION_VERSION': '5', 'LC_MONETARY': 'el_GR.UTF-8', 'KONSOLE_DBUS_SESSION': '/Sessions/2', 'MANAGERPID': '1582', 'SYSTEMD_EXEC_PID': '1872', 'SSH_ASKPASS': '/usr/bin/ksshaskpass', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'KONSOLE_DBUS_WINDOW': '/Windows/1', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/prog1/ros2_training/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'prog1', 'WINDOWID': '6291469', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', 'JOURNAL_STREAM': '9:23986', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/plasma-plasmashell.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'COLORFGBG': '15;0', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'GTK2_RC_FILES': '/etc/gtk-2.0/gtkrc:/home/prog1/.gtkrc-2.0:/home/prog1/.config/gtkrc-2.0', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/prog1VM:@/tmp/.ICE-unix/1803,unix/prog1VM:/tmp/.ICE-unix/1803', 'INVOCATION_ID': '2764c677788548da934debc6b0e905b2', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'LC_ADDRESS': 'el_GR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XCURSOR_THEME': 'breeze_cursors', 'ICEAUTHORITY': '/run/user/1000/iceauth_baeaWq', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'LC_TELEPHONE': 'el_GR.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'KDE', 'XAUTHORITY': '/tmp/xauth_NQyxZj', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/tmp/ssh-kdsKjmHdIJ4w/agent.1605', 'AMENT_PREFIX_PATH': '/home/prog1/ros2_training/install/py_talker:/home/prog1/ros2_training/install/motor_handler:/home/prog1/ros2_training/install/motor_action:/home/prog1/ros2_training/install/input_handler:/home/prog1/ros2_training/install/cpp_listener:/home/prog1/ros2_training/install/controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'el_GR.UTF-8', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'KONSOLE_DBUS_SERVICE': ':1.110', 'LC_MEASUREMENT': 'el_GR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'el_GR.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'fcitx', 'XDG_VTNR': '2', 'PWD': '/home/prog1/ros2_training/build/controller', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/home/prog1/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings', 'CLUTTER_IM_MODULE': 'xim', 'XDG_DATA_DIRS': '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/prog1/ros2_training/build/controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/prog1/ros2_training/install/controller/lib/python3.12/site-packages:/home/prog1/ros2_training/install/py_talker/lib/python3.12/site-packages:/home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages:/home/prog1/ros2_training/install/controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'el_GR.UTF-8', 'LC_PAPER': 'el_GR.UTF-8', 'KDE_SESSION_UID': '1000', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/prog1/ros2_training/install/motor_handler:/home/prog1/ros2_training/install/motor_action:/home/prog1/ros2_training/install/input_handler:/home/prog1/ros2_training/install/cpp_listener:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.111150] (-) TimerEvent: {}
+[1.212239] (-) TimerEvent: {}
+[1.313374] (-) TimerEvent: {}
+[1.411500] (motor_action) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[1.414001] (-) TimerEvent: {}
+[1.470938] (motor_action) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.491638] (motor_action) StdoutLine: {'line': b'-- Configuring done (1.4s)\n'}
+[1.496770] (controller) StdoutLine: {'line': b'running egg_info\n'}
+[1.514411] (-) TimerEvent: {}
+[1.524866] (controller) StdoutLine: {'line': b'writing ../../build/controller/controller.egg-info/PKG-INFO\n'}
+[1.525944] (controller) StdoutLine: {'line': b'writing dependency_links to ../../build/controller/controller.egg-info/dependency_links.txt\n'}
+[1.526114] (controller) StdoutLine: {'line': b'writing entry points to ../../build/controller/controller.egg-info/entry_points.txt\n'}
+[1.529006] (controller) StdoutLine: {'line': b'writing requirements to ../../build/controller/controller.egg-info/requires.txt\n'}
+[1.529797] (controller) StdoutLine: {'line': b'writing top-level names to ../../build/controller/controller.egg-info/top_level.txt\n'}
+[1.591782] (controller) StdoutLine: {'line': b"reading manifest file '../../build/controller/controller.egg-info/SOURCES.txt'\n"}
+[1.592880] (controller) StdoutLine: {'line': b"writing manifest file '../../build/controller/controller.egg-info/SOURCES.txt'\n"}
+[1.594112] (controller) StdoutLine: {'line': b'running build\n'}
+[1.594274] (controller) StdoutLine: {'line': b'running build_py\n'}
+[1.594349] (controller) StdoutLine: {'line': b'running install\n'}
+[1.602923] (motor_action) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[1.603263] (controller) StdoutLine: {'line': b'running install_lib\n'}
+[1.615680] (-) TimerEvent: {}
+[1.628110] (motor_action) StdoutLine: {'line': b'-- Build files have been written to: /home/prog1/ros2_training/build/motor_action\n'}
+[1.633059] (controller) StdoutLine: {'line': b'running install_data\n'}
+[1.635046] (controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.664175] (controller) StdoutLine: {'line': b"removing '/home/prog1/ros2_training/install/controller/lib/python3.12/site-packages/controller-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[1.665891] (controller) StdoutLine: {'line': b'Copying ../../build/controller/controller.egg-info to /home/prog1/ros2_training/install/controller/lib/python3.12/site-packages/controller-0.0.0-py3.12.egg-info\n'}
+[1.666002] (controller) StdoutLine: {'line': b'running install_scripts\n'}
+[1.697879] (motor_action) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[1.713846] (motor_action) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[1.719005] (-) TimerEvent: {}
+[1.819910] (-) TimerEvent: {}
+[1.904705] (controller) StdoutLine: {'line': b'Installing controller script to /home/prog1/ros2_training/install/controller/lib/controller\n'}
+[1.906652] (controller) StdoutLine: {'line': b"writing list of installed files to '/home/prog1/ros2_training/build/controller/install.log'\n"}
+[1.920253] (-) TimerEvent: {}
+[1.990896] (controller) CommandEnded: {'returncode': 0}
+[2.020021] (controller) JobEnded: {'identifier': 'controller', 'rc': 0}
+[2.021995] (-) TimerEvent: {}
+[2.085330] (motor_action) StdoutLine: {'line': b'[  5%] Built target motor_action__rosidl_generator_type_description\n'}
+[2.122292] (-) TimerEvent: {}
+[2.144159] (motor_action) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_motor_action\n'}
+[2.181321] (motor_action) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.187846] (motor_action) StdoutLine: {'line': b'[  8%] Built target motor_action__rs\n'}
+[2.202801] (motor_action) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.222635] (-) TimerEvent: {}
+[2.323498] (-) TimerEvent: {}
+[2.425635] (-) TimerEvent: {}
+[2.528887] (-) TimerEvent: {}
+[2.629599] (-) TimerEvent: {}
+[2.730035] (-) TimerEvent: {}
+[2.773174] (motor_action) StdoutLine: {'line': b'[ 11%] Built target motor_action__cpp\n'}
+[2.830512] (-) TimerEvent: {}
+[2.860969] (motor_action) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__description.c.o\x1b[0m\n'}
+[2.931034] (-) TimerEvent: {}
+[2.982762] (motor_action) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__functions.c.o\x1b[0m\n'}
+[3.031622] (-) TimerEvent: {}
+[3.057564] (motor_action) StdoutLine: {'line': b'running egg_info\n'}
+[3.083243] (motor_action) StdoutLine: {'line': b'writing motor_action.egg-info/PKG-INFO\n'}
+[3.084345] (motor_action) StdoutLine: {'line': b'writing dependency_links to motor_action.egg-info/dependency_links.txt\n'}
+[3.084898] (motor_action) StdoutLine: {'line': b'writing top-level names to motor_action.egg-info/top_level.txt\n'}
+[3.132072] (-) TimerEvent: {}
+[3.156828] (motor_action) StdoutLine: {'line': b"reading manifest file 'motor_action.egg-info/SOURCES.txt'\n"}
+[3.158204] (motor_action) StdoutLine: {'line': b"writing manifest file 'motor_action.egg-info/SOURCES.txt'\n"}
+[3.173992] (motor_action) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__type_support.c.o\x1b[0m\n'}
+[3.200621] (motor_action) StdoutLine: {'line': b'[ 20%] Built target ament_cmake_python_build_motor_action_egg\n'}
+[3.223199] (motor_action) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libmotor_action__rosidl_generator_c.so\x1b[0m\n'}
+[3.232416] (-) TimerEvent: {}
+[3.292522] (motor_action) StdoutLine: {'line': b'[ 22%] Built target motor_action__rosidl_generator_c\n'}
+[3.307175] (motor_action) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.307373] (motor_action) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.334175] (-) TimerEvent: {}
+[3.435089] (-) TimerEvent: {}
+[3.535576] (-) TimerEvent: {}
+[3.636074] (-) TimerEvent: {}
+[3.709440] (motor_action) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/motor_action__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motor_action/action/move__type_support.cpp.o\x1b[0m\n'}
+[3.736572] (-) TimerEvent: {}
+[3.838287] (-) TimerEvent: {}
+[3.938736] (-) TimerEvent: {}
+[3.985265] (motor_action) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/motor_action__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motor_action/action/detail/move__type_support_c.cpp.o\x1b[0m\n'}
+[4.039175] (-) TimerEvent: {}
+[4.142321] (-) TimerEvent: {}
+[4.243332] (-) TimerEvent: {}
+[4.343726] (-) TimerEvent: {}
+[4.444875] (-) TimerEvent: {}
+[4.545950] (-) TimerEvent: {}
+[4.643517] (motor_action) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX shared library libmotor_action__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.646590] (-) TimerEvent: {}
+[4.717989] (motor_action) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX shared library libmotor_action__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.747101] (-) TimerEvent: {}
+[4.755958] (motor_action) StdoutLine: {'line': b'[ 40%] Built target motor_action__rosidl_typesupport_cpp\n'}
+[4.773719] (motor_action) StdoutLine: {'line': b'[ 42%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.783863] (motor_action) StdoutLine: {'line': b'[ 42%] Built target motor_action__rosidl_typesupport_fastrtps_c\n'}
+[4.798311] (motor_action) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.848460] (-) TimerEvent: {}
+[4.951781] (-) TimerEvent: {}
+[5.052439] (-) TimerEvent: {}
+[5.153295] (-) TimerEvent: {}
+[5.157870] (motor_action) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/motor_action__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_action/action/move__type_support.cpp.o\x1b[0m\n'}
+[5.230365] (motor_action) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libmotor_action__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.244743] (motor_action) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/motor_action__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motor_action/action/detail/move__type_support.c.o\x1b[0m\n'}
+[5.253908] (-) TimerEvent: {}
+[5.285045] (motor_action) StdoutLine: {'line': b'[ 54%] Built target motor_action__rosidl_typesupport_c\n'}
+[5.299131] (motor_action) StdoutLine: {'line': b'[ 57%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.335287] (motor_action) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking C shared library libmotor_action__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.354167] (-) TimerEvent: {}
+[5.380356] (motor_action) StdoutLine: {'line': b'[ 60%] Built target motor_action__rosidl_typesupport_introspection_c\n'}
+[5.394414] (motor_action) StdoutLine: {'line': b'[ 62%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.454461] (-) TimerEvent: {}
+[5.557713] (-) TimerEvent: {}
+[5.659068] (-) TimerEvent: {}
+[5.759602] (-) TimerEvent: {}
+[5.829156] (motor_action) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/motor_action__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motor_action/action/detail/move__type_support.cpp.o\x1b[0m\n'}
+[5.860818] (-) TimerEvent: {}
+[5.892113] (motor_action) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/motor_action__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motor_action/action/detail/dds_fastrtps/move__type_support.cpp.o\x1b[0m\n'}
+[5.961306] (-) TimerEvent: {}
+[6.061864] (-) TimerEvent: {}
+[6.163659] (-) TimerEvent: {}
+[6.264473] (-) TimerEvent: {}
+[6.365546] (-) TimerEvent: {}
+[6.467917] (-) TimerEvent: {}
+[6.568919] (-) TimerEvent: {}
+[6.669985] (-) TimerEvent: {}
+[6.770595] (-) TimerEvent: {}
+[6.791686] (motor_action) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libmotor_action__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.870757] (-) TimerEvent: {}
+[6.903894] (motor_action) StdoutLine: {'line': b'[ 71%] Built target motor_action__rosidl_typesupport_introspection_cpp\n'}
+[6.971227] (-) TimerEvent: {}
+[7.073059] (-) TimerEvent: {}
+[7.099456] (motor_action) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libmotor_action__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.173730] (-) TimerEvent: {}
+[7.208687] (motor_action) StdoutLine: {'line': b'[ 74%] Built target motor_action__rosidl_typesupport_fastrtps_cpp\n'}
+[7.237250] (motor_action) StdoutLine: {'line': b'[ 74%] Built target motor_action\n'}
+[7.266681] (motor_action) StdoutLine: {'line': b'[ 77%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.274011] (-) TimerEvent: {}
+[7.374527] (-) TimerEvent: {}
+[7.475532] (-) TimerEvent: {}
+[7.576097] (-) TimerEvent: {}
+[7.676787] (-) TimerEvent: {}
+[7.777679] (-) TimerEvent: {}
+[7.880409] (-) TimerEvent: {}
+[7.980902] (-) TimerEvent: {}
+[8.081613] (-) TimerEvent: {}
+[8.147969] (motor_action) StdoutLine: {'line': b'[ 77%] Built target motor_action__py\n'}
+[8.177037] (motor_action) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/motor_action__rosidl_generator_py.dir/rosidl_generator_py/motor_action/action/_move_s.c.o\x1b[0m\n'}
+[8.182019] (-) TimerEvent: {}
+[8.282827] (-) TimerEvent: {}
+[8.383330] (-) TimerEvent: {}
+[8.483803] (-) TimerEvent: {}
+[8.500355] (motor_action) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libmotor_action__rosidl_generator_py.so\x1b[0m\n'}
+[8.556878] (motor_action) StdoutLine: {'line': b'[ 82%] Built target motor_action__rosidl_generator_py\n'}
+[8.584304] (-) TimerEvent: {}
+[8.591066] (motor_action) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/motor_action_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/motor_action/_motor_action_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[8.591836] (motor_action) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/motor_action_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/motor_action/_motor_action_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[8.685116] (-) TimerEvent: {}
+[8.740375] (motor_action) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/motor_action/motor_action_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[8.754879] (motor_action) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/motor_action/motor_action_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.783582] (motor_action) StdoutLine: {'line': b'[ 94%] Built target motor_action_s__rosidl_typesupport_introspection_c\n'}
+[8.785741] (-) TimerEvent: {}
+[8.804965] (motor_action) StdoutLine: {'line': b'[ 94%] Built target motor_action_s__rosidl_typesupport_fastrtps_c\n'}
+[8.819934] (motor_action) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/motor_action_s__rosidl_typesupport_c.dir/rosidl_generator_py/motor_action/_motor_action_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[8.886204] (-) TimerEvent: {}
+[8.970935] (motor_action) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/motor_action/motor_action_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[8.987894] (-) TimerEvent: {}
+[9.015473] (motor_action) StdoutLine: {'line': b'[100%] Built target motor_action_s__rosidl_typesupport_c\n'}
+[9.028893] (motor_action) CommandEnded: {'returncode': 0}
+[9.029757] (motor_action) JobProgress: {'identifier': 'motor_action', 'progress': 'install'}
+[9.041562] (motor_action) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/prog1/ros2_training/build/motor_action'], 'cwd': '/home/prog1/ros2_training/build/motor_action', 'env': OrderedDict({'PROFILEHOME': '', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'KDE_FULL_SESSION': 'true', 'LANGUAGE': '', 'USER': 'prog1', 'PAM_KWALLET5_LOGIN': '/run/user/1000/kwallet5.socket', 'LC_TIME': 'el_GR.UTF-8', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1695', 'XDG_SESSION_TYPE': 'x11', 'XCURSOR_SIZE': '24', 'KONSOLE_VERSION': '230805', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/prog1/ros2_training/install/motor_action/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/prog1', 'KDE_APPLICATIONS_AS_SCOPE': '1', 'OLDPWD': '/home/prog1/ros2_training', 'DESKTOP_SESSION': 'plasma', 'ROS_PYTHON_VERSION': '3', 'SHELL_SESSION_ID': '2077fd9e016143d18b3a134d22f33728', 'GTK_RC_FILES': '/etc/gtk/gtkrc:/home/prog1/.gtkrc:/home/prog1/.config/gtkrc', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'SDL_IM_MODULE': 'fcitx', 'KDE_SESSION_VERSION': '5', 'LC_MONETARY': 'el_GR.UTF-8', 'KONSOLE_DBUS_SESSION': '/Sessions/2', 'MANAGERPID': '1582', 'SYSTEMD_EXEC_PID': '1872', 'SSH_ASKPASS': '/usr/bin/ksshaskpass', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'KONSOLE_DBUS_WINDOW': '/Windows/1', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/prog1/ros2_training/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'prog1', 'WINDOWID': '6291469', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', 'JOURNAL_STREAM': '9:23986', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/plasma-plasmashell.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'COLORFGBG': '15;0', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'GTK2_RC_FILES': '/etc/gtk-2.0/gtkrc:/home/prog1/.gtkrc-2.0:/home/prog1/.config/gtkrc-2.0', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/prog1VM:@/tmp/.ICE-unix/1803,unix/prog1VM:/tmp/.ICE-unix/1803', 'INVOCATION_ID': '2764c677788548da934debc6b0e905b2', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'LC_ADDRESS': 'el_GR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XCURSOR_THEME': 'breeze_cursors', 'ICEAUTHORITY': '/run/user/1000/iceauth_baeaWq', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'LC_TELEPHONE': 'el_GR.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'KDE', 'XAUTHORITY': '/tmp/xauth_NQyxZj', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/tmp/ssh-kdsKjmHdIJ4w/agent.1605', 'AMENT_PREFIX_PATH': '/home/prog1/ros2_training/install/py_talker:/home/prog1/ros2_training/install/motor_handler:/home/prog1/ros2_training/install/motor_action:/home/prog1/ros2_training/install/input_handler:/home/prog1/ros2_training/install/cpp_listener:/home/prog1/ros2_training/install/controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'el_GR.UTF-8', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'KONSOLE_DBUS_SERVICE': ':1.110', 'LC_MEASUREMENT': 'el_GR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'el_GR.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'fcitx', 'XDG_VTNR': '2', 'PWD': '/home/prog1/ros2_training/build/motor_action', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/home/prog1/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings', 'CLUTTER_IM_MODULE': 'xim', 'XDG_DATA_DIRS': '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/prog1/ros2_training/install/py_talker/lib/python3.12/site-packages:/home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages:/home/prog1/ros2_training/install/controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'el_GR.UTF-8', 'LC_PAPER': 'el_GR.UTF-8', 'KDE_SESSION_UID': '1000', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/prog1/ros2_training/install/motor_handler:/home/prog1/ros2_training/install/motor_action:/home/prog1/ros2_training/install/input_handler:/home/prog1/ros2_training/install/cpp_listener:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/prog1/ros2_training/install/py_talker:/home/prog1/ros2_training/install/controller:/opt/ros/jazzy'}), 'shell': False}
+[9.057560] (motor_action) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.058254] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/share/ament_index/resource_index/rosidl_interfaces/motor_action\n'}
+[9.058594] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/share/motor_action/action/Move.json\n'}
+[9.059104] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action\n'}
+[9.059678] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/msg\n'}
+[9.059883] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/msg/rosidl_generator_c__visibility_control.h\n'}
+[9.060243] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action\n'}
+[9.060551] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/rotate.h\n'}
+[9.061218] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/move.h\n'}
+[9.061433] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail\n'}
+[9.061701] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/move__functions.c\n'}
+[9.062483] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/move__type_support.c\n'}
+[9.062781] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/rotate__type_support.h\n'}
+[9.063010] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/rotate__struct.h\n'}
+[9.063237] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/move__type_support.h\n'}
+[9.064229] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/move__struct.h\n'}
+[9.065632] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/rotate__description.c\n'}
+[9.065886] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/rotate__functions.h\n'}
+[9.066060] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/rotate__functions.c\n'}
+[9.066261] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/rotate__type_support.c\n'}
+[9.066475] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/move__functions.h\n'}
+[9.066707] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/move__description.c\n'}
+[9.067337] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/environment/library_path.sh\n'}
+[9.067522] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/environment/library_path.dsv\n'}
+[9.069850] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/lib/libmotor_action__rosidl_generator_c.so\n'}
+[9.070995] (motor_action) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/prog1/ros2_training/install/motor_action/lib/libmotor_action__rosidl_generator_c.so" to ""\n'}
+[9.071337] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action\n'}
+[9.071989] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/msg\n'}
+[9.072200] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.072316] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action\n'}
+[9.072511] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail\n'}
+[9.078162] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/rotate__rosidl_typesupport_fastrtps_c.h\n'}
+[9.078555] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/move__rosidl_typesupport_fastrtps_c.h\n'}
+[9.080609] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/lib/libmotor_action__rosidl_typesupport_fastrtps_c.so\n'}
+[9.081265] (motor_action) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/prog1/ros2_training/install/motor_action/lib/libmotor_action__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[9.082089] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action\n'}
+[9.082385] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/msg\n'}
+[9.082537] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.082837] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action\n'}
+[9.082970] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail\n'}
+[9.083240] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/move__rosidl_typesupport_introspection_c.h\n'}
+[9.083355] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/move__type_support.c\n'}
+[9.083468] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/rotate__rosidl_typesupport_introspection_c.h\n'}
+[9.083678] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/rotate__type_support.c\n'}
+[9.086667] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/lib/libmotor_action__rosidl_typesupport_introspection_c.so\n'}
+[9.087554] (motor_action) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/prog1/ros2_training/install/motor_action/lib/libmotor_action__rosidl_typesupport_introspection_c.so" to ""\n'}
+[9.088124] (-) TimerEvent: {}
+[9.090968] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/lib/libmotor_action__rosidl_typesupport_c.so\n'}
+[9.091279] (motor_action) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/prog1/ros2_training/install/motor_action/lib/libmotor_action__rosidl_typesupport_c.so" to ""\n'}
+[9.091427] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action\n'}
+[9.091544] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/msg\n'}
+[9.091758] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[9.092294] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action\n'}
+[9.092647] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/rotate.hpp\n'}
+[9.093175] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/move.hpp\n'}
+[9.093772] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail\n'}
+[9.094145] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/move__traits.hpp\n'}
+[9.095138] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/move__builder.hpp\n'}
+[9.095523] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/move__type_support.hpp\n'}
+[9.096098] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/rotate__builder.hpp\n'}
+[9.096260] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/rotate__struct.hpp\n'}
+[9.096561] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/move__struct.hpp\n'}
+[9.096896] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/rotate__type_support.hpp\n'}
+[9.097169] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/rotate__traits.hpp\n'}
+[9.098052] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action\n'}
+[9.098468] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/msg\n'}
+[9.098987] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.099153] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action\n'}
+[9.099272] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail\n'}
+[9.099594] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/rotate__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.099738] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/move__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.099889] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/dds_fastrtps\n'}
+[9.103290] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/lib/libmotor_action__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.103869] (motor_action) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/prog1/ros2_training/install/motor_action/lib/libmotor_action__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[9.104218] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action\n'}
+[9.104640] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action\n'}
+[9.104789] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail\n'}
+[9.105076] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/move__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.105311] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/rotate__type_support.cpp\n'}
+[9.105718] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/move__type_support.cpp\n'}
+[9.105999] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/include/motor_action/motor_action/action/detail/rotate__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.108271] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/lib/libmotor_action__rosidl_typesupport_introspection_cpp.so\n'}
+[9.109087] (motor_action) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/prog1/ros2_training/install/motor_action/lib/libmotor_action__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[9.112090] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/lib/libmotor_action__rosidl_typesupport_cpp.so\n'}
+[9.112298] (motor_action) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/prog1/ros2_training/install/motor_action/lib/libmotor_action__rosidl_typesupport_cpp.so" to ""\n'}
+[9.112500] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/environment/pythonpath.sh\n'}
+[9.112583] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/environment/pythonpath.dsv\n'}
+[9.112664] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action-0.0.0-py3.12.egg-info\n'}
+[9.112835] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[9.113072] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[9.113245] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[9.113379] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[9.113675] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action\n'}
+[9.113926] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action/_motor_action_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[9.114018] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action/motor_action_s__rosidl_typesupport_c.so\n'}
+[9.114095] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action/_motor_action_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[9.114401] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action/__init__.py\n'}
+[9.114813] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action/_motor_action_s.ep.rosidl_typesupport_c.c\n'}
+[9.115750] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action/motor_action_s__rosidl_typesupport_introspection_c.so\n'}
+[9.116353] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action/motor_action_s__rosidl_typesupport_fastrtps_c.so\n'}
+[9.116538] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action/action\n'}
+[9.116777] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action/action/_move_s.c\n'}
+[9.116882] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action/action/_rotate_s.c\n'}
+[9.116965] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action/action/__init__.py\n'}
+[9.117046] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action/action/_move.py\n'}
+[9.117115] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action/action/_rotate.py\n'}
+[9.183102] (motor_action) StdoutLine: {'line': b"Listing '/home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action'...\n"}
+[9.183327] (motor_action) StdoutLine: {'line': b"Compiling '/home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action/__init__.py'...\n"}
+[9.183414] (motor_action) StdoutLine: {'line': b"Listing '/home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action/action'...\n"}
+[9.183491] (motor_action) StdoutLine: {'line': b"Compiling '/home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action/action/__init__.py'...\n"}
+[9.183567] (motor_action) StdoutLine: {'line': b"Compiling '/home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action/action/_move.py'...\n"}
+[9.188595] (-) TimerEvent: {}
+[9.190114] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action/motor_action_s__rosidl_typesupport_fastrtps_c.so\n'}
+[9.190266] (motor_action) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action/motor_action_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[9.190659] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action/motor_action_s__rosidl_typesupport_introspection_c.so\n'}
+[9.191275] (motor_action) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action/motor_action_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[9.191652] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action/motor_action_s__rosidl_typesupport_c.so\n'}
+[9.192237] (motor_action) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages/motor_action/motor_action_s__rosidl_typesupport_c.so" to ""\n'}
+[9.194640] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/lib/libmotor_action__rosidl_generator_py.so\n'}
+[9.195627] (motor_action) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/prog1/ros2_training/install/motor_action/lib/libmotor_action__rosidl_generator_py.so" to ""\n'}
+[9.196222] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/ament_index/resource_index/rust_packages/motor_action\n'}
+[9.196765] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/rust\n'}
+[9.197027] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/rust/src\n'}
+[9.197122] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/share/motor_action/rust/src/lib.rs\n'}
+[9.197668] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/share/motor_action/rust/src/action.rs\n'}
+[9.197771] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/rust/src/action\n'}
+[9.197982] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/share/motor_action/rust/src/action/rmw.rs\n'}
+[9.198499] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/share/motor_action/rust/Cargo.toml\n'}
+[9.198600] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/share/motor_action/rust/build.rs\n'}
+[9.199301] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/share/motor_action/action/Move.idl\n'}
+[9.200030] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/share/motor_action/action/Move.action\n'}
+[9.200583] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/ament_index/resource_index/package_run_dependencies/motor_action\n'}
+[9.200817] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/share/ament_index/resource_index/parent_prefix_path/motor_action\n'}
+[9.201086] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/environment/ament_prefix_path.sh\n'}
+[9.201246] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/environment/ament_prefix_path.dsv\n'}
+[9.202366] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/environment/path.sh\n'}
+[9.202479] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/environment/path.dsv\n'}
+[9.202551] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/local_setup.bash\n'}
+[9.202779] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/local_setup.sh\n'}
+[9.203161] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/local_setup.zsh\n'}
+[9.203295] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/local_setup.dsv\n'}
+[9.203455] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/share/motor_action/package.dsv\n'}
+[9.203606] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/ament_index/resource_index/packages/motor_action\n'}
+[9.203808] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/export_motor_action__rosidl_generator_cExport.cmake\n'}
+[9.204018] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/export_motor_action__rosidl_generator_cExport-noconfig.cmake\n'}
+[9.204676] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/export_motor_action__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[9.205220] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/export_motor_action__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[9.205968] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/motor_action__rosidl_typesupport_introspection_cExport.cmake\n'}
+[9.206298] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/motor_action__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[9.206378] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/motor_action__rosidl_typesupport_cExport.cmake\n'}
+[9.206450] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/motor_action__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[9.206950] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/export_motor_action__rosidl_generator_cppExport.cmake\n'}
+[9.207613] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/export_motor_action__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[9.207787] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/export_motor_action__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[9.208426] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/motor_action__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[9.208777] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/motor_action__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[9.209346] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/motor_action__rosidl_typesupport_cppExport.cmake\n'}
+[9.209457] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/motor_action__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[9.210118] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/export_motor_action__rosidl_generator_pyExport.cmake\n'}
+[9.210411] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/export_motor_action__rosidl_generator_pyExport-noconfig.cmake\n'}
+[9.210507] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/rosidl_cmake-extras.cmake\n'}
+[9.211265] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.211507] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.211796] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.212896] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.213036] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[9.213116] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[9.213194] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/motor_actionConfig.cmake\n'}
+[9.213270] (motor_action) StdoutLine: {'line': b'-- Up-to-date: /home/prog1/ros2_training/install/motor_action/share/motor_action/cmake/motor_actionConfig-version.cmake\n'}
+[9.213345] (motor_action) StdoutLine: {'line': b'-- Installing: /home/prog1/ros2_training/install/motor_action/share/motor_action/package.xml\n'}
+[9.216048] (motor_action) CommandEnded: {'returncode': 0}
+[9.246982] (motor_action) JobEnded: {'identifier': 'motor_action', 'rc': 0}
+[9.248426] (input_handler) JobStarted: {'identifier': 'input_handler'}
+[9.266417] (input_handler) JobProgress: {'identifier': 'input_handler', 'progress': 'cmake'}
+[9.267254] (input_handler) JobProgress: {'identifier': 'input_handler', 'progress': 'build'}
+[9.268035] (input_handler) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/prog1/ros2_training/build/input_handler', '--', '-j2', '-l2'], 'cwd': '/home/prog1/ros2_training/build/input_handler', 'env': OrderedDict({'PROFILEHOME': '', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'KDE_FULL_SESSION': 'true', 'LANGUAGE': '', 'USER': 'prog1', 'PAM_KWALLET5_LOGIN': '/run/user/1000/kwallet5.socket', 'LC_TIME': 'el_GR.UTF-8', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1695', 'XDG_SESSION_TYPE': 'x11', 'XCURSOR_SIZE': '24', 'KONSOLE_VERSION': '230805', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/prog1/ros2_training/install/motor_action/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/prog1', 'KDE_APPLICATIONS_AS_SCOPE': '1', 'OLDPWD': '/home/prog1/ros2_training', 'DESKTOP_SESSION': 'plasma', 'ROS_PYTHON_VERSION': '3', 'SHELL_SESSION_ID': '2077fd9e016143d18b3a134d22f33728', 'GTK_RC_FILES': '/etc/gtk/gtkrc:/home/prog1/.gtkrc:/home/prog1/.config/gtkrc', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'SDL_IM_MODULE': 'fcitx', 'KDE_SESSION_VERSION': '5', 'LC_MONETARY': 'el_GR.UTF-8', 'KONSOLE_DBUS_SESSION': '/Sessions/2', 'MANAGERPID': '1582', 'SYSTEMD_EXEC_PID': '1872', 'SSH_ASKPASS': '/usr/bin/ksshaskpass', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'KONSOLE_DBUS_WINDOW': '/Windows/1', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/prog1/ros2_training/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'prog1', 'WINDOWID': '6291469', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', 'JOURNAL_STREAM': '9:23986', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/plasma-plasmashell.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'COLORFGBG': '15;0', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'GTK2_RC_FILES': '/etc/gtk-2.0/gtkrc:/home/prog1/.gtkrc-2.0:/home/prog1/.config/gtkrc-2.0', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/prog1VM:@/tmp/.ICE-unix/1803,unix/prog1VM:/tmp/.ICE-unix/1803', 'INVOCATION_ID': '2764c677788548da934debc6b0e905b2', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'LC_ADDRESS': 'el_GR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XCURSOR_THEME': 'breeze_cursors', 'ICEAUTHORITY': '/run/user/1000/iceauth_baeaWq', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'LC_TELEPHONE': 'el_GR.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'KDE', 'XAUTHORITY': '/tmp/xauth_NQyxZj', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/tmp/ssh-kdsKjmHdIJ4w/agent.1605', 'AMENT_PREFIX_PATH': '/home/prog1/ros2_training/install/py_talker:/home/prog1/ros2_training/install/motor_handler:/home/prog1/ros2_training/install/motor_action:/home/prog1/ros2_training/install/input_handler:/home/prog1/ros2_training/install/cpp_listener:/home/prog1/ros2_training/install/controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'el_GR.UTF-8', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'KONSOLE_DBUS_SERVICE': ':1.110', 'LC_MEASUREMENT': 'el_GR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'el_GR.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'fcitx', 'XDG_VTNR': '2', 'PWD': '/home/prog1/ros2_training/build/input_handler', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/home/prog1/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings', 'CLUTTER_IM_MODULE': 'xim', 'XDG_DATA_DIRS': '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages:/home/prog1/ros2_training/install/py_talker/lib/python3.12/site-packages:/home/prog1/ros2_training/install/controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'el_GR.UTF-8', 'LC_PAPER': 'el_GR.UTF-8', 'KDE_SESSION_UID': '1000', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/prog1/ros2_training/install/motor_action:/home/prog1/ros2_training/install/motor_handler:/home/prog1/ros2_training/install/input_handler:/home/prog1/ros2_training/install/cpp_listener:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/prog1/ros2_training/install/py_talker:/home/prog1/ros2_training/install/controller:/opt/ros/jazzy'}), 'shell': False}
+[9.288981] (-) TimerEvent: {}
+[9.302121] (input_handler) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[9.389703] (-) TimerEvent: {}
+[9.491057] (-) TimerEvent: {}
+[9.562961] (input_handler) StdoutLine: {'line': b'-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[9.591462] (-) TimerEvent: {}
+[9.598171] (input_handler) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[9.612512] (input_handler) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[9.630313] (input_handler) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.647863] (input_handler) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.692134] (-) TimerEvent: {}
+[9.729611] (input_handler) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[9.732878] (input_handler) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[9.792796] (-) TimerEvent: {}
+[9.811483] (input_handler) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[9.893263] (input_handler) StdoutLine: {'line': b'-- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[9.893451] (-) TimerEvent: {}
+[9.911386] (input_handler) StdoutLine: {'line': b'-- Found rclcpp_action: 28.1.18 (/opt/ros/jazzy/share/rclcpp_action/cmake)\n'}
+[9.961597] (input_handler) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):\n'}
+[9.962226] (input_handler) StderrLine: {'line': b"  ament_target_dependencies() the passed package name 'motor_action' was not\n"}
+[9.962321] (input_handler) StderrLine: {'line': b'  found before\n'}
+[9.962403] (input_handler) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[9.962475] (input_handler) StderrLine: {'line': b'  CMakeLists.txt:15 (ament_target_dependencies)\n'}
+[9.962545] (input_handler) StderrLine: {'line': b'\n'}
+[9.962998] (input_handler) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[9.963081] (input_handler) StderrLine: {'line': b'\x1b[0m\n'}
+[9.970092] (input_handler) StderrLine: {'line': b'gmake: *** [Makefile:267: cmake_check_build_system] Error 1\n'}
+[9.972643] (input_handler) CommandEnded: {'returncode': 2}
+[9.982485] (input_handler) JobEnded: {'identifier': 'input_handler', 'rc': 2}
+[9.993277] (-) EventReactorShutdown: {}

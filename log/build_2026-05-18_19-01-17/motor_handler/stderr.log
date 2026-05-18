@@ -1,0 +1,54 @@
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:[m[K In member function ‘[01m[Kvoid MotorHandler::[01;32m[Kexecute[m[K(std::shared_ptr<rclcpp_action::ServerGoalHandle<motor_action::action::Move> >)[m[K’:
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:51:24:[m[K [01;31m[Kerror: [m[Kclass template argument deduction failed:
+   51 |             std::array [01;31m[Karr[m[K;
+      |                        [01;31m[K^~~[m[K
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:51:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Karray()[m[K’
+In file included from [01m[K/usr/include/c++/13/bits/unique_ptr.h:36[m[K,
+                 from [01m[K/usr/include/c++/13/memory:78[m[K,
+                 from [01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:1[m[K:
+[01m[K/usr/include/c++/13/tuple:2019:45:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, long unsigned int _Nm> [01;32m[Karray[m[K()-> std::array<_Tp, _Nm>[m[K’
+ 2019 |   template<typename _Tp, size_t _Nm> struct [01;36m[Karray[m[K;
+      |                                             [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/13/tuple:2019:45:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:51:24:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_Tp[m[K’
+   51 |             std::array [01;36m[Karr[m[K;
+      |                        [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/13/tuple:2019:45:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, long unsigned int _Nm> [01;32m[Karray[m[K(std::array<_Tp, _Nm>)-> std::array<_Tp, _Nm>[m[K’
+ 2019 |   template<typename _Tp, size_t _Nm> struct [01;36m[Karray[m[K;
+      |                                             [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/13/tuple:2019:45:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:51:24:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+   51 |             std::array [01;36m[Karr[m[K;
+      |                        [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:12[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:21[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:3[m[K:
+[01m[K/usr/include/c++/13/array:287:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Up> std::[01;32m[Karray[m[K(_Tp, _Up ...)-> array<typename enable_if<(is_same_v<_Tp, _Up> && ...), _Tp>::type, (1 + sizeof... (_Up))>[m[K’
+  287 |     [01;36m[Karray[m[K(_Tp, _Up...)
+      |     [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/13/array:287:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:51:24:[m[K [01;36m[Knote: [m[K  candidate expects at least 1 argument, 0 provided
+   51 |             std::array [01;36m[Karr[m[K;
+      |                        [01;36m[K^~~[m[K
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:56:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   56 |             [01;31m[K}[m[K
+      |             [01;31m[K^[m[K
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:58:23:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K{[m[K’ token
+   58 |             if(arr == [01;31m[K{[m[K15, 20, 10}){
+      |                       [01;31m[K^[m[K
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:58:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K{[m[K’ token
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:58:15:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   58 |             if[01;36m[K([m[Karr == {15, 20, 10}){
+      |               [01;36m[K^[m[K
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:61:23:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K{[m[K’ token
+   61 |             if(arr == [01;31m[K{[m[K-10, -20, -15}){
+      |                       [01;31m[K^[m[K
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:61:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K{[m[K’ token
+[01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:61:15:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   61 |             if[01;36m[K([m[Karr == {-10, -20, -15}){
+      |               [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/motor_handler.dir/build.make:76: CMakeFiles/motor_handler.dir/src/motor_handler.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motor_handler.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

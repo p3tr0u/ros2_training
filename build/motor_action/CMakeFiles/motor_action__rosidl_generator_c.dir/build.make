@@ -69,109 +69,109 @@ include CMakeFiles/motor_action__rosidl_generator_c.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/motor_action__rosidl_generator_c.dir/flags.make
 
-rosidl_generator_c/motor_action/action/rotate.h: /opt/ros/jazzy/lib/rosidl_generator_c/rosidl_generator_c
-rosidl_generator_c/motor_action/action/rotate.h: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_c/__init__.py
-rosidl_generator_c/motor_action/action/rotate.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/action__type_support.h.em
-rosidl_generator_c/motor_action/action/rotate.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/action__type_support.c.em
-rosidl_generator_c/motor_action/action/rotate.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/empty__description.c.em
-rosidl_generator_c/motor_action/action/rotate.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/full__description.c.em
-rosidl_generator_c/motor_action/action/rotate.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/idl.h.em
-rosidl_generator_c/motor_action/action/rotate.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/idl__description.c.em
-rosidl_generator_c/motor_action/action/rotate.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/idl__functions.c.em
-rosidl_generator_c/motor_action/action/rotate.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/idl__functions.h.em
-rosidl_generator_c/motor_action/action/rotate.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/idl__struct.h.em
-rosidl_generator_c/motor_action/action/rotate.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/idl__type_support.c.em
-rosidl_generator_c/motor_action/action/rotate.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/idl__type_support.h.em
-rosidl_generator_c/motor_action/action/rotate.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/msg__functions.c.em
-rosidl_generator_c/motor_action/action/rotate.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/msg__functions.h.em
-rosidl_generator_c/motor_action/action/rotate.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/msg__struct.h.em
-rosidl_generator_c/motor_action/action/rotate.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/msg__type_support.h.em
-rosidl_generator_c/motor_action/action/rotate.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/srv__type_support.c.em
-rosidl_generator_c/motor_action/action/rotate.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/srv__type_support.h.em
-rosidl_generator_c/motor_action/action/rotate.h: rosidl_adapter/motor_action/action/Rotate.idl
-rosidl_generator_c/motor_action/action/rotate.h: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
-rosidl_generator_c/motor_action/action/rotate.h: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
-rosidl_generator_c/motor_action/action/rotate.h: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
-rosidl_generator_c/motor_action/action/rotate.h: /opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl
-rosidl_generator_c/motor_action/action/rotate.h: /opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl
-rosidl_generator_c/motor_action/action/rotate.h: /opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl
-rosidl_generator_c/motor_action/action/rotate.h: /opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl
-rosidl_generator_c/motor_action/action/rotate.h: /opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl
+rosidl_generator_c/motor_action/action/move.h: /opt/ros/jazzy/lib/rosidl_generator_c/rosidl_generator_c
+rosidl_generator_c/motor_action/action/move.h: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_c/__init__.py
+rosidl_generator_c/motor_action/action/move.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/action__type_support.h.em
+rosidl_generator_c/motor_action/action/move.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/action__type_support.c.em
+rosidl_generator_c/motor_action/action/move.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/empty__description.c.em
+rosidl_generator_c/motor_action/action/move.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/full__description.c.em
+rosidl_generator_c/motor_action/action/move.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/idl.h.em
+rosidl_generator_c/motor_action/action/move.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/idl__description.c.em
+rosidl_generator_c/motor_action/action/move.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/idl__functions.c.em
+rosidl_generator_c/motor_action/action/move.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/idl__functions.h.em
+rosidl_generator_c/motor_action/action/move.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/idl__struct.h.em
+rosidl_generator_c/motor_action/action/move.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/idl__type_support.c.em
+rosidl_generator_c/motor_action/action/move.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/idl__type_support.h.em
+rosidl_generator_c/motor_action/action/move.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/msg__functions.c.em
+rosidl_generator_c/motor_action/action/move.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/msg__functions.h.em
+rosidl_generator_c/motor_action/action/move.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/msg__struct.h.em
+rosidl_generator_c/motor_action/action/move.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/msg__type_support.h.em
+rosidl_generator_c/motor_action/action/move.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/srv__type_support.c.em
+rosidl_generator_c/motor_action/action/move.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/srv__type_support.h.em
+rosidl_generator_c/motor_action/action/move.h: rosidl_adapter/motor_action/action/Move.idl
+rosidl_generator_c/motor_action/action/move.h: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
+rosidl_generator_c/motor_action/action/move.h: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_c/motor_action/action/move.h: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_c/motor_action/action/move.h: /opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl
+rosidl_generator_c/motor_action/action/move.h: /opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl
+rosidl_generator_c/motor_action/action/move.h: /opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl
+rosidl_generator_c/motor_action/action/move.h: /opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl
+rosidl_generator_c/motor_action/action/move.h: /opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/prog1/ros2_training/build/motor_action/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/prog1/ros2_training/build/motor_action/rosidl_generator_c__arguments.json
 
-rosidl_generator_c/motor_action/action/detail/rotate__functions.h: rosidl_generator_c/motor_action/action/rotate.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/motor_action/action/detail/rotate__functions.h
+rosidl_generator_c/motor_action/action/detail/move__functions.h: rosidl_generator_c/motor_action/action/move.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/motor_action/action/detail/move__functions.h
 
-rosidl_generator_c/motor_action/action/detail/rotate__struct.h: rosidl_generator_c/motor_action/action/rotate.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/motor_action/action/detail/rotate__struct.h
+rosidl_generator_c/motor_action/action/detail/move__struct.h: rosidl_generator_c/motor_action/action/move.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/motor_action/action/detail/move__struct.h
 
-rosidl_generator_c/motor_action/action/detail/rotate__type_support.h: rosidl_generator_c/motor_action/action/rotate.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/motor_action/action/detail/rotate__type_support.h
+rosidl_generator_c/motor_action/action/detail/move__type_support.h: rosidl_generator_c/motor_action/action/move.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/motor_action/action/detail/move__type_support.h
 
-rosidl_generator_c/motor_action/action/detail/rotate__description.c: rosidl_generator_c/motor_action/action/rotate.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/motor_action/action/detail/rotate__description.c
+rosidl_generator_c/motor_action/action/detail/move__description.c: rosidl_generator_c/motor_action/action/move.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/motor_action/action/detail/move__description.c
 
-rosidl_generator_c/motor_action/action/detail/rotate__functions.c: rosidl_generator_c/motor_action/action/rotate.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/motor_action/action/detail/rotate__functions.c
+rosidl_generator_c/motor_action/action/detail/move__functions.c: rosidl_generator_c/motor_action/action/move.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/motor_action/action/detail/move__functions.c
 
-rosidl_generator_c/motor_action/action/detail/rotate__type_support.c: rosidl_generator_c/motor_action/action/rotate.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/motor_action/action/detail/rotate__type_support.c
+rosidl_generator_c/motor_action/action/detail/move__type_support.c: rosidl_generator_c/motor_action/action/move.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/motor_action/action/detail/move__type_support.c
 
-CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__description.c.o: CMakeFiles/motor_action__rosidl_generator_c.dir/flags.make
-CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__description.c.o: rosidl_generator_c/motor_action/action/detail/rotate__description.c
-CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__description.c.o: CMakeFiles/motor_action__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/prog1/ros2_training/build/motor_action/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__description.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__description.c.o -MF CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__description.c.o.d -o CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__description.c.o -c /home/prog1/ros2_training/build/motor_action/rosidl_generator_c/motor_action/action/detail/rotate__description.c
+CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__description.c.o: CMakeFiles/motor_action__rosidl_generator_c.dir/flags.make
+CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__description.c.o: rosidl_generator_c/motor_action/action/detail/move__description.c
+CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__description.c.o: CMakeFiles/motor_action__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/prog1/ros2_training/build/motor_action/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__description.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__description.c.o -MF CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__description.c.o.d -o CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__description.c.o -c /home/prog1/ros2_training/build/motor_action/rosidl_generator_c/motor_action/action/detail/move__description.c
 
-CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__description.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__description.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/prog1/ros2_training/build/motor_action/rosidl_generator_c/motor_action/action/detail/rotate__description.c > CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__description.c.i
+CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__description.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__description.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/prog1/ros2_training/build/motor_action/rosidl_generator_c/motor_action/action/detail/move__description.c > CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__description.c.i
 
-CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__description.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__description.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/prog1/ros2_training/build/motor_action/rosidl_generator_c/motor_action/action/detail/rotate__description.c -o CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__description.c.s
+CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__description.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__description.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/prog1/ros2_training/build/motor_action/rosidl_generator_c/motor_action/action/detail/move__description.c -o CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__description.c.s
 
-CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__functions.c.o: CMakeFiles/motor_action__rosidl_generator_c.dir/flags.make
-CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__functions.c.o: rosidl_generator_c/motor_action/action/detail/rotate__functions.c
-CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__functions.c.o: CMakeFiles/motor_action__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/prog1/ros2_training/build/motor_action/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__functions.c.o -MF CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__functions.c.o.d -o CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__functions.c.o -c /home/prog1/ros2_training/build/motor_action/rosidl_generator_c/motor_action/action/detail/rotate__functions.c
+CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__functions.c.o: CMakeFiles/motor_action__rosidl_generator_c.dir/flags.make
+CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__functions.c.o: rosidl_generator_c/motor_action/action/detail/move__functions.c
+CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__functions.c.o: CMakeFiles/motor_action__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/prog1/ros2_training/build/motor_action/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__functions.c.o -MF CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__functions.c.o.d -o CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__functions.c.o -c /home/prog1/ros2_training/build/motor_action/rosidl_generator_c/motor_action/action/detail/move__functions.c
 
-CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__functions.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/prog1/ros2_training/build/motor_action/rosidl_generator_c/motor_action/action/detail/rotate__functions.c > CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__functions.c.i
+CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/prog1/ros2_training/build/motor_action/rosidl_generator_c/motor_action/action/detail/move__functions.c > CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__functions.c.i
 
-CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__functions.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/prog1/ros2_training/build/motor_action/rosidl_generator_c/motor_action/action/detail/rotate__functions.c -o CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__functions.c.s
+CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/prog1/ros2_training/build/motor_action/rosidl_generator_c/motor_action/action/detail/move__functions.c -o CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__functions.c.s
 
-CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__type_support.c.o: CMakeFiles/motor_action__rosidl_generator_c.dir/flags.make
-CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__type_support.c.o: rosidl_generator_c/motor_action/action/detail/rotate__type_support.c
-CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__type_support.c.o: CMakeFiles/motor_action__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/prog1/ros2_training/build/motor_action/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__type_support.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__type_support.c.o -MF CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__type_support.c.o.d -o CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__type_support.c.o -c /home/prog1/ros2_training/build/motor_action/rosidl_generator_c/motor_action/action/detail/rotate__type_support.c
+CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__type_support.c.o: CMakeFiles/motor_action__rosidl_generator_c.dir/flags.make
+CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__type_support.c.o: rosidl_generator_c/motor_action/action/detail/move__type_support.c
+CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__type_support.c.o: CMakeFiles/motor_action__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/prog1/ros2_training/build/motor_action/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__type_support.c.o -MF CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__type_support.c.o.d -o CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__type_support.c.o -c /home/prog1/ros2_training/build/motor_action/rosidl_generator_c/motor_action/action/detail/move__type_support.c
 
-CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__type_support.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__type_support.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/prog1/ros2_training/build/motor_action/rosidl_generator_c/motor_action/action/detail/rotate__type_support.c > CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__type_support.c.i
+CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/prog1/ros2_training/build/motor_action/rosidl_generator_c/motor_action/action/detail/move__type_support.c > CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__type_support.c.i
 
-CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__type_support.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__type_support.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/prog1/ros2_training/build/motor_action/rosidl_generator_c/motor_action/action/detail/rotate__type_support.c -o CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__type_support.c.s
+CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/prog1/ros2_training/build/motor_action/rosidl_generator_c/motor_action/action/detail/move__type_support.c -o CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__type_support.c.s
 
 # Object files for target motor_action__rosidl_generator_c
 motor_action__rosidl_generator_c_OBJECTS = \
-"CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__description.c.o" \
-"CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__functions.c.o" \
-"CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__type_support.c.o"
+"CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__description.c.o" \
+"CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__functions.c.o" \
+"CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__type_support.c.o"
 
 # External object files for target motor_action__rosidl_generator_c
 motor_action__rosidl_generator_c_EXTERNAL_OBJECTS =
 
-libmotor_action__rosidl_generator_c.so: CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__description.c.o
-libmotor_action__rosidl_generator_c.so: CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__functions.c.o
-libmotor_action__rosidl_generator_c.so: CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/rotate__type_support.c.o
+libmotor_action__rosidl_generator_c.so: CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__description.c.o
+libmotor_action__rosidl_generator_c.so: CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__functions.c.o
+libmotor_action__rosidl_generator_c.so: CMakeFiles/motor_action__rosidl_generator_c.dir/rosidl_generator_c/motor_action/action/detail/move__type_support.c.o
 libmotor_action__rosidl_generator_c.so: CMakeFiles/motor_action__rosidl_generator_c.dir/build.make
 libmotor_action__rosidl_generator_c.so: /opt/ros/jazzy/lib/libaction_msgs__rosidl_generator_c.so
 libmotor_action__rosidl_generator_c.so: /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_generator_c.so
@@ -191,13 +191,13 @@ CMakeFiles/motor_action__rosidl_generator_c.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/motor_action__rosidl_generator_c.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/motor_action__rosidl_generator_c.dir/clean
 
-CMakeFiles/motor_action__rosidl_generator_c.dir/depend: rosidl_generator_c/motor_action/action/detail/rotate__description.c
-CMakeFiles/motor_action__rosidl_generator_c.dir/depend: rosidl_generator_c/motor_action/action/detail/rotate__functions.c
-CMakeFiles/motor_action__rosidl_generator_c.dir/depend: rosidl_generator_c/motor_action/action/detail/rotate__functions.h
-CMakeFiles/motor_action__rosidl_generator_c.dir/depend: rosidl_generator_c/motor_action/action/detail/rotate__struct.h
-CMakeFiles/motor_action__rosidl_generator_c.dir/depend: rosidl_generator_c/motor_action/action/detail/rotate__type_support.c
-CMakeFiles/motor_action__rosidl_generator_c.dir/depend: rosidl_generator_c/motor_action/action/detail/rotate__type_support.h
-CMakeFiles/motor_action__rosidl_generator_c.dir/depend: rosidl_generator_c/motor_action/action/rotate.h
+CMakeFiles/motor_action__rosidl_generator_c.dir/depend: rosidl_generator_c/motor_action/action/detail/move__description.c
+CMakeFiles/motor_action__rosidl_generator_c.dir/depend: rosidl_generator_c/motor_action/action/detail/move__functions.c
+CMakeFiles/motor_action__rosidl_generator_c.dir/depend: rosidl_generator_c/motor_action/action/detail/move__functions.h
+CMakeFiles/motor_action__rosidl_generator_c.dir/depend: rosidl_generator_c/motor_action/action/detail/move__struct.h
+CMakeFiles/motor_action__rosidl_generator_c.dir/depend: rosidl_generator_c/motor_action/action/detail/move__type_support.c
+CMakeFiles/motor_action__rosidl_generator_c.dir/depend: rosidl_generator_c/motor_action/action/detail/move__type_support.h
+CMakeFiles/motor_action__rosidl_generator_c.dir/depend: rosidl_generator_c/motor_action/action/move.h
 	cd /home/prog1/ros2_training/build/motor_action && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/prog1/ros2_training/src/motor_action /home/prog1/ros2_training/src/motor_action /home/prog1/ros2_training/build/motor_action /home/prog1/ros2_training/build/motor_action /home/prog1/ros2_training/build/motor_action/CMakeFiles/motor_action__rosidl_generator_c.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/motor_action__rosidl_generator_c.dir/depend
 

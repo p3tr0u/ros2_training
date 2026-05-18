@@ -66,16 +66,16 @@ include CMakeFiles/motor_action__rosidl_generator_type_description.dir/compiler_
 # Include the progress variables for this target.
 include CMakeFiles/motor_action__rosidl_generator_type_description.dir/progress.make
 
-CMakeFiles/motor_action__rosidl_generator_type_description: rosidl_generator_type_description/motor_action/action/Rotate.json
+CMakeFiles/motor_action__rosidl_generator_type_description: rosidl_generator_type_description/motor_action/action/Move.json
 
-rosidl_generator_type_description/motor_action/action/Rotate.json: /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description
-rosidl_generator_type_description/motor_action/action/Rotate.json: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py
-rosidl_generator_type_description/motor_action/action/Rotate.json: rosidl_adapter/motor_action/action/Rotate.idl
+rosidl_generator_type_description/motor_action/action/Move.json: /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description
+rosidl_generator_type_description/motor_action/action/Move.json: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py
+rosidl_generator_type_description/motor_action/action/Move.json: rosidl_adapter/motor_action/action/Move.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/prog1/ros2_training/build/motor_action/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/prog1/ros2_training/build/motor_action/rosidl_generator_type_description__arguments.json
 
 motor_action__rosidl_generator_type_description: CMakeFiles/motor_action__rosidl_generator_type_description
-motor_action__rosidl_generator_type_description: rosidl_generator_type_description/motor_action/action/Rotate.json
+motor_action__rosidl_generator_type_description: rosidl_generator_type_description/motor_action/action/Move.json
 motor_action__rosidl_generator_type_description: CMakeFiles/motor_action__rosidl_generator_type_description.dir/build.make
 .PHONY : motor_action__rosidl_generator_type_description
 

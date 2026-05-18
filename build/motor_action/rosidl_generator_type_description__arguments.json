@@ -2,7 +2,7 @@
   "package_name": "motor_action",
   "output_dir": "/home/prog1/ros2_training/build/motor_action/rosidl_generator_type_description/motor_action",
   "idl_tuples": [
-    "/home/prog1/ros2_training/build/motor_action/rosidl_adapter/motor_action:action/Rotate.idl"
+    "/home/prog1/ros2_training/build/motor_action/rosidl_adapter/motor_action:action/Move.idl"
   ],
   "include_paths": [
     "service_msgs:/opt/ros/jazzy/share/service_msgs",

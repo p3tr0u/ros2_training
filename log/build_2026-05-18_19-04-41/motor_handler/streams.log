@@ -1,0 +1,33 @@
+[0.013s] Invoking command in '/home/prog1/ros2_training/build/motor_handler': CMAKE_PREFIX_PATH=/home/prog1/ros2_training/install/motor_action:/home/prog1/ros2_training/install/motor_handler:/home/prog1/ros2_training/install/input_handler:/home/prog1/ros2_training/install/cpp_listener:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/prog1/ros2_training/install/py_talker:/home/prog1/ros2_training/install/controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages:/home/prog1/ros2_training/install/py_talker/lib/python3.12/site-packages:/home/prog1/ros2_training/install/controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/prog1/ros2_training/build/motor_handler -- -j2 -l2
+[0.103s] [ 50%] [32mBuilding CXX object CMakeFiles/motor_handler.dir/src/motor_handler.cpp.o[0m
+[3.023s] [01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:[m[K In member function ‘[01m[Kvoid MotorHandler::[01;32m[Kexecute[m[K(std::shared_ptr<rclcpp_action::ServerGoalHandle<motor_action::action::Move> >)[m[K’:
+[3.024s] [01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:54:17:[m[K [01;31m[Kerror: [m[K‘[01m[Karr[m[K’ was not declared in this scope
+[3.024s]    54 |                 [01;31m[Karr[m[K[i] = angle;
+[3.024s]       |                 [01;31m[K^~~[m[K
+[3.024s] [01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:56:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[3.024s]    56 |             [01;31m[K}[m[K
+[3.024s]       |             [01;31m[K^[m[K
+[3.030s] [01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:58:16:[m[K [01;31m[Kerror: [m[K‘[01m[Karr[m[K’ was not declared in this scope
+[3.030s]    58 |             if([01;31m[Karr[m[K == {15, 20, 10}){
+[3.031s]       |                [01;31m[K^~~[m[K
+[3.031s] [01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:58:23:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K{[m[K’ token
+[3.031s]    58 |             if(arr == [01;31m[K{[m[K15, 20, 10}){
+[3.031s]       |                       [01;31m[K^[m[K
+[3.031s] [01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:58:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K{[m[K’ token
+[3.031s] [01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:58:15:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[3.031s]    58 |             if[01;36m[K([m[Karr == {15, 20, 10}){
+[3.031s]       |               [01;36m[K^[m[K
+[3.038s] [01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:61:16:[m[K [01;31m[Kerror: [m[K‘[01m[Karr[m[K’ was not declared in this scope
+[3.038s]    61 |             if([01;31m[Karr[m[K == {-10, -20, -15}){
+[3.038s]       |                [01;31m[K^~~[m[K
+[3.038s] [01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:61:23:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K{[m[K’ token
+[3.039s]    61 |             if(arr == [01;31m[K{[m[K-10, -20, -15}){
+[3.039s]       |                       [01;31m[K^[m[K
+[3.039s] [01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:61:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K{[m[K’ token
+[3.039s] [01m[K/home/prog1/ros2_training/src/motor_handler/src/motor_handler.cpp:61:15:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[3.039s]    61 |             if[01;36m[K([m[Karr == {-10, -20, -15}){
+[3.039s]       |               [01;36m[K^[m[K
+[4.242s] gmake[2]: *** [CMakeFiles/motor_handler.dir/build.make:76: CMakeFiles/motor_handler.dir/src/motor_handler.cpp.o] Error 1
+[4.243s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motor_handler.dir/all] Error 2
+[4.243s] gmake: *** [Makefile:146: all] Error 2
+[4.245s] Invoked command in '/home/prog1/ros2_training/build/motor_handler' returned '2': CMAKE_PREFIX_PATH=/home/prog1/ros2_training/install/motor_action:/home/prog1/ros2_training/install/motor_handler:/home/prog1/ros2_training/install/input_handler:/home/prog1/ros2_training/install/cpp_listener:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/prog1/ros2_training/install/py_talker:/home/prog1/ros2_training/install/controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/prog1/ros2_training/install/motor_action/lib/python3.12/site-packages:/home/prog1/ros2_training/install/py_talker/lib/python3.12/site-packages:/home/prog1/ros2_training/install/controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/prog1/ros2_training/build/motor_handler -- -j2 -l2

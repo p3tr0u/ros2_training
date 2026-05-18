@@ -9,9 +9,11 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(rclcpp_action REQUIRED)
+find_package(motor_action REQUIRED)
 
 add_executable(input_handler src/input_handler.cpp)
-ament_target_dependencies(input_handler rclcpp std_msgs)
+ament_target_dependencies(input_handler rclcpp rclcpp_action std_msgs motor_action) 
 
 install(TARGETS
   input_handler

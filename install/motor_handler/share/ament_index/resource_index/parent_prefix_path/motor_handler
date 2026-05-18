@@ -1,1 +1,1 @@
-/home/prog1/ros2_training/install/py_talker:/home/prog1/ros2_training/install/cpp_listener:/home/prog1/ros2_training/install/controller:/opt/ros/jazzy
+/home/prog1/ros2_training/install/py_talker:/home/prog1/ros2_training/install/motor_handler:/home/prog1/ros2_training/install/motor_action:/home/prog1/ros2_training/install/input_handler:/home/prog1/ros2_training/install/cpp_listener:/home/prog1/ros2_training/install/controller:/opt/ros/jazzy

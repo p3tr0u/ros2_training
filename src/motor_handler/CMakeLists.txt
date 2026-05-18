@@ -8,8 +8,15 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
-find_package(std_msgs REQUIRED)
+find_package(rclcpp_action REQUIRED)
+find_package(motor_action REQUIRED)
 
+add_executable(motor_handler src/motor_handler.cpp)
+ament_target_dependencies(motor_handler rclcpp rclcpp_action motor_action)
+
+install(TARGETS
+  motor_handler
+  DESTINATION lib/${PROJECT_NAME})
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights

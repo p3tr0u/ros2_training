@@ -3,9 +3,9 @@
 
 CMakeFiles/motor_action_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/motor_action/_motor_action_s.ep.rosidl_typesupport_fastrtps_c.c.o
  /home/prog1/ros2_training/build/motor_action/rosidl_generator_py/motor_action/_motor_action_s.ep.rosidl_typesupport_fastrtps_c.c
- /home/prog1/ros2_training/build/motor_action/rosidl_generator_c/motor_action/action/detail/rotate__functions.h
- /home/prog1/ros2_training/build/motor_action/rosidl_generator_c/motor_action/action/detail/rotate__struct.h
- /home/prog1/ros2_training/build/motor_action/rosidl_generator_c/motor_action/action/detail/rotate__type_support.h
+ /home/prog1/ros2_training/build/motor_action/rosidl_generator_c/motor_action/action/detail/move__functions.h
+ /home/prog1/ros2_training/build/motor_action/rosidl_generator_c/motor_action/action/detail/move__struct.h
+ /home/prog1/ros2_training/build/motor_action/rosidl_generator_c/motor_action/action/detail/move__type_support.h
  /home/prog1/ros2_training/build/motor_action/rosidl_generator_c/motor_action/msg/rosidl_generator_c__visibility_control.h
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h
  /opt/ros/jazzy/include/rcutils/rcutils/allocator.h

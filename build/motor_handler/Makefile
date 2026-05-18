@@ -197,6 +197,43 @@ motor_handler_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/motor_handler_uninstall.dir/build.make CMakeFiles/motor_handler_uninstall.dir/build
 .PHONY : motor_handler_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named motor_handler
+
+# Build rule for target.
+motor_handler: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 motor_handler
+.PHONY : motor_handler
+
+# fast build rule for target.
+motor_handler/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motor_handler.dir/build.make CMakeFiles/motor_handler.dir/build
+.PHONY : motor_handler/fast
+
+src/motor_handler.o: src/motor_handler.cpp.o
+.PHONY : src/motor_handler.o
+
+# target to build an object file
+src/motor_handler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motor_handler.dir/build.make CMakeFiles/motor_handler.dir/src/motor_handler.cpp.o
+.PHONY : src/motor_handler.cpp.o
+
+src/motor_handler.i: src/motor_handler.cpp.i
+.PHONY : src/motor_handler.i
+
+# target to preprocess a source file
+src/motor_handler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motor_handler.dir/build.make CMakeFiles/motor_handler.dir/src/motor_handler.cpp.i
+.PHONY : src/motor_handler.cpp.i
+
+src/motor_handler.s: src/motor_handler.cpp.s
+.PHONY : src/motor_handler.s
+
+# target to generate assembly for a file
+src/motor_handler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motor_handler.dir/build.make CMakeFiles/motor_handler.dir/src/motor_handler.cpp.s
+.PHONY : src/motor_handler.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +249,10 @@ help:
 	@echo "... test"
 	@echo "... motor_handler_uninstall"
 	@echo "... uninstall"
+	@echo "... motor_handler"
+	@echo "... src/motor_handler.o"
+	@echo "... src/motor_handler.i"
+	@echo "... src/motor_handler.s"
 .PHONY : help
 
 
